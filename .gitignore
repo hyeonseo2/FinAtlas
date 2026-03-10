@@ -1,0 +1,6 @@
+.env
+__pycache__/
+.vscode/
+node_modules/
+frontend/dist/
+.DS_Store
