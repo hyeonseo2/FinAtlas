@@ -9,7 +9,7 @@ TYPE_PENALTY = {
     "salary_transfer": 15,
     "card_spending": 12,
     "pension_transfer": 18,
-    "bundle_product": 10,
+    "bundle_product": 16,
     "event_participation": 8,
     "unclear": 6,
 }
