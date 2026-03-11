@@ -34,12 +34,6 @@ export function CompareDrawer({ rows, visible, onClose }: { rows: DisplayOption[
         </div>
       </div>
 
-      <div className="card" style={{ marginBottom: 12, padding: 12 }}>
-        <p className="note" style={{ margin: 0 }}>
-          비교 목록에서 2개 이상 상품을 선택하면 비교표가 표시됩니다. 동일 납입금(기본 50만) 기준 실수익 비교 현실금리, 난이도, 우대조건 개수 비교 필요 시 상세 페이지로 이동해 우대조건 원문까지 확인
-        </p>
-      </div>
-
       <div className="topline" style={{ margin: "8px 0", alignItems: "center" }}>
         <span>동일 납입금 기준 실수익 비교(세전)</span>
         <input
