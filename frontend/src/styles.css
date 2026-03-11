@@ -4,8 +4,8 @@
   --bg-mid: #f9fbff;
   --bg-bottom: #f5f7fb;
   --text: #0f172a;
-  --text-soft: #334155;
-  --text-muted: #546e7a;
+  --text-soft: #1e293b;
+  --text-muted: #475569;
   --line: #dce3ee;
   --navy-700: #0f2a5c;
   --navy-600: #173b82;
@@ -41,10 +41,19 @@ a {
 h1,
 h2,
 h3,
+h4,
+p,
+ul,
+li {
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
 h4 {
   margin: 0 0 10px;
   letter-spacing: -0.2px;
-  color: var(--text);
 }
 
 .navbar {
@@ -56,6 +65,7 @@ h4 {
 .navbar-title {
   margin: 0;
   color: #ffffff;
+  font-size: 24px;
 }
 
 .brand-badge {
@@ -107,6 +117,7 @@ th {
   position: sticky;
   top: 0;
   z-index: 1;
+  font-weight: 700;
 }
 
 tbody tr:nth-child(even) td {
@@ -167,6 +178,10 @@ select:focus {
   box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.16);
 }
 
+input::placeholder {
+  color: #8aa0b8;
+}
+
 button {
   font-weight: 600;
   border: 1px solid #c6d3eb;
@@ -196,7 +211,7 @@ button.primary:hover {
 
 .nav-btn {
   background: rgba(255, 255, 255, 0.18);
-  color: #fff;
+  color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(2px);
 }
@@ -251,7 +266,9 @@ button.primary:hover {
   flex-wrap: wrap;
 }
 
-.note {
+.note,
+small,
+.muted {
   color: var(--text-muted);
   font-size: 12px;
   line-height: 1.45;
@@ -337,6 +354,31 @@ hr {
   color: var(--finance-blue);
   text-decoration: none;
   font-weight: 600;
+}
+
+.money {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.money-strong {
+  font-size: 15px;
+  font-weight: 800;
+  color: #1e3a8a;
+}
+
+.section {
+  border-top: 1px dashed var(--line);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.page-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
