@@ -123,11 +123,6 @@ export function DetailPage() {
       .join("\n");
   }, [ambiguousProductConditions]);
 
-  const ambiguousDownloadUrl = useMemo(() => {
-    if (!ambiguousRawText) return "";
-    return `data:text/plain;charset=utf-8,${encodeURIComponent(ambiguousRawText)}`;
-  }, [ambiguousRawText]);
-
   const ambiguousProductConditionCount = useMemo(() => {
     return productConditions.length - clearProductConditions.length;
   }, [productConditions, clearProductConditions]);
@@ -263,23 +258,6 @@ export function DetailPage() {
               <div className="note" style={{ marginTop: 8 }}>해석이 어려운 항목을 원문 그대로 확인하세요.</div>
               <div className="table-wrap" style={{ marginTop: 8, maxHeight: 180, overflowY: "auto", border: "1px dashed #c7ddff", borderRadius: 8, padding: 8 }}>
                 <pre style={{ whiteSpace: "pre-wrap", margin: 0, fontSize: 12 }}>{ambiguousRawText || ""}</pre>
-              </div>
-              <div className="actions" style={{ marginTop: 8 }}>
-                <a
-                  className="link-btn"
-                  href={ambiguousDownloadUrl}
-                  download={`bonus_condition_raw_${row?.product_id || "item"}.txt`}
-                >
-                  상세 원문 텍스트 다운로드
-                </a>
-                <button
-                  type="button"
-                  onClick={() => {
-                    navigator.clipboard?.writeText(ambiguousRawText || "");
-                  }}
-                >
-                  상세 원문 클립보드 복사
-                </button>
               </div>
             </details>
           </div>
