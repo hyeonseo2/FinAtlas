@@ -36,8 +36,8 @@ export function ProductTable({ rows, selected, monthlyPayment, onSelect }: {
                 <td>
                   <input type="checkbox" checked={selected.has(r.option_id)} onChange={() => onSelect(r)} />
                 </td>
-                <td>{r.company_name}</td>
-                <td>{r.product_name}</td>
+                <td className="bank-cell">{r.company_name}</td>
+                <td className="product-cell">{r.product_name}</td>
                 <td>{r.save_term_months}개월</td>
                 <td>{fmtRate(r.base_rate)}</td>
                 <td>{fmtRate(r.max_rate)}</td>

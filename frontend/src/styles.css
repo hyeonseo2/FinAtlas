@@ -14,7 +14,7 @@
   --finance-green: #0f766e;
   --finance-green-soft: #ccfbf1;
   --finance-gold: #b45309;
-  --finance-gold-soft: #fee2e2;
+  --finance-gold-soft: #dcfce7;
 
   background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-mid) 42%, var(--bg-bottom) 100%);
   color: var(--text);
@@ -58,13 +58,13 @@ h4 {
 
 .navbar {
   background: linear-gradient(90deg, var(--navy-700) 0%, var(--navy-600) 100%);
-  color: #ffffff;
+  color: #dbeafe;
   border: 1px solid #193b84;
 }
 
 .navbar-title {
   margin: 0;
-  color: #ffffff;
+  color: #dbeafe;
   font-size: 24px;
 }
 
@@ -202,7 +202,7 @@ button:disabled {
 button.primary {
   border-color: var(--navy-600);
   background: linear-gradient(180deg, #1d4ed8 0%, #1e40af 100%);
-  color: #ffffff;
+  color: #dbeafe;
 }
 
 button.primary:hover {
@@ -210,21 +210,21 @@ button.primary:hover {
 }
 
 .nav-btn {
-  background: rgba(255, 255, 255, 0.18);
-  color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(11, 40, 93, 0.20);
+  color: #cbd5e1;
+  border: 1px solid rgba(219, 234, 254, 0.35);
   backdrop-filter: blur(2px);
 }
 
 .nav-btn:hover {
-  background: rgba(255, 255, 255, 0.24);
-  border-color: rgba(255, 255, 255, 0.55);
+  background: rgba(11, 40, 93, 0.28);
+  border-color: rgba(219, 234, 254, 0.55);
 }
 
 .nav-btn.active {
-  background: #ffffff;
+  background: #dbeafe;
   color: var(--navy-700);
-  border-color: #ffffff;
+  border-color: #bfdbfe;
   box-shadow: 0 4px 10px rgba(15, 42, 92, 0.22);
 }
 
@@ -361,6 +361,22 @@ hr {
   color: #0f172a;
 }
 
+
+
+.bank-cell {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.product-cell {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.nav-btn,
+.button-reset {
+  letter-spacing: -0.1px;
+}
 .money-strong {
   font-size: 15px;
   font-weight: 800;
