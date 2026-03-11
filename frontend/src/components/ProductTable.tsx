@@ -3,11 +3,16 @@ import { fmtRate, fmtMoney } from "../lib/format";
 import { DifficultyBadge } from "./DifficultyBadge";
 import { expectedInterestWithRate, maturityAmount } from "../lib/calc";
 
+type DisplayOption = RankedOption & {
+  company_name: string;
+  product_name: string;
+};
+
 export function ProductTable({ rows, selected, monthlyPayment, onSelect }: {
-  rows: RankedOption[];
+  rows: DisplayOption[];
   selected: Set<string>;
   monthlyPayment: number;
-  onSelect: (r: RankedOption) => void;
+  onSelect: (r: DisplayOption) => void;
 }) {
   return (
     <div className="card table-wrap">
@@ -36,8 +41,8 @@ export function ProductTable({ rows, selected, monthlyPayment, onSelect }: {
                 <td>
                   <input type="checkbox" checked={selected.has(r.option_id)} onChange={() => onSelect(r)} />
                 </td>
-                <td className="bank-cell">{r.company_name}</td>
-                <td className="product-cell">{r.product_name}</td>
+                <td className="bank-cell">{r.company_name || "-"}</td>
+                <td className="product-cell">{r.product_name || "-"}</td>
                 <td>{r.save_term_months}개월</td>
                 <td>{fmtRate(r.base_rate)}</td>
                 <td>{fmtRate(r.max_rate)}</td>
@@ -45,8 +50,8 @@ export function ProductTable({ rows, selected, monthlyPayment, onSelect }: {
                 <td>
                   <DifficultyBadge score={r.difficulty_score} />
                 </td>
-                <td>{fmtMoney(interest)}</td>
-                <td>{fmtMoney(maturity)}</td>
+                <td className="money-strong">{fmtMoney(interest)}</td>
+                <td className="money">{fmtMoney(maturity)}</td>
                 <td>
                   <button
                     type="button"

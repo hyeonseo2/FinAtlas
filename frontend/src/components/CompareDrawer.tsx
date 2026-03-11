@@ -3,7 +3,12 @@ import { RankedOption } from "../types/product";
 import { fmtRate, fmtMoney } from "../lib/format";
 import { simpleMonthlyInterest, maturityAmount } from "../lib/calc";
 
-export function CompareDrawer({ rows, visible, onClose }: { rows: RankedOption[]; visible: boolean; onClose: () => void }) {
+type DisplayOption = RankedOption & {
+  company_name: string;
+  product_name: string;
+};
+
+export function CompareDrawer({ rows, visible, onClose }: { rows: DisplayOption[]; visible: boolean; onClose: () => void }) {
   const [monthly, setMonthly] = useState(500000);
 
   if (!visible) return null;
@@ -56,13 +61,13 @@ export function CompareDrawer({ rows, visible, onClose }: { rows: RankedOption[]
           <tbody>
             {withCalc.map((r) => (
               <tr key={`c-${r.option_id}`}>
-                <td>{r.company_name}</td>
-                <td>{r.product_name}</td>
+                <td className="bank-cell">{r.company_name || "-"}</td>
+                <td className="product-cell">{r.product_name || "-"}</td>
                 <td>{r.save_term_months}개월</td>
                 <td>{fmtRate(r.expected_rate)}</td>
                 <td>{r.difficulty_score}점</td>
-                <td>{fmtMoney(r.interest)}</td>
-                <td>{fmtMoney(r.maturity)}</td>
+                <td className="money-strong">{fmtMoney(r.interest)}</td>
+                <td className="money">{fmtMoney(r.maturity)}</td>
               </tr>
             ))}
           </tbody>

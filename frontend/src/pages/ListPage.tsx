@@ -4,8 +4,10 @@ import { filterAndSort } from "../lib/filters";
 import { FilterPanel } from "../components/FilterPanel";
 import { ProductTable } from "../components/ProductTable";
 import { CompareDrawer } from "../components/CompareDrawer";
+import type { ProductMeta } from "../types/product";
 
 type ConditionCatalog = Record<string, string[]>;
+type DisplayOption = RankedOption & { company_name: string; product_name: string };
 
 const initialFilters: Filters = {
   group: "",
@@ -55,6 +57,7 @@ function loadMonthly(): number {
 
 export function ListPage() {
   const [rows, setRows] = useState<RankedOption[]>([]);
+  const [products, setProducts] = useState<Record<string, { company_name: string; product_name: string }>>({});
   const [filters, setFilters] = useState<Filters>(loadFilters);
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [monthly, setMonthly] = useState<number>(loadMonthly);
@@ -66,10 +69,22 @@ export function ListPage() {
       fetch("/data/options_500000.json"),
       fetch("/data/metadata.json"),
       fetch("/data/bonus_conditions.json"),
-    ]).then(async ([r, m, c]) => {
-      const [rowsJson, metaJson, conditionsJson] = await Promise.all([r.json(), m.json(), c.json()]);
+      fetch("/data/products.json"),
+    ]).then(async ([r, m, c, p]) => {
+      const [rowsJson, metaJson, conditionsJson, productJson] = await Promise.all([r.json(), m.json(), c.json(), p.json()]);
       setRows(rowsJson || []);
       setMeta(metaJson || null);
+
+      const productMap: Record<string, { company_name: string; product_name: string }> = {};
+      (productJson || []).forEach((x: ProductMeta) => {
+        if (!x?.product_id) return;
+        productMap[x.product_id] = {
+          company_name: x.company_name || "",
+          product_name: x.product_name || "",
+        };
+      });
+      setProducts(productMap);
+
       const condCatalog: ConditionCatalog = {};
       (conditionsJson || []).forEach((x: any) => {
         if (!x?.product_id || !x?.condition_category) return;
@@ -78,6 +93,7 @@ export function ListPage() {
       setCatalog(condCatalog);
     }).catch(() => {
       setRows([]);
+      setProducts({});
       setMeta(null);
       setCatalog({});
     });
@@ -101,7 +117,18 @@ export function ListPage() {
 
   const filtered = useMemo(() => filterAndSort(rows, filters, catalog), [rows, filters, catalog]);
 
-  const onSelect = (row: RankedOption) => {
+  const displayRows = useMemo<DisplayOption[]>(() => {
+    return filtered.map((r) => {
+      const meta = products[r.product_id];
+      return {
+        ...r,
+        company_name: meta?.company_name || "",
+        product_name: meta?.product_name || "",
+      };
+    });
+  }, [filtered, products]);
+
+  const onSelect = (row: DisplayOption) => {
     setSelected((prev) => {
       const ns = new Set(prev);
       if (ns.has(row.option_id)) ns.delete(row.option_id);
@@ -110,7 +137,7 @@ export function ListPage() {
     });
   };
 
-  const compare = filtered.filter((r) => selected.has(r.option_id));
+  const compare = displayRows.filter((r) => selected.has(r.option_id));
 
   return (
     <div>
@@ -137,7 +164,7 @@ export function ListPage() {
         </div>
       </div>
 
-      <ProductTable rows={filtered} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
+      <ProductTable rows={displayRows} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
       <CompareDrawer visible={compare.length >= 2} rows={compare} onClose={() => setSelected(new Set())} />
     </div>
   );
