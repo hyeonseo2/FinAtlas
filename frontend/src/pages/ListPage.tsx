@@ -1,13 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
-import { RankedOption, Filters } from "../types/product";
+import { RankedOption, Filters, ProductMeta } from "../types/product";
 import { filterAndSort } from "../lib/filters";
 import { FilterPanel } from "../components/FilterPanel";
 import { ProductTable } from "../components/ProductTable";
 import { CompareDrawer } from "../components/CompareDrawer";
-import type { ProductMeta } from "../types/product";
 
 type ConditionCatalog = Record<string, string[]>;
-type DisplayOption = RankedOption & { company_name: string; product_name: string };
+type DisplayOption = RankedOption & {
+  bank_name: string;
+  product_name: string;
+};
 
 const initialFilters: Filters = {
   group: "",
@@ -55,9 +57,28 @@ function loadMonthly(): number {
   }
 }
 
+function dedupeRows(rows: RankedOption[]): RankedOption[] {
+  const m = new Map<string, RankedOption>();
+  rows.forEach((r) => {
+    if (!m.has(r.option_id)) m.set(r.option_id, r);
+  });
+  return Array.from(m.values());
+}
+
+function parseBankCode(productId: string): string {
+  const first = productId.split("_")[0];
+  return first || "-";
+}
+
+function formatBankLabel(productId: string, companyName?: string, companyCode?: string): string {
+  if (companyName && companyName.trim()) return companyName;
+  if (companyCode && companyCode.trim()) return `은행코드 ${companyCode}`;
+  return `은행코드 ${parseBankCode(productId)}`;
+}
+
 export function ListPage() {
   const [rows, setRows] = useState<RankedOption[]>([]);
-  const [products, setProducts] = useState<Record<string, { company_name: string; product_name: string }>>({});
+  const [products, setProducts] = useState<Record<string, { company_name: string; product_name: string; company_code: string }>>({});
   const [filters, setFilters] = useState<Filters>(loadFilters);
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [monthly, setMonthly] = useState<number>(loadMonthly);
@@ -70,33 +91,36 @@ export function ListPage() {
       fetch("/data/metadata.json"),
       fetch("/data/bonus_conditions.json"),
       fetch("/data/products.json"),
-    ]).then(async ([r, m, c, p]) => {
-      const [rowsJson, metaJson, conditionsJson, productJson] = await Promise.all([r.json(), m.json(), c.json(), p.json()]);
-      setRows(rowsJson || []);
-      setMeta(metaJson || null);
+    ])
+      .then(async ([r, m, c, p]) => {
+        const [rowsJson, metaJson, conditionsJson, productJson] = await Promise.all([r.json(), m.json(), c.json(), p.json()]);
+        setRows(dedupeRows(rowsJson || []));
+        setMeta(metaJson || null);
 
-      const productMap: Record<string, { company_name: string; product_name: string }> = {};
-      (productJson || []).forEach((x: ProductMeta) => {
-        if (!x?.product_id) return;
-        productMap[x.product_id] = {
-          company_name: x.company_name || "",
-          product_name: x.product_name || "",
-        };
-      });
-      setProducts(productMap);
+        const productMap: Record<string, { company_name: string; product_name: string; company_code: string }> = {};
+        (productJson || []).forEach((x: ProductMeta) => {
+          if (!x?.product_id) return;
+          productMap[x.product_id] = {
+            company_name: x.company_name || "",
+            product_name: x.product_name || "",
+            company_code: x.company_code || "",
+          };
+        });
+        setProducts(productMap);
 
-      const condCatalog: ConditionCatalog = {};
-      (conditionsJson || []).forEach((x: any) => {
-        if (!x?.product_id || !x?.condition_category) return;
-        condCatalog[x.product_id] = [...(condCatalog[x.product_id] || []), String(x.condition_category)];
+        const condCatalog: ConditionCatalog = {};
+        (conditionsJson || []).forEach((x: any) => {
+          if (!x?.product_id || !x?.condition_category) return;
+          condCatalog[x.product_id] = [...(condCatalog[x.product_id] || []), String(x.condition_category)];
+        });
+        setCatalog(condCatalog);
+      })
+      .catch(() => {
+        setRows([]);
+        setProducts({});
+        setMeta(null);
+        setCatalog({});
       });
-      setCatalog(condCatalog);
-    }).catch(() => {
-      setRows([]);
-      setProducts({});
-      setMeta(null);
-      setCatalog({});
-    });
   }, []);
 
   useEffect(() => {
@@ -120,10 +144,11 @@ export function ListPage() {
   const displayRows = useMemo<DisplayOption[]>(() => {
     return filtered.map((r) => {
       const meta = products[r.product_id];
+      const bankName = formatBankLabel(r.product_id, meta?.company_name, meta?.company_code);
       return {
         ...r,
-        company_name: meta?.company_name || "",
-        product_name: meta?.product_name || "",
+        bank_name: bankName,
+        product_name: meta?.product_name || "-",
       };
     });
   }, [filtered, products]);
@@ -164,8 +189,8 @@ export function ListPage() {
         </div>
       </div>
 
-      <ProductTable rows={displayRows} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
       <CompareDrawer visible={compare.length >= 2} rows={compare} onClose={() => setSelected(new Set())} />
+      <ProductTable rows={displayRows} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
     </div>
   );
 }

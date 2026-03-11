@@ -44,6 +44,7 @@ export interface ProductMeta {
   join_way: string[];
   join_deny_level: number | null;
   max_limit: number | null;
+  company_code: string;
   special_condition_text: string;
   maturity_interest_text: string;
   etc_note_text: string;

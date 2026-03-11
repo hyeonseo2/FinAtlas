@@ -155,11 +155,13 @@ export function DetailPage() {
   const recomputedInterest = simpleMonthlyInterest(monthly, expected, row.save_term_months);
   const maturity = maturityAmount(monthly, row.save_term_months, recomputedInterest);
 
+  const bankLabel = product.company_name && product.company_name.trim() ? product.company_name : `은행코드 ${product.company_code || "-"}`;
+
   return (
     <div>
       <div className="card">
         <h3>
-          {product.company_name} · {product.product_name}
+          {bankLabel} {product.product_name ? `· ${product.product_name}` : ""}
         </h3>
         <p>
           권역: {product.fin_group_name} | 상품유형: {row.rate_type} | 기간: {row.save_term_months}개월

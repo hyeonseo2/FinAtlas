@@ -4,7 +4,7 @@ import { fmtRate, fmtMoney } from "../lib/format";
 import { simpleMonthlyInterest, maturityAmount } from "../lib/calc";
 
 type DisplayOption = RankedOption & {
-  company_name: string;
+  bank_name: string;
   product_name: string;
 };
 
@@ -61,7 +61,7 @@ export function CompareDrawer({ rows, visible, onClose }: { rows: DisplayOption[
           <tbody>
             {withCalc.map((r) => (
               <tr key={`c-${r.option_id}`}>
-                <td className="bank-cell">{r.company_name || "-"}</td>
+                <td className="bank-cell">{r.bank_name || "-"}</td>
                 <td className="product-cell">{r.product_name || "-"}</td>
                 <td>{r.save_term_months}개월</td>
                 <td>{fmtRate(r.expected_rate)}</td>
