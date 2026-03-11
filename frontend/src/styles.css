@@ -4,6 +4,7 @@
   --bg-mid: #f9fbff;
   --bg-bottom: #f5f7fb;
   --text: #0f172a;
+  --text-soft: #334155;
   --text-muted: #546e7a;
   --line: #dce3ee;
   --navy-700: #0f2a5c;
@@ -37,16 +38,13 @@ a {
   padding: 18px;
 }
 
-h1 {
-  color: #ffffff;
-  margin: 0;
-  letter-spacing: -0.3px;
-}
-
+h1,
+h2,
 h3,
 h4 {
   margin: 0 0 10px;
   letter-spacing: -0.2px;
+  color: var(--text);
 }
 
 .navbar {
@@ -55,9 +53,14 @@ h4 {
   border: 1px solid #193b84;
 }
 
+.navbar-title {
+  margin: 0;
+  color: #ffffff;
+}
+
 .brand-badge {
   font-size: 12px;
-  color: #fef08a;
+  color: #fef9c3;
   opacity: 0.95;
 }
 
@@ -95,6 +98,7 @@ td {
   text-align: left;
   padding: 11px 12px;
   vertical-align: middle;
+  color: var(--text);
 }
 
 th {
@@ -225,7 +229,7 @@ button.primary:hover {
 }
 
 .badge.blue {
-  background: #dbeafe;
+  background: var(--finance-blue-soft);
   color: var(--finance-blue);
 }
 

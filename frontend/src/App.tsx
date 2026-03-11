@@ -18,7 +18,7 @@ function Nav({ goto, route }: { goto: (r: string) => void; route: string }) {
   return (
     <div className="card navbar topline" style={{ marginBottom: 16 }}>
       <div>
-        <h1>finatlas</h1>
+        <h1 className="navbar-title">finatlas</h1>
         <div className="brand-badge">예금/적금 현실금리 비교 서비스</div>
       </div>
       <div className="actions nav-row">
