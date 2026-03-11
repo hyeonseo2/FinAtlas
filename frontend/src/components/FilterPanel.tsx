@@ -10,6 +10,7 @@ const CATEGORY_OPTIONS: Array<{ value: string; label: string }> = [
   { value: "card_spending", label: "카드 실적" },
   { value: "pension_transfer", label: "연금이체" },
   { value: "bundle_product", label: "번들상품" },
+  { value: "bonus_rate_notice", label: "우대금리 안내" },
   { value: "event_participation", label: "이벤트" },
 ];
 
