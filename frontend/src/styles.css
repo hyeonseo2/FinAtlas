@@ -58,7 +58,7 @@ h4 {
 
 .navbar {
   background: linear-gradient(90deg, var(--navy-700) 0%, var(--navy-600) 100%);
-  color: #fff;
+  color: #ffffff;
   border: 1px solid #193b84;
 }
 
@@ -168,7 +168,7 @@ button {
   color: var(--text);
   font-size: 13px;
   outline: none;
-  background: #fff;
+  background: #fefefe;
   transition: all 0.15s ease;
 }
 
@@ -202,7 +202,7 @@ button:disabled {
 button.primary {
   border-color: var(--navy-600);
   background: linear-gradient(180deg, #1d4ed8 0%, #1e40af 100%);
-  color: #fff;
+  color: #ffffff;
 }
 
 button.primary:hover {
@@ -327,7 +327,7 @@ small,
 .compare-head {
   position: sticky;
   top: 0;
-  background: #fff;
+  background: #fefefe;
   z-index: 2;
 }
 
