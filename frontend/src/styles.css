@@ -14,7 +14,7 @@
   --finance-green: #0f766e;
   --finance-green-soft: #ccfbf1;
   --finance-gold: #b45309;
-  --finance-gold-soft: #fef3c7;
+  --finance-gold-soft: #fee2e2;
 
   background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-mid) 42%, var(--bg-bottom) 100%);
   color: var(--text);
@@ -70,7 +70,7 @@ h4 {
 
 .brand-badge {
   font-size: 12px;
-  color: #fef9c3;
+  color: #dbeafe;
   opacity: 0.95;
 }
 
@@ -305,7 +305,7 @@ small,
 
 .chart-bar {
   height: 100%;
-  background: linear-gradient(90deg, #2563eb, #f59e0b);
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
 }
 
 .chart-value {
