@@ -1,4 +1,24 @@
-import { Filters, RankedOption } from "../types/product";
+import { Filters, RankedOption, ProductMeta } from "../types/product";
+type BankLikeProduct = Pick<ProductMeta, "company_code" | "company_name"> & Partial<Pick<ProductMeta, "fin_group_code">>;
+
+function isSavingsProductByName( productMeta: BankLikeProduct | undefined, bankNameMap: Record<string, string> = {}): boolean {
+  const code = (productMeta?.company_code || "").trim();
+  const name = (productMeta?.company_name || bankNameMap[code] || "").trim().toLowerCase();
+  return name.includes("저축은행") || name.endsWith("저축") || name.includes("저축금융") || name.includes("저축예금");
+}
+
+function isSavingsProduct(productMeta: BankLikeProduct | undefined, bankNameMap: Record<string, string> = {}): boolean {
+  return isSavingsProductByName(productMeta, bankNameMap);
+}
+
+function hasBankGroupFilter(rawGroup: string | number, pm: BankLikeProduct | undefined, bankNameMap: Record<string, string> = {}): boolean {
+  const group = String(rawGroup || "").trim();
+  if (!group) return true;
+  const isSavings = isSavingsProduct(pm, bankNameMap);
+  if (group === "020000") return !isSavings;
+  if (group === "030300") return isSavings;
+  return true;
+}
 
 function hasBonusCategoryInProduct(rowProductId: string, category: string, catalog: Record<string, string[]>): boolean {
   if (!category || category === "") return true;
@@ -11,10 +31,14 @@ export function filterAndSort(
   rows: RankedOption[],
   filters: Filters,
   conditionCatalog: Record<string, string[]> = {},
+  productMap: Record<string, BankLikeProduct> = {},
+  bankNameMap: Record<string, string> = {},
 ): RankedOption[] {
   const result = rows.filter((o) => {
-    if (filters.group && !o.option_id.startsWith(filters.group)) return false;
-    if (filters.bank && !o.option_id.includes(filters.bank)) return false;
+    if (!hasBankGroupFilter(filters.group, productMap[o.product_id], bankNameMap)) return false;
+    const pm = productMap[o.product_id];
+    const bankText = (pm?.company_name || bankNameMap[pm?.company_code || ""] || "").toLowerCase();
+    if (filters.bank && bankText && !bankText.includes(filters.bank.toLowerCase())) return false;
     if (filters.term && o.save_term_months !== Number(filters.term)) return false;
 
     const minBase = filters.minBaseRate ? Number(filters.minBaseRate) : -Infinity;

@@ -139,7 +139,7 @@ export function ListPage() {
     return Array.from(s).sort((a, b) => a - b);
   }, [rows]);
 
-  const filtered = useMemo(() => filterAndSort(rows, filters, catalog), [rows, filters, catalog]);
+  const filtered = useMemo(() => filterAndSort(rows, filters, catalog, products, bankCodeMap), [rows, filters, catalog, products, bankCodeMap]);
 
   const displayRows = useMemo<DisplayOption[]>(() => {
     return filtered.map((r) => {
