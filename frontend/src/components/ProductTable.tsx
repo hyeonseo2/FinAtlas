@@ -48,7 +48,13 @@ export function ProductTable({ rows, selected, monthlyPayment, onSelect }: {
                 <td>{fmtMoney(interest)}</td>
                 <td>{fmtMoney(maturity)}</td>
                 <td>
-                  <button onClick={() => (window.location.hash = `#/detail?option=${r.option_id}`)}>보기</button>
+                  <button
+                    type="button"
+                    className="primary"
+                    onClick={() => (window.location.hash = `#/detail?option=${r.option_id}`)}
+                  >
+                    보기
+                  </button>
                 </td>
               </tr>
             );
