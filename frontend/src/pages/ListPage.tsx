@@ -27,6 +27,7 @@ const initialFilters: Filters = {
 };
 
 const STORAGE_KEY_MONTHLY = "finatlas:list:monthly:v1";
+const PAGE_SIZE = 20;
 
 function loadMonthly(): number {
   if (typeof window === "undefined") return 500000;
@@ -73,6 +74,7 @@ export function ListPage() {
   const [meta, setMeta] = useState<{ last_success_at?: string; normalized_product_count?: number; normalized_option_count?: number } | null>(null);
   const [catalog, setCatalog] = useState<ConditionCatalog>({});
   const [bankCodeMap, setBankCodeMap] = useState<BankNameMap>({});
+  const [page, setPage] = useState<number>(1);
 
   useEffect(() => {
     Promise.all([
@@ -127,6 +129,10 @@ export function ListPage() {
     window.localStorage.setItem(STORAGE_KEY_MONTHLY, String(monthly));
   }, [monthly]);
 
+  useEffect(() => {
+    setPage(1);
+  }, [filters]);
+
   const terms = useMemo(() => {
     const s = new Set<number>();
     rows.forEach((r) => s.add(r.save_term_months));
@@ -147,6 +153,18 @@ export function ListPage() {
       };
     });
   }, [filtered, products, catalog, bankCodeMap]);
+
+  const total = displayRows.length;
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  const safePage = Math.min(page, totalPages);
+  const start = (safePage - 1) * PAGE_SIZE;
+  const end = start + PAGE_SIZE;
+  const pageRows = displayRows.slice(start, end);
+
+  const onPageChange = (next: number) => {
+    if (next < 1 || next > totalPages) return;
+    setPage(next);
+  };
 
   const onSelect = (row: DisplayOption) => {
     setSelected((prev) => {
@@ -185,7 +203,25 @@ export function ListPage() {
       </div>
 
       <CompareDrawer visible={compare.length >= 2} rows={compare} onClose={() => setSelected(new Set())} />
-      <ProductTable rows={displayRows} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
+
+      <ProductTable rows={pageRows} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
+
+      <div className="topline" style={{ justifyContent: "space-between", marginTop: 8 }}>
+        <small>
+          {total === 0 ? "표시할 상품이 없습니다." : `${start + 1}~${Math.min(end, total)} / ${total}개`}
+        </small>
+        <div className="actions">
+          <button type="button" onClick={() => onPageChange(safePage - 1)} disabled={safePage <= 1}>
+            이전
+          </button>
+          <span>
+            {safePage} / {totalPages}
+          </span>
+          <button type="button" onClick={() => onPageChange(safePage + 1)} disabled={safePage >= totalPages}>
+            다음
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
