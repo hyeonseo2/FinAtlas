@@ -1,9 +1,6 @@
 {
-  "generated_at": "2026-03-10T23:01:00.309799+00:00",
-  "last_success_at": "2026-03-10T23:01:00.309841+00:00",
-  "raw_fetch_count": 1869,
-  "normalized_product_count": 330,
-  "normalized_option_count": 1539,
-  "parse_success_rate": 1.0,
-  "data_version": "1.0.0"
+  "timestamp": "2026-03-11T06:16:29.510619Z",
+  "product_count": 330,
+  "option_count": 1539,
+  "bonus_condition_count": 517
 }
