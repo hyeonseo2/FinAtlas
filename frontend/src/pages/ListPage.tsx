@@ -149,7 +149,7 @@ export function ListPage() {
         ...r,
         bank_name: bankName,
         product_name: pm?.product_name || "-",
-        bonus_condition_count: (catalog[r.product_id] || []).length,
+        bonus_condition_count: (catalog[r.product_id] || []).filter((x) => x !== "unclear").length,
       };
     });
   }, [filtered, products, catalog, bankCodeMap]);

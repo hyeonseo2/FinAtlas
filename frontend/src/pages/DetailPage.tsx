@@ -16,7 +16,7 @@ const CONDITION_LABEL: Record<string, string> = {
   card_spending: "카드 실적",
   bundle_product: "번들/패키지",
   event_participation: "이벤트",
-  unclear: "기타/불명확",
+  unclear: "해석 필요",
 };
 
 function difficultyLabel(level: number): string {
@@ -36,12 +36,16 @@ function buildDifficultyReason(conds: BonusCondition[], score: number): string {
   const recur = conds.filter((c) => c.requires_recurring_action).map((c) => c.condition_category);
   const uncertain = conds.filter((c) => c.is_uncertain_parse).length;
 
-  const labels = [...new Set(conds.map((c) => CONDITION_LABEL[c.condition_category] || c.condition_category))];
-  let reason = `우대조건 ${conds.length}개 (${labels.join(", ")})`;
+  const clearConds = conds.filter((c) => c.condition_category !== "unclear");
+  const labels = [...new Set(clearConds.map((c) => CONDITION_LABEL[c.condition_category] || c.condition_category))];
+  const clearCount = clearConds.length;
+  const ambiguousCount = conds.length - clearCount;
+
+  let reason = `우대조건 ${clearCount}개 (${labels.join(", ") || "기타"})`;
 
   if (rel.length) reason += ` · 기존관계 필요(${rel.map((x) => CONDITION_LABEL[x] || x).join(", ")})`;
   if (recur.length) reason += ` · 매월/매실적 유지 필요`;
-  if (uncertain > 0) reason += ` · 해석 불명 조건 ${uncertain}건`;
+  if (ambiguousCount > 0) reason += ` · 해석불명 ${ambiguousCount}건`;
 
   reason += `, 난이도점수 ${score}점`;
   return reason;
@@ -95,6 +99,15 @@ export function DetailPage() {
     if (!row) return [];
     return conditions.filter((x) => x.product_id === row.product_id);
   }, [conditions, row]);
+
+
+  const clearProductConditions = useMemo(() => {
+    return productConditions.filter((c) => c.condition_category !== "unclear");
+  }, [productConditions]);
+
+  const ambiguousProductConditionCount = useMemo(() => {
+    return productConditions.length - clearProductConditions.length;
+  }, [productConditions, clearProductConditions]);
 
   const productOptions = useMemo(() => {
     if (!row) return [];
@@ -200,10 +213,10 @@ export function DetailPage() {
       <div className="card">
         <h4>우대조건 원문 + 난이도</h4>
         <ul>
-          {productConditions.length === 0 ? (
-            <li>특이 우대조건 없음</li>
+          {clearProductConditions.length === 0 ? (
+            <li>해석 가능한 우대조건이 없습니다.</li>
           ) : (
-            productConditions.map((c) => (
+            clearProductConditions.map((c) => (
               <li key={c.condition_id}>
                 <strong>[{CONDITION_LABEL[c.condition_category] || c.condition_category}]</strong>{" "}
                 {c.condition_text} (우대 {fmtRate(c.bonus_rate)})
@@ -213,6 +226,9 @@ export function DetailPage() {
               </li>
             ))
           )}
+          {ambiguousProductConditionCount > 0 ? (
+            <li className="note">해석이 불명확한 조건이 {ambiguousProductConditionCount}건 있어요. 상세 원문에서 확인해 주세요.</li>
+          ) : null}
         </ul>
       </div>
 
