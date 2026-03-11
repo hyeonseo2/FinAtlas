@@ -108,6 +108,90 @@ def _normalize(text: str) -> str:
     return raw.strip()
 
 
+
+AUTO_TRANSFER_RATE = re.compile(r"(\d+)\s*회")
+AUTO_TRANSFER_AMOUNT_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(만원|천원)")
+CARD_AMOUNT_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(만원|천원)")
+
+
+def normalize_amount(v: str, unit: str) -> float:
+    n = float(v)
+    if unit == "천원":
+        return n * 1000
+    return n * 10000
+
+
+def infer_probability(sentence: str, category: str) -> float:
+    if category == "auto_transfer":
+        # Easy if only a few required transfers. Hard if many times required or no explicit info.
+        m = AUTO_TRANSFER_RATE.findall(sentence)
+        if m:
+            try:
+                n = max(int(x) for x in m)
+                if n <= 3:
+                    return 0.95
+                if n <= 6:
+                    return 0.9
+                if n <= 12:
+                    return 0.85
+                if n <= 24:
+                    return 0.75
+            except Exception:
+                pass
+
+        m2 = AUTO_TRANSFER_AMOUNT_RE.findall(sentence)
+        if m2:
+            try:
+                amt = max(normalize_amount(v, u) for v, u in m2)
+                if amt <= 100000:
+                    return 0.95
+                if amt <= 300000:
+                    return 0.9
+                if amt <= 500000:
+                    return 0.82
+                if amt <= 1000000:
+                    return 0.75
+                return 0.65
+            except Exception:
+                pass
+        # 기본
+        return 0.70
+
+    if category == "card_spending":
+        # card spending requirement amount 기준으로 더 정교하게
+        if re.search(r"\d", sentence):
+            m = CARD_AMOUNT_RE.findall(sentence)
+            if m:
+                vals = []
+                for v, u in m:
+                    try:
+                        vals.append(normalize_amount(v, u))
+                    except Exception:
+                        continue
+                if vals:
+                    amt = min(vals)
+                    if amt <= 30000:
+                        return 0.92
+                    if amt <= 100000:
+                        return 0.88
+                    if amt <= 300000:
+                        return 0.80
+                    if amt <= 500000:
+                        return 0.72
+                    if amt <= 1000000:
+                        return 0.65
+                    return 0.55
+
+        if re.search(r"(소액|소액|저금액|30만원|50만원|100만원)", sentence):
+            return 0.8
+
+        if re.search(r"(매우|고액|많이|대량|매월|월\s*|연\s*|매년)", sentence):
+            return 0.75
+
+        return 0.78
+
+    return BASE_PROB.get(category, BASE_PROB["unclear"])
+
 def split_conditions(text: str) -> list[str]:
     normalized = _normalize(text)
     if not normalized:
@@ -180,7 +264,7 @@ def parse_bonus_conditions(base_products: list[dict]) -> list[dict]:
         pid = p["product_id"]
         for idx, s in enumerate(split_conditions(text)):
             cat = classify(s)
-            prob = BASE_PROB.get(cat, BASE_PROB["unclear"])
+            prob = infer_probability(s, cat)
             out.append(
                 {
                     "condition_id": f"{pid}_{idx:03d}",
