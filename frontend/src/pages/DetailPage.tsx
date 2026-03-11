@@ -34,7 +34,7 @@ function toDisplayDifficultyScore(score: number): number {
 
 
 function displayDifficultyScore(rawScore: number, category?: string): number {
-  if (category === "marketing_agree") return 0;
+  if (category === "marketing_agree" || category === "app_signup") return 0;
   return toDisplayDifficultyScore(rawScore);
 }
 
