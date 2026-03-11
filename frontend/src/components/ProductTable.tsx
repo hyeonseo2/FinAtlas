@@ -6,6 +6,7 @@ import { expectedInterestWithRate, maturityAmount } from "../lib/calc";
 type DisplayOption = RankedOption & {
   bank_name: string;
   product_name: string;
+  bonus_condition_count: number;
 };
 
 export function ProductTable({ rows, selected, monthlyPayment, onSelect }: {

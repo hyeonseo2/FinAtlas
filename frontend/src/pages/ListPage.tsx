@@ -6,9 +6,11 @@ import { ProductTable } from "../components/ProductTable";
 import { CompareDrawer } from "../components/CompareDrawer";
 
 type ConditionCatalog = Record<string, string[]>;
+type BankNameMap = Record<string, string>;
 type DisplayOption = RankedOption & {
   bank_name: string;
   product_name: string;
+  bonus_condition_count: number;
 };
 
 const initialFilters: Filters = {
@@ -70,9 +72,15 @@ function parseBankCode(productId: string): string {
   return first || "-";
 }
 
-function formatBankLabel(productId: string, companyName?: string, companyCode?: string): string {
+function formatBankLabel(productId: string, companyName?: string, companyCode?: string, bankCodeMap?: BankNameMap): string {
   if (companyName && companyName.trim()) return companyName;
+
+  if (companyCode && companyCode.trim() && bankCodeMap?.[companyCode]) {
+    return bankCodeMap[companyCode];
+  }
+
   if (companyCode && companyCode.trim()) return `은행코드 ${companyCode}`;
+
   return `은행코드 ${parseBankCode(productId)}`;
 }
 
@@ -84,6 +92,7 @@ export function ListPage() {
   const [monthly, setMonthly] = useState<number>(loadMonthly);
   const [meta, setMeta] = useState<{ last_success_at?: string; normalized_product_count?: number; normalized_option_count?: number } | null>(null);
   const [catalog, setCatalog] = useState<ConditionCatalog>({});
+  const [bankCodeMap, setBankCodeMap] = useState<BankNameMap>({});
 
   useEffect(() => {
     Promise.all([
@@ -91,9 +100,17 @@ export function ListPage() {
       fetch("/data/metadata.json"),
       fetch("/data/bonus_conditions.json"),
       fetch("/data/products.json"),
+      fetch("/data/bank_name_map.json"),
     ])
-      .then(async ([r, m, c, p]) => {
-        const [rowsJson, metaJson, conditionsJson, productJson] = await Promise.all([r.json(), m.json(), c.json(), p.json()]);
+      .then(async ([r, m, c, p, b]) => {
+        const [rowsJson, metaJson, conditionsJson, productJson, bankNameMapJson] = await Promise.all([
+          r.json(),
+          m.json(),
+          c.json(),
+          p.json(),
+          b.json(),
+        ]);
+
         setRows(dedupeRows(rowsJson || []));
         setMeta(metaJson || null);
 
@@ -114,12 +131,14 @@ export function ListPage() {
           condCatalog[x.product_id] = [...(condCatalog[x.product_id] || []), String(x.condition_category)];
         });
         setCatalog(condCatalog);
+        setBankCodeMap(bankNameMapJson || {});
       })
       .catch(() => {
         setRows([]);
         setProducts({});
         setMeta(null);
         setCatalog({});
+        setBankCodeMap({});
       });
   }, []);
 
@@ -143,15 +162,16 @@ export function ListPage() {
 
   const displayRows = useMemo<DisplayOption[]>(() => {
     return filtered.map((r) => {
-      const meta = products[r.product_id];
-      const bankName = formatBankLabel(r.product_id, meta?.company_name, meta?.company_code);
+      const pm = products[r.product_id];
+      const bankName = formatBankLabel(r.product_id, pm?.company_name, pm?.company_code, bankCodeMap);
       return {
         ...r,
         bank_name: bankName,
-        product_name: meta?.product_name || "-",
+        product_name: pm?.product_name || "-",
+        bonus_condition_count: (catalog[r.product_id] || []).length,
       };
     });
-  }, [filtered, products]);
+  }, [filtered, products, catalog, bankCodeMap]);
 
   const onSelect = (row: DisplayOption) => {
     setSelected((prev) => {
@@ -189,8 +209,8 @@ export function ListPage() {
         </div>
       </div>
 
-      <CompareDrawer visible={compare.length >= 2} rows={compare} onClose={() => setSelected(new Set())} />
       <ProductTable rows={displayRows} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
+      <CompareDrawer visible={compare.length >= 2} rows={compare} onClose={() => setSelected(new Set())} />
     </div>
   );
 }

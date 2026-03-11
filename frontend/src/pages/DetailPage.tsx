@@ -57,6 +57,7 @@ export function DetailPage() {
   const [products, setProducts] = useState<ProductMeta[]>([]);
   const [conditions, setConditions] = useState<BonusCondition[]>([]);
   const [allOptions, setAllOptions] = useState<ProductOption[]>([]);
+  const [bankNameMap, setBankNameMap] = useState<Record<string, string>>({});
   const [monthly, setMonthly] = useState<number>(DEFAULT_PAYMENT);
 
   useEffect(() => {
@@ -65,12 +66,14 @@ export function DetailPage() {
       fetch("/data/products.json"),
       fetch("/data/bonus_conditions.json"),
       fetch("/data/product_options.json"),
-    ]).then(async ([a, b, c, d]) => {
-      const [os, ps, cs, opts] = await Promise.all([a.json(), b.json(), c.json(), d.json()]);
+      fetch("/data/bank_name_map.json"),
+    ]).then(async ([a, b, c, d, e]) => {
+      const [os, ps, cs, opts, bankMap] = await Promise.all([a.json(), b.json(), c.json(), d.json(), e.json()]);
       setOptions(os || []);
       setProducts(ps || []);
       setConditions(cs || []);
       setAllOptions(opts || []);
+      setBankNameMap(bankMap || {});
     }).catch(() => {
       setOptions([]);
       setProducts([]);
@@ -155,7 +158,11 @@ export function DetailPage() {
   const recomputedInterest = simpleMonthlyInterest(monthly, expected, row.save_term_months);
   const maturity = maturityAmount(monthly, row.save_term_months, recomputedInterest);
 
-  const bankLabel = product.company_name && product.company_name.trim() ? product.company_name : `은행코드 ${product.company_code || "-"}`;
+  const bankLabel = product.company_name && product.company_name.trim()
+    ? product.company_name
+    : product.company_code && bankNameMap[product.company_code]
+      ? bankNameMap[product.company_code]
+      : `은행코드 ${product.company_code || "-"}`;
 
   return (
     <div>
