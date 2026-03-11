@@ -27,7 +27,12 @@ function difficultyLabel(level: number): string {
   return "매우 어려움";
 }
 
-function buildDifficultyReason(conds: BonusCondition[], score: number): string {
+function toDisplayDifficultyScore(score: number): number {
+  const n = Number.isFinite(score) ? Math.round(Number(score)) : 0;
+  return Math.max(0, 100 - n);
+}
+
+function buildDifficultyReason(conds: BonusCondition[], rawScore: number): string {
   if (!conds || conds.length === 0) {
     return "우대조건이 거의 없어 달성 난이도가 낮습니다.";
   }
@@ -36,7 +41,7 @@ function buildDifficultyReason(conds: BonusCondition[], score: number): string {
   const recur = conds.filter((c) => c.requires_recurring_action).map((c) => c.condition_category);
   const uncertain = conds.filter((c) => c.is_uncertain_parse).length;
 
-  const clearConds = conds.filter((c) => c.condition_category !== "unclear");
+  const clearConds = conds.filter((c) => !c.is_uncertain_parse && c.condition_category !== "unclear");
   const labels = [...new Set(clearConds.map((c) => CONDITION_LABEL[c.condition_category] || c.condition_category))];
   const clearCount = clearConds.length;
   const ambiguousCount = conds.length - clearCount;
@@ -47,7 +52,8 @@ function buildDifficultyReason(conds: BonusCondition[], score: number): string {
   if (recur.length) reason += ` · 매월/매실적 유지 필요`;
   if (ambiguousCount > 0) reason += ` · 해석불명 ${ambiguousCount}건`;
 
-  reason += `, 난이도점수 ${score}점`;
+  const displayScore = toDisplayDifficultyScore(rawScore);
+  reason += `, 난이도점수 ${displayScore}점`;
   return reason;
 }
 
@@ -102,12 +108,12 @@ export function DetailPage() {
 
 
   const clearProductConditions = useMemo(() => {
-    return productConditions.filter((c) => c.condition_category !== "unclear");
+    return productConditions.filter((c) => !c.is_uncertain_parse && c.condition_category !== "unclear");
   }, [productConditions]);
 
 
   const ambiguousProductConditions = useMemo(() => {
-    return productConditions.filter((c) => c.condition_category === "unclear");
+    return productConditions.filter((c) => c.is_uncertain_parse || c.condition_category === "unclear");
   }, [productConditions]);
 
   const ambiguousRawText = useMemo(() => {
@@ -155,7 +161,9 @@ export function DetailPage() {
   }, [monthly, productOptions, row]);
 
   const maxInterest = useMemo(() => productOptionRows.reduce((m, r) => Math.max(m, r.interest), 0), [productOptionRows]);
+  const normalizedDifficultyScore = row ? toDisplayDifficultyScore(row.difficulty_score) : 100;
   const difficultyReason = useMemo(() => buildDifficultyReason(productConditions, row?.difficulty_score || 100), [productConditions, row]);
+  const difficultyGrade = difficultyLabel(normalizedDifficultyScore);
 
   const difficultyByCategory = useMemo(() => {
     const grouped: Record<string, BonusCondition[]> = {};
@@ -216,7 +224,7 @@ export function DetailPage() {
             <strong>현실금리(예상):</strong> {fmtRate(expected)}
           </div>
           <div>
-            <strong>난이도:</strong> {row.difficulty_score}점 / {row.difficulty_grade}
+            <strong>난이도:</strong> {normalizedDifficultyScore}점 / {difficultyGrade}
             <br />
             <strong>우대조건 개수:</strong> {row.condition_count}개
             <br />
@@ -238,7 +246,7 @@ export function DetailPage() {
                 <strong>[{CONDITION_LABEL[c.condition_category] || c.condition_category}]</strong>{" "}
                 {c.condition_text} (우대 {fmtRate(c.bonus_rate)})
                 <br />
-                <span className="note">우대조건 난이도: {difficultyLabel(c.difficulty_level)} ({c.difficulty_level}점)</span>
+                <span className="note">우대조건 난이도: {difficultyLabel(toDisplayDifficultyScore(c.difficulty_level))} ({toDisplayDifficultyScore(c.difficulty_level)}점)</span>
                 {c.is_uncertain_parse ? " · 문구 해석 신뢰도 낮음" : ""}
               </li>
             ))
@@ -287,11 +295,11 @@ export function DetailPage() {
             {Object.entries(difficultyByCategory).map(([cat, items]) => {
               const min = Math.min(...items.map((x) => x.difficulty_level));
               const max = Math.max(...items.map((x) => x.difficulty_level));
-              const avg = Math.round(items.reduce((s, x) => s + x.difficulty_level, 0) / items.length);
+              const avg = Math.round(items.reduce((s, x) => s + toDisplayDifficultyScore(x.difficulty_level), 0) / items.length);
               const label = difficultyLabel(avg);
               return (
                 <li key={cat}>
-                  <strong>{CONDITION_LABEL[cat] || cat}</strong>: {items.length}건 / 난이도 평균 {avg}점 ({label}), 점수 범위 {min}~{max}
+                  <strong>{CONDITION_LABEL[cat] || cat}</strong>: {items.length}건 / 난이도 평균 {avg}점 ({label}), 점수 범위 {toDisplayDifficultyScore(min)}~{toDisplayDifficultyScore(max)}
                 </li>
               );
             })}
