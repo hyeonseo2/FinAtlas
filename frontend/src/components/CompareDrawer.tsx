@@ -35,7 +35,7 @@ export function CompareDrawer({ rows, visible, onClose }: { rows: DisplayOption[
       </div>
 
       <p className="note" style={{ marginTop: 4 }}>
-        2개 이상 선택 시 하단 비교표가 표시됩니다. 기본 납입금은 50만 원 기준입니다.
+        비교 목록에서 2개 이상 상품을 선택하면 비교표가 표시됩니다. 동일 납입금(기본 50만) 기준 실수익 비교 현실금리, 난이도, 우대조건 개수 비교 필요 시 상세 페이지로 이동해 우대조건 원문까지 확인
       </p>
 
       <div className="topline" style={{ margin: "8px 0", alignItems: "center" }}>
@@ -93,10 +93,6 @@ export function CompareDrawer({ rows, visible, onClose }: { rows: DisplayOption[
           </tbody>
         </table>
       </div>
-
-      <p className="note" style={{ marginTop: 8 }}>
-        필요 시 각 상품의 <strong>우대조건 원문</strong>은 상세 페이지에서 바로 확인할 수 있습니다.
-      </p>
     </div>
   );
 }
