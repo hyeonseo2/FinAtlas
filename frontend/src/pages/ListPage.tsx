@@ -184,8 +184,8 @@ export function ListPage() {
         </div>
       </div>
 
-      <ProductTable rows={displayRows} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
       <CompareDrawer visible={compare.length >= 2} rows={compare} onClose={() => setSelected(new Set())} />
+      <ProductTable rows={displayRows} selected={selected} monthlyPayment={monthly} onSelect={onSelect} />
     </div>
   );
 }
