@@ -2,7 +2,7 @@ export function HomePage() {
   return (
     <div className="card">
       <h2>finatlas</h2>
-      <h2>적금 현실금리 비교 서비스</h2>
+      <h2>금융상품 분석 비교 서비스</h2>
       <ul>
         <li>최고금리가 아니라 실제로 받기 쉬운 금리 중심</li>
         <li>상품/옵션 단위 비교(예: 12/24/36개월)</li>
