@@ -16,7 +16,7 @@ const CONDITION_LABEL: Record<string, string> = {
   card_spending: "카드 실적",
   bundle_product: "번들/패키지",
   event_participation: "이벤트",
-  unclear: "해석 필요",
+  unclear: "해석 필요(난이도 높음)",
 };
 
 function difficultyLabel(level: number): string {
@@ -104,6 +104,23 @@ export function DetailPage() {
   const clearProductConditions = useMemo(() => {
     return productConditions.filter((c) => c.condition_category !== "unclear");
   }, [productConditions]);
+
+
+  const ambiguousProductConditions = useMemo(() => {
+    return productConditions.filter((c) => c.condition_category === "unclear");
+  }, [productConditions]);
+
+  const ambiguousRawText = useMemo(() => {
+    if (ambiguousProductConditions.length === 0) return "";
+    return ambiguousProductConditions
+      .map((c, i) => `원문 ${i + 1}. [${c.condition_id}] ${c.condition_text || "(내용 없음)"} (우대 ${c.bonus_rate}%)`)
+      .join("\n");
+  }, [ambiguousProductConditions]);
+
+  const ambiguousDownloadUrl = useMemo(() => {
+    if (!ambiguousRawText) return "";
+    return `data:text/plain;charset=utf-8,${encodeURIComponent(ambiguousRawText)}`;
+  }, [ambiguousRawText]);
 
   const ambiguousProductConditionCount = useMemo(() => {
     return productConditions.length - clearProductConditions.length;
@@ -227,9 +244,38 @@ export function DetailPage() {
             ))
           )}
           {ambiguousProductConditionCount > 0 ? (
-            <li className="note">해석이 불명확한 조건이 {ambiguousProductConditionCount}건 있어요. 상세 원문에서 확인해 주세요.</li>
+            <li className="note">해석이 불명확한 조건이 {ambiguousProductConditionCount}건 있습니다.</li>
           ) : null}
         </ul>
+
+        {ambiguousProductConditions.length > 0 ? (
+          <div style={{ marginTop: 10 }}>
+            <details>
+              <summary>상세 원문 보기 ({ambiguousProductConditions.length}건)</summary>
+              <div className="note" style={{ marginTop: 8 }}>해석이 어려운 항목을 원문 그대로 확인하세요.</div>
+              <div className="table-wrap" style={{ marginTop: 8, maxHeight: 180, overflowY: "auto", border: "1px dashed #c7ddff", borderRadius: 8, padding: 8 }}>
+                <pre style={{ whiteSpace: "pre-wrap", margin: 0, fontSize: 12 }}>{ambiguousRawText || ""}</pre>
+              </div>
+              <div className="actions" style={{ marginTop: 8 }}>
+                <a
+                  className="link-btn"
+                  href={ambiguousDownloadUrl}
+                  download={`bonus_condition_raw_${row?.product_id || "item"}.txt`}
+                >
+                  상세 원문 텍스트 다운로드
+                </a>
+                <button
+                  type="button"
+                  onClick={() => {
+                    navigator.clipboard?.writeText(ambiguousRawText || "");
+                  }}
+                >
+                  상세 원문 클립보드 복사
+                </button>
+              </div>
+            </details>
+          </div>
+        ) : null}
       </div>
 
       <div className="card">
