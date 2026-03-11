@@ -4,9 +4,9 @@
   --bg-mid: #f9fbff;
   --bg-bottom: #f5f7fb;
   --text: #0f172a;
-  --text-soft: #1e293b;
-  --text-muted: #475569;
-  --line: #dce3ee;
+  --text-soft: #0f172a;
+  --text-muted: #1e3a8a;
+  --line: #c7ddff;
   --navy-700: #0f2a5c;
   --navy-600: #173b82;
   --finance-blue: #1d4ed8;
@@ -81,8 +81,7 @@ h4 {
 }
 
 .card {
-  background: #ffffff;
-  border: 1px solid #e7edf6;
+  border: 1px solid #dbeafe;
   border-radius: 14px;
   padding: 16px;
   margin-bottom: 14px;
@@ -112,8 +111,8 @@ td {
 }
 
 th {
-  background: linear-gradient(180deg, #edf2ff 0%, #f8faff 100%);
-  color: #1f3559;
+  background: linear-gradient(180deg, #dbeafe 0%, #eff6ff 100%);
+  color: #0f2a5c;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -121,11 +120,11 @@ th {
 }
 
 tbody tr:nth-child(even) td {
-  background: #fafcff;
+  background: #f1f5ff;
 }
 
 tbody tr:hover td {
-  background: #eff7ff;
+  background: #e0edff;
 }
 
 tbody tr:last-child td {
@@ -141,7 +140,7 @@ tbody tr:last-child td {
 .filter-title {
   font-size: 14px;
   font-weight: 700;
-  color: #1f2f52;
+  color: #0f2a5c;
   margin-bottom: 10px;
 }
 
@@ -153,7 +152,7 @@ tbody tr:last-child td {
 
 .field-label {
   font-size: 12px;
-  color: #334155;
+  color: #1f3b82;
   font-weight: 600;
 }
 
@@ -168,7 +167,6 @@ button {
   color: var(--text);
   font-size: 13px;
   outline: none;
-  background: #fefefe;
   transition: all 0.15s ease;
 }
 
@@ -179,19 +177,19 @@ select:focus {
 }
 
 input::placeholder {
-  color: #8aa0b8;
+  color: #1e40af;
 }
 
 button {
   font-weight: 600;
-  border: 1px solid #c6d3eb;
+  border: 1px solid #bfdbfe;
   cursor: pointer;
-  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+  background: linear-gradient(180deg, #f0f6ff 0%, #dbeafe 100%);
 }
 
 button:hover {
-  border-color: #9db4ff;
-  background: linear-gradient(180deg, #eff6ff 0%, #dbeafe 100%);
+  border-color: #93c5fd;
+  background: linear-gradient(180deg, #dbeafe 0%, #bfdbfe 100%);
 }
 
 button:disabled {
@@ -211,7 +209,7 @@ button.primary:hover {
 
 .nav-btn {
   background: rgba(11, 40, 93, 0.20);
-  color: #cbd5e1;
+  color: #dbeafe;
   border: 1px solid rgba(219, 234, 254, 0.35);
   backdrop-filter: blur(2px);
 }
@@ -250,7 +248,7 @@ button.primary:hover {
 
 .badge.purple {
   background: #ede9fe;
-  color: #5b21b6;
+  color: #1d4ed8;
 }
 
 .badge.gold {
@@ -298,28 +296,28 @@ small,
 
 .chart-bar-shell {
   height: 12px;
-  background: #e2e8f0;
+  background: #e5efff;
   border-radius: 999px;
   overflow: hidden;
 }
 
 .chart-bar {
   height: 100%;
-  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  background: linear-gradient(90deg, #1d4ed8, #2563eb);
 }
 
 .chart-value {
   text-align: right;
   font-size: 13px;
-  color: #334155;
+  color: #1f3b82;
   font-weight: 600;
 }
 
 .difficulty-block {
   margin: 4px 0 8px;
   padding: 10px 12px;
-  background: #f8fbff;
-  border: 1px dashed #bfdbfe;
+  background: #eff6ff;
+  border: 1px dashed #c7ddff;
   border-radius: 10px;
   font-size: 12px;
 }
@@ -327,7 +325,6 @@ small,
 .compare-head {
   position: sticky;
   top: 0;
-  background: #fefefe;
   z-index: 2;
 }
 
@@ -342,12 +339,12 @@ hr {
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
-  color: #475569;
+  color: #1e40af;
 }
 
 .list-meta small {
   font-size: 12px;
-  color: #64748b;
+  color: #2563eb;
 }
 
 .link-btn {
@@ -380,7 +377,7 @@ hr {
 .money-strong {
   font-size: 15px;
   font-weight: 800;
-  color: #1e3a8a;
+  color: #0f2a5c;
 }
 
 .section {
