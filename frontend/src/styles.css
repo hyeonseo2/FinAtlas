@@ -1,8 +1,24 @@
 :root {
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  background: linear-gradient(180deg, #eff5ff 0%, #f8fbff 40%, #f5f7fb 100%);
-  color: #0f172a;
+  --bg-top: #f4f8ff;
+  --bg-mid: #f9fbff;
+  --bg-bottom: #f5f7fb;
+  --text: #0f172a;
+  --text-muted: #546e7a;
+  --line: #dce3ee;
+  --navy-700: #0f2a5c;
+  --navy-600: #173b82;
+  --finance-blue: #1d4ed8;
+  --finance-blue-soft: #dbeafe;
+  --finance-green: #0f766e;
+  --finance-green-soft: #ccfbf1;
+  --finance-gold: #b45309;
+  --finance-gold-soft: #fef3c7;
+
+  background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-mid) 42%, var(--bg-bottom) 100%);
+  color: var(--text);
 }
+
 * {
   box-sizing: border-box;
 }
@@ -21,10 +37,28 @@ a {
   padding: 18px;
 }
 
+h1 {
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.3px;
+}
+
 h3,
 h4 {
   margin: 0 0 10px;
   letter-spacing: -0.2px;
+}
+
+.navbar {
+  background: linear-gradient(90deg, var(--navy-700) 0%, var(--navy-600) 100%);
+  color: #fff;
+  border: 1px solid #193b84;
+}
+
+.brand-badge {
+  font-size: 12px;
+  color: #fef08a;
+  opacity: 0.95;
 }
 
 .grid {
@@ -35,11 +69,11 @@ h4 {
 
 .card {
   background: #ffffff;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #e7edf6;
   border-radius: 14px;
   padding: 16px;
   margin-bottom: 14px;
-  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 6px 18px rgba(15, 42, 92, 0.07);
 }
 
 .table-wrap {
@@ -57,21 +91,26 @@ table {
 
 th,
 td {
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid var(--line);
   text-align: left;
-  padding: 10px 12px;
+  padding: 11px 12px;
+  vertical-align: middle;
 }
 
 th {
-  background: #f8fafc;
-  color: #334155;
+  background: linear-gradient(180deg, #edf2ff 0%, #f8faff 100%);
+  color: #1f3559;
   position: sticky;
   top: 0;
   z-index: 1;
 }
 
-tbody tr:hover {
-  background: #f8fbff;
+tbody tr:nth-child(even) td {
+  background: #fafcff;
+}
+
+tbody tr:hover td {
+  background: #eff7ff;
 }
 
 tbody tr:last-child td {
@@ -87,7 +126,7 @@ tbody tr:last-child td {
 .filter-title {
   font-size: 14px;
   font-weight: 700;
-  color: #334155;
+  color: #1f2f52;
   margin-bottom: 10px;
 }
 
@@ -99,7 +138,7 @@ tbody tr:last-child td {
 
 .field-label {
   font-size: 12px;
-  color: #475569;
+  color: #334155;
   font-weight: 600;
 }
 
@@ -110,40 +149,64 @@ button {
   min-height: 38px;
   padding: 8px 10px;
   border-radius: 10px;
-  border: 1px solid #cbd5e1;
-  color: #0f172a;
+  border: 1px solid var(--line);
+  color: var(--text);
   font-size: 13px;
   outline: none;
   background: #fff;
-  transition: border-color 0.15s, box-shadow 0.15s;
+  transition: all 0.15s ease;
 }
 
 input:focus,
 select:focus {
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.16);
+  border-color: var(--finance-blue);
+  box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.16);
 }
 
 button {
   font-weight: 600;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #c6d3eb;
   cursor: pointer;
-  background: #f8fafc;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
 }
 
 button:hover {
-  border-color: #93c5fd;
-  background: #eff6ff;
+  border-color: #9db4ff;
+  background: linear-gradient(180deg, #eff6ff 0%, #dbeafe 100%);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
 }
 
 button.primary {
-  border-color: #2563eb;
-  background: #2563eb;
+  border-color: var(--navy-600);
+  background: linear-gradient(180deg, #1d4ed8 0%, #1e40af 100%);
   color: #fff;
 }
 
 button.primary:hover {
-  background: #1d4ed8;
+  background: linear-gradient(180deg, #1e40af 0%, #1e3a8a 100%);
+}
+
+.nav-btn {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(2px);
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+.nav-btn.active {
+  background: #ffffff;
+  color: var(--navy-700);
+  border-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(15, 42, 92, 0.22);
 }
 
 .badge {
@@ -157,18 +220,23 @@ button.primary:hover {
 }
 
 .badge.green {
-  background: #dcfce7;
-  color: #166534;
+  background: var(--finance-green-soft);
+  color: var(--finance-green);
 }
 
 .badge.blue {
   background: #dbeafe;
-  color: #1d4ed8;
+  color: var(--finance-blue);
 }
 
 .badge.purple {
   background: #ede9fe;
   color: #5b21b6;
+}
+
+.badge.gold {
+  background: var(--finance-gold-soft);
+  color: var(--finance-gold);
 }
 
 .topline {
@@ -180,7 +248,7 @@ button.primary:hover {
 }
 
 .note {
-  color: #64748b;
+  color: var(--text-muted);
   font-size: 12px;
   line-height: 1.45;
 }
@@ -216,7 +284,7 @@ button.primary:hover {
 
 .chart-bar {
   height: 100%;
-  background: linear-gradient(90deg, #2563eb, #60a5fa);
+  background: linear-gradient(90deg, #2563eb, #f59e0b);
 }
 
 .chart-value {
@@ -229,8 +297,8 @@ button.primary:hover {
 .difficulty-block {
   margin: 4px 0 8px;
   padding: 10px 12px;
-  background: #f8fafc;
-  border: 1px dashed #c7d2fe;
+  background: #f8fbff;
+  border: 1px dashed #bfdbfe;
   border-radius: 10px;
   font-size: 12px;
 }
@@ -244,7 +312,7 @@ button.primary:hover {
 
 hr {
   border: none;
-  border-top: 1px solid #e2e8f0;
+  border-top: 1px solid var(--line);
   margin: 12px 0;
 }
 
@@ -262,7 +330,7 @@ hr {
 }
 
 .link-btn {
-  color: #1d4ed8;
+  color: var(--finance-blue);
   text-decoration: none;
   font-weight: 600;
 }
@@ -283,5 +351,9 @@ hr {
 
   .filters {
     grid-template-columns: 1fr;
+  }
+
+  .nav-row {
+    flex-wrap: wrap;
   }
 }
