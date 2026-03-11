@@ -26,27 +26,7 @@ const initialFilters: Filters = {
   sort: "interest",
 };
 
-const STORAGE_KEY_FILTERS = "finatlas:list:filters:v2";
 const STORAGE_KEY_MONTHLY = "finatlas:list:monthly:v1";
-
-function normalizeFilterStorage(raw: Partial<Filters>): Filters {
-  return {
-    ...initialFilters,
-    ...raw,
-  };
-}
-
-function loadFilters(): Filters {
-  if (typeof window === "undefined") return initialFilters;
-  try {
-    const raw = window.localStorage.getItem(STORAGE_KEY_FILTERS);
-    if (!raw) return initialFilters;
-    const parsed = JSON.parse(raw) as Partial<Filters>;
-    return normalizeFilterStorage(parsed);
-  } catch {
-    return initialFilters;
-  }
-}
 
 function loadMonthly(): number {
   if (typeof window === "undefined") return 500000;
@@ -87,7 +67,7 @@ function formatBankLabel(productId: string, companyName?: string, companyCode?: 
 export function ListPage() {
   const [rows, setRows] = useState<RankedOption[]>([]);
   const [products, setProducts] = useState<Record<string, { company_name: string; product_name: string; company_code: string }>>({});
-  const [filters, setFilters] = useState<Filters>(loadFilters);
+  const [filters, setFilters] = useState<Filters>(initialFilters);
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [monthly, setMonthly] = useState<number>(loadMonthly);
   const [meta, setMeta] = useState<{ last_success_at?: string; normalized_product_count?: number; normalized_option_count?: number } | null>(null);
@@ -141,11 +121,6 @@ export function ListPage() {
         setBankCodeMap({});
       });
   }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    window.localStorage.setItem(STORAGE_KEY_FILTERS, JSON.stringify(filters));
-  }, [filters]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
