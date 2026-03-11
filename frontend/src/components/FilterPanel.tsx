@@ -35,7 +35,7 @@ export function FilterPanel({
   const reset = () =>
     setFilters((p) => ({
       ...p,
-      group: "",
+      group: "020000",
       bank: "",
       term: "",
       minBaseRate: "",

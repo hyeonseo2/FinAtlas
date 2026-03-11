@@ -14,7 +14,7 @@ type DisplayOption = RankedOption & {
 };
 
 const initialFilters: Filters = {
-  group: "",
+  group: "020000",
   bank: "",
   term: "",
   minBaseRate: "",
