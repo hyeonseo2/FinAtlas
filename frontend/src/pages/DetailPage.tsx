@@ -19,6 +19,14 @@ const CONDITION_LABEL: Record<string, string> = {
   unclear: "기타/불명확",
 };
 
+function difficultyLabel(level: number): string {
+  if (level <= 20) return "매우 쉬움";
+  if (level <= 40) return "쉬움";
+  if (level <= 60) return "보통";
+  if (level <= 80) return "어려움";
+  return "매우 어려움";
+}
+
 function buildDifficultyReason(conds: BonusCondition[], score: number): string {
   if (!conds || conds.length === 0) {
     return "우대조건이 거의 없어 달성 난이도가 낮습니다.";
@@ -116,6 +124,15 @@ export function DetailPage() {
   const maxInterest = useMemo(() => productOptionRows.reduce((m, r) => Math.max(m, r.interest), 0), [productOptionRows]);
   const difficultyReason = useMemo(() => buildDifficultyReason(productConditions, row?.difficulty_score || 100), [productConditions, row]);
 
+  const difficultyByCategory = useMemo(() => {
+    const grouped: Record<string, BonusCondition[]> = {};
+    for (const c of productConditions) {
+      grouped[c.condition_category] = grouped[c.condition_category] || [];
+      grouped[c.condition_category].push(c);
+    }
+    return grouped;
+  }, [productConditions]);
+
   if (!optionId) {
     return (
       <div className="card">
@@ -172,7 +189,7 @@ export function DetailPage() {
       </div>
 
       <div className="card">
-        <h4>우대조건 원문 + 분석</h4>
+        <h4>우대조건 원문 + 난이도</h4>
         <ul>
           {productConditions.length === 0 ? (
             <li>특이 우대조건 없음</li>
@@ -181,11 +198,34 @@ export function DetailPage() {
               <li key={c.condition_id}>
                 <strong>[{CONDITION_LABEL[c.condition_category] || c.condition_category}]</strong>{" "}
                 {c.condition_text} (우대 {fmtRate(c.bonus_rate)})
+                <br />
+                <span className="note">우대조건 난이도: {difficultyLabel(c.difficulty_level)} ({c.difficulty_level}점)</span>
                 {c.is_uncertain_parse ? " · 문구 해석 신뢰도 낮음" : ""}
               </li>
             ))
           )}
         </ul>
+      </div>
+
+      <div className="card">
+        <h4>우대조건별 카테고리 요약</h4>
+        {Object.keys(difficultyByCategory).length === 0 ? (
+          <p className="note">해당 상품에 등록된 우대조건 카테고리가 없습니다.</p>
+        ) : (
+          <ul>
+            {Object.entries(difficultyByCategory).map(([cat, items]) => {
+              const min = Math.min(...items.map((x) => x.difficulty_level));
+              const max = Math.max(...items.map((x) => x.difficulty_level));
+              const avg = Math.round(items.reduce((s, x) => s + x.difficulty_level, 0) / items.length);
+              const label = difficultyLabel(avg);
+              return (
+                <li key={cat}>
+                  <strong>{CONDITION_LABEL[cat] || cat}</strong>: {items.length}건 / 난이도 평균 {avg}점 ({label}), 점수 범위 {min}~{max}
+                </li>
+              );
+            })}
+          </ul>
+        )}
       </div>
 
       <div className="card">

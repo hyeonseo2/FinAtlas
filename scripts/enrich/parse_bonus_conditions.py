@@ -58,6 +58,8 @@ def parse_bonus_conditions(base_products: list[dict]) -> list[dict]:
         pid = p["product_id"]
         for idx, s in enumerate(split_conditions(text)):
             cat = classify(s)
+            difficulty_level = int((1 - BASE_PROB.get(cat, BASE_PROB["unclear"])) * 100)
+
             out.append(
                 {
                     "condition_id": f"{pid}_{idx:03d}",
@@ -65,7 +67,7 @@ def parse_bonus_conditions(base_products: list[dict]) -> list[dict]:
                     "condition_text": s,
                     "condition_category": cat,
                     "bonus_rate": parse_bonus(s),
-                    "difficulty_level": 0,
+                    "difficulty_level": difficulty_level,
                     "requires_existing_relationship": cat in {"first_customer", "salary_transfer", "pension_transfer"},
                     "requires_recurring_action": cat in {"auto_transfer", "card_spending"},
                     "is_uncertain_parse": cat == "unclear",
