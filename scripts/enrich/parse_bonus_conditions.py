@@ -28,17 +28,14 @@ CATEGORY_RULES = {
     ],
     "first_customer": [
         r"첫\s*거래",
-        r"신규",
         r"최초",
         r"신규일",
         r"신규\s*가입",
+        r"신규\s*거래",
         r"첫\s*만남",
         r"입출\s*실적",
-        r"입출식",
-        r"평잔",
-        r"실적",
-        r"이용\s*실적",
         r"계좌\s*거래",
+        r"고객\s*경험",
     ],
     "salary_transfer": [
         r"급여이체",
@@ -92,6 +89,8 @@ BASE_PROB = {
     "unclear": 0.20,
 }
 
+MARKETING_HINTS = ("마케팅", "수신동의", "이용동의", "광고성")
+
 MULTI_RATE_RE = re.compile(r"(\d+(?:\.\d+)?)\s*%\s*p?", re.IGNORECASE)
 
 
@@ -144,6 +143,11 @@ def split_conditions(text: str) -> list[str]:
 
 
 def classify(sentence: str) -> str:
+    # marketing 동의류가 강하게 들어가면 먼저 판단
+    for kw in MARKETING_HINTS:
+        if kw in sentence:
+            return "marketing_agree"
+
     scored: dict[str, int] = {}
     for category, pats in CATEGORY_RULES.items():
         score = sum(len(re.findall(p, sentence)) for p in pats)
