@@ -25,10 +25,18 @@ CATEGORY_RULES = {
         r"자동\s*납입",
         r"정기\s*이체",
         r"자동납부",
+        r"자동납입횟수",
+        r"이체\s*횟수",
+        r"회 이상\s*납입",
+        r"회\s*이상",
+        r"회차",
     ],
     "first_customer": [
         r"첫\s*거래",
         r"최초",
+        r"신규가입",
+        r"신규고객",
+        r"신규.*고객",
         r"신규일",
         r"신규\s*가입",
         r"신규\s*거래",
@@ -36,6 +44,11 @@ CATEGORY_RULES = {
         r"입출\s*실적",
         r"계좌\s*거래",
         r"고객\s*경험",
+        r"재신규",
+        r"재\s*신규",
+        r"미보유",
+        r"해지\s*이력",
+        r"재.*가입",
     ],
     "salary_transfer": [
         r"급여이체",
@@ -44,6 +57,8 @@ CATEGORY_RULES = {
         r"연봉",
         r"월급",
         r"급여\s*입금",
+        r"급여이체",
+        r"급여이체계좌",
     ],
     "pension_transfer": [
         r"연금\s*이체",
@@ -59,6 +74,10 @@ CATEGORY_RULES = {
         r"체크\s*카드",
         r"신용\(체크\)?\s*카드",
         r"결제\s*금액",
+        r"적립\s*횟수",
+        r"이용\s*실적",
+        r"이용\s*금액",
+        r"신용\s*카드",
     ],
     "bundle_product": [
         r"동시\s*가입",
@@ -66,6 +85,9 @@ CATEGORY_RULES = {
         r"번들",
         r"패키지",
         r"교차\s*판매",
+        r"동시\s*가입\s*시",
+        r"동시\s*상품",
+        r"패키지\s*혜택",
     ],
     "event_participation": [
         r"이벤트",
@@ -73,6 +95,9 @@ CATEGORY_RULES = {
         r"추첨",
         r"미션",
         r"출석\s*체크인",
+        r"미션\s*",
+        r"스탬프",
+        r"인증\s*완료",
     ],
 }
 
@@ -89,7 +114,7 @@ BASE_PROB = {
     "unclear": 0.20,
 }
 
-MARKETING_HINTS = ("마케팅", "수신동의", "이용동의", "광고성")
+MARKETING_HINTS = ("마케팅", "수신동의", "이용동의", "광고성", "마케팅동의", "이벤트")
 
 MULTI_RATE_RE = re.compile(r"(\d+(?:\.\d+)?)\s*%\s*p?", re.IGNORECASE)
 
