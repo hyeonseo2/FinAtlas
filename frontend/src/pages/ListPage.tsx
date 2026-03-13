@@ -83,13 +83,15 @@ export function ListPage() {
   const [bankNames, setBankNames] = useState<BankNameItem[]>([]);
   const [page, setPage] = useState<number>(1);
 
+  const baseDataPath = `${import.meta.env.BASE_URL}data`;
+
   useEffect(() => {
     Promise.all([
-      fetch("/data/options_500000.json"),
-      fetch("/data/metadata.json"),
-      fetch("/data/bonus_conditions.json"),
-      fetch("/data/products.json"),
-      fetch("/data/bank_name_map.json"),
+      fetch(`${baseDataPath}/options_500000.json`),
+      fetch(`${baseDataPath}/metadata.json`),
+      fetch(`${baseDataPath}/bonus_conditions.json`),
+      fetch(`${baseDataPath}/products.json`),
+      fetch(`${baseDataPath}/bank_name_map.json`),
     ])
       .then(async ([r, m, c, p, b]) => {
         const [rowsJson, metaJson, conditionsJson, productJson, bankNameMapJson] = await Promise.all([

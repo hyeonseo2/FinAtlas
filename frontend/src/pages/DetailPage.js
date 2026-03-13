@@ -57,12 +57,13 @@ export function DetailPage() {
     const [bankNameMap, setBankNameMap] = useState({});
     const [payment, setPayment] = useState(DEFAULT_PAYMENT);
     useEffect(() => {
+        const baseDataPath = `${import.meta.env.BASE_URL}data`;
         Promise.all([
-            fetch("/data/options_500000.json"),
-            fetch("/data/products.json"),
-            fetch("/data/bonus_conditions.json"),
-            fetch("/data/product_options.json"),
-            fetch("/data/bank_name_map.json"),
+            fetch(`${baseDataPath}/options_500000.json`),
+            fetch(`${baseDataPath}/products.json`),
+            fetch(`${baseDataPath}/bonus_conditions.json`),
+            fetch(`${baseDataPath}/product_options.json`),
+            fetch(`${baseDataPath}/bank_name_map.json`),
         ]).then(async ([a, b, c, d, e]) => {
             const [os, ps, cs, opts, bankMap] = await Promise.all([a.json(), b.json(), c.json(), d.json(), e.json()]);
             setOptions(os || []);
