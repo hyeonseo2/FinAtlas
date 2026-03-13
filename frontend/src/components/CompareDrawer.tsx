@@ -37,9 +37,8 @@ export function CompareDrawer({ rows, visible, onClose, paymentAmount }: { rows:
       </div>
 
       <div className="topline" style={{ margin: "8px 0", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
-        <span>동일 기준 실수익 비교(세전)</span>
         <div style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
-          <label htmlFor="drawer-payment">납입금</label>
+          <label htmlFor="drawer-payment" style={{ whiteSpace: "nowrap" }}>납입금</label>
           <input
             id="drawer-payment"
             type="number"
@@ -83,10 +82,12 @@ export function CompareDrawer({ rows, visible, onClose, paymentAmount }: { rows:
                 <td>
                   <button
                     type="button"
-                    className="primary"
+                    className="table-action-btn table-action-icon-btn"
+                    aria-label={`상세 보기: ${r.product_name || r.bank_name || "상품"}`}
+                    title="상세 보기"
                     onClick={() => (window.location.hash = `#/detail?option=${r.option_id}`)}
                   >
-                    우대조건 원문
+                    🔍
                   </button>
                 </td>
               </tr>

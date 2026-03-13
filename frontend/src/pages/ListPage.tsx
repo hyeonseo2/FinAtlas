@@ -246,7 +246,7 @@ export function ListPage() {
       <div className="topline no-wrap" style={{ margin: "12px 0", flexWrap: "wrap", gap: 10 }}>
         <h3 className="no-wrap">상품 목록 ({filtered.length})</h3>
         <div className="actions nowrap" style={{ gap: 8, alignItems: "center", flexWrap: "wrap" }}>
-          <label htmlFor="global-monthly" style={{ fontSize: 13 }}>
+          <label htmlFor="global-monthly" style={{ fontSize: 13, whiteSpace: "nowrap" }}>
             납입금
           </label>
           <input
@@ -275,7 +275,7 @@ export function ListPage() {
       />
 
       <div className="topline" style={{ justifyContent: "space-between", marginTop: 10, gap: 10 }}>
-        <small className="muted">표시 기준: 납입금 {payment.toLocaleString("ko-KR")}원</small>
+        <small className="muted" style={{ whiteSpace: "nowrap" }}>표시 기준: 납입금 {payment.toLocaleString("ko-KR")}원</small>
         <div className="actions">
           <button type="button" onClick={() => setPage(Math.max(1, safePage - 1))} disabled={safePage === 1}>
             이전
