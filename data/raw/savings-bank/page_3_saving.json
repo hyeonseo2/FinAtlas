@@ -20,9 +20,9 @@
         "join_member": "제한없음",
         "etc_note": "인터넷뱅킹, SB톡톡플러스 로그인 시",
         "max_limit": null,
-        "dcls_strt_day": "20260226",
+        "dcls_strt_day": "20260312",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202602261235"
+        "fin_co_subm_day": "202603120902"
       },
       {
         "dcls_month": "202602",
@@ -1276,8 +1276,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202602",
@@ -1288,8 +1288,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 4.5,
+        "intr_rate2": 4.5
       },
       {
         "dcls_month": "202602",

@@ -1686,9 +1686,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260226",
+        "dcls_strt_day": "20260312",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202602261235"
+        "fin_co_subm_day": "202603120902"
       },
       {
         "dcls_month": "202602",
@@ -1703,9 +1703,9 @@
         "join_member": "만19세 이상 내국인(법인불가)",
         "etc_note": "SB톡톡플러스 비로그인서비스로 신규가입 시",
         "max_limit": null,
-        "dcls_strt_day": "20260226",
+        "dcls_strt_day": "20260312",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202602261235"
+        "fin_co_subm_day": "202603120902"
       }
     ],
     "optionList": [
@@ -8774,8 +8774,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 4.5,
+        "intr_rate2": 4.5
       },
       {
         "dcls_month": "202602",
@@ -8798,8 +8798,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202602",
@@ -8810,8 +8810,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202602",
@@ -8822,8 +8822,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 4.5,
+        "intr_rate2": 4.5
       },
       {
         "dcls_month": "202602",
