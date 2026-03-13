@@ -12,6 +12,7 @@ CATEGORY_RULES = {
         r"sms\s*동의",
     ],
     "app_signup": [
+        r"전자명함",
         r"앱",
         r"모바일",
         r"비대면",
@@ -27,6 +28,10 @@ CATEGORY_RULES = {
     ],
     "auto_transfer": [
         r"자동\s*이체",
+        r"아파트관리비\s*이체",
+        r"KB스타\s*뱅킹\s*이체",
+        r"KB스타뱅크\s*이체",
+        r"KB\s*스타\s*뱅킹",
         r"자동이체",
         r"자동\s*납입",
         r"정기\s*이체",
@@ -45,6 +50,7 @@ CATEGORY_RULES = {
         r"연\s*최대",
     ],
     "first_customer": [
+        r"장기거래",
         r"첫\s*거래",
         r"최초",
         r"신규가입",
@@ -63,7 +69,6 @@ CATEGORY_RULES = {
         r"주거래계좌",
         r"자녀",
         r"영업점",
-        r"보유",
         r"가입.*예치",
         r"재신규",
         r"재\s*신규",
@@ -106,6 +111,8 @@ CATEGORY_RULES = {
     "bundle_product": [
         r"동시\s*가입",
         r"동시\s*보유",
+        r"청약\s*보유",
+        r"청약보유",
         r"번들",
         r"패키지",
         r"교차\s*판매",
@@ -128,6 +135,12 @@ CATEGORY_RULES = {
 
     "event_participation": [
         r"이벤트",
+        r"봉사활동",
+        r"상품홍보",
+        r"해양플라스틱\s*감축\s*서약",
+        r"감축\s*서약",
+        r"자원봉사",
+        r"봉사",
         r"참여",
         r"추첨",
         r"미션",
@@ -154,8 +167,33 @@ BASE_PROB = {
     "event_participation": 0.25,
     "unclear": 0.20,
 }
+# 분류 동률일 때 카테고리 우선순위 (좌측이 더 우선)
+CATEGORY_PRIORITY = ("marketing_agree", "app_signup", "auto_transfer", "bundle_product", "first_customer", "salary_transfer", "pension_transfer", "card_spending", "event_participation")
 
-MARKETING_HINTS = ("마케팅", "수신동의", "이용동의", "광고성", "마케팅동의", "이벤트")
+
+
+NOISE_KEYWORDS: list[str] = [
+    "제공조건",
+    "유의사항",
+    "주의사항",
+    "안내사항",
+    "중복적용",
+    "중복 적용",
+    "계약기간별차등적용",
+    "중복적용되지 않음",
+    "최고우대금리",
+    "최대우대금리",
+    "우대금리 적용조건",
+    "우대금리 적용",
+    "우대이율",
+    "조건①",
+    "조건②",
+    "조건③",
+    "조건(가)",
+    "조건(나)",
+]
+
+MARKETING_HINTS = ("마케팅", "수신동의", "이용동의", "광고성", "마케팅동의")
 
 MULTI_RATE_RE = re.compile(r"(\d+(?:\.\d+)?)\s*%\s*p?", re.IGNORECASE)
 
@@ -220,8 +258,8 @@ def infer_probability(sentence: str, category: str) -> float:
                 return 0.65
             except Exception:
                 pass
-        # 기본
-        return 0.70
+        # 기본: 구체 숫자(횟수/금액) 미기재이면 보수적으로 어려움 처리
+        return 0.25
 
     if category == "card_spending":
         # card spending requirement amount 기준으로 더 정교하게
@@ -254,9 +292,43 @@ def infer_probability(sentence: str, category: str) -> float:
         if re.search(r"(매우|고액|많이|대량|매월|월\s*|연\s*|매년)", sentence):
             return 0.75
 
-        return 0.78
+        # 기본: 금액/규모 정보 미기재이면 보수적으로 어려움 처리
+        return 0.25
 
     return BASE_PROB.get(category, BASE_PROB["unclear"])
+
+def is_noisy_condition(sentence: str) -> bool:
+    if not sentence:
+        return True
+
+    text = sentence.strip()
+    compact = re.sub(r"\s+", "", text)
+
+    # 빈칸/짧은 라벨은 제외
+    if len(compact) <= 2:
+        return True
+
+    # 순번/조문 토큰은 본문이 없으면 노이즈
+    if re.fullmatch(r"[가-하]|[0-9]+[-–—]?[0-9]*|[0-9]+\)\s*|[가-하]\)", compact):
+        return True
+
+    # 헤더/메타성 문구는 제외
+    for keyword in NOISE_KEYWORDS:
+        if keyword in text:
+            return True
+
+    if re.search(r"^\(?(?:단\s*)?\d*항", compact):
+        return True
+    if re.fullmatch(r".*\*.*", compact):
+        return True
+
+    # 수치/퍼센트가 전혀 없고 너무 추상적인 문장은 제외 (실행 조건으로 추정 불가)
+    if not re.search(r"\d|%|회|개월|만원|천원|원|세전|세후", text):
+        if not any(k in text for k in ["월", "입금", "이체", "가입", "거래", "카드", "유지", "목표", "이용"]):
+            return True
+
+    return False
+
 
 def split_conditions(text: str) -> list[str]:
     normalized = _normalize(text)
@@ -298,6 +370,16 @@ def classify(sentence: str) -> str:
         if kw in sentence:
             return "marketing_agree"
 
+    # 동시성/동시가입/번들 성격 문구는 번들조건으로 우선 분류
+    if (
+        re.search(r"동시\s*(가입|보유|이용|개설|신규|등록)?", sentence)
+        or "번들" in sentence
+        or "패키지" in sentence
+        or "동시상품" in sentence
+        or re.search(r"청약\s*보유|청약보유|보유\s*\+\s*청약|청약\s*\+\s*보유", sentence)
+    ):
+        return "bundle_product"
+
     scored: dict[str, int] = {}
     for category, pats in CATEGORY_RULES.items():
         score = sum(len(re.findall(p, sentence)) for p in pats)
@@ -308,12 +390,16 @@ def classify(sentence: str) -> str:
         return "unclear"
 
     max_score = max(scored.values())
-    winners = [k for k, v in scored.items() if v == max_score]
+    winners = {k for k, v in scored.items() if v == max_score}
 
-    for category in CATEGORY_RULES:
+    for category in CATEGORY_PRIORITY:
         if category in winners:
             return category
-    return winners[0]
+
+    for category in winners:
+        if category in CATEGORY_RULES:
+            return category
+    return winners.pop()
 
 
 def parse_bonus(v: str) -> float:
@@ -329,7 +415,13 @@ def parse_bonus_conditions(base_products: list[dict]) -> list[dict]:
         text = str(p.get("special_condition_text", ""))
         pid = p["product_id"]
         for idx, s in enumerate(split_conditions(text)):
+            if is_noisy_condition(s):
+                continue
+
+            bonus = parse_bonus(s)
             cat = classify(s)
+            if cat == "bonus_rate_notice":
+                continue
             prob = infer_probability(s, cat)
             out.append(
                 {
@@ -337,7 +429,7 @@ def parse_bonus_conditions(base_products: list[dict]) -> list[dict]:
                     "product_id": pid,
                     "condition_text": s,
                     "condition_category": cat,
-                    "bonus_rate": parse_bonus(s),
+                    "bonus_rate": bonus,
                     "difficulty_level": int((1 - prob) * 100),
                     "requires_existing_relationship": cat in {"first_customer", "salary_transfer", "pension_transfer"},
                     "requires_recurring_action": cat in {"auto_transfer", "card_spending"},

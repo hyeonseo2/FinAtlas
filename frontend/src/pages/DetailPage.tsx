@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import { BonusCondition, ProductMeta, ProductOption, RankedOption } from "../types/product";
 import { getHashParam } from "../lib/interest";
 import { fmtRate, fmtMoney } from "../lib/format";
-import { simpleMonthlyInterest, maturityAmount } from "../lib/calc";
+import { difficultyLabel, toDisplayDifficulty } from "../lib/difficulty";
+import { expectedInterestByProductType, maturityAmount } from "../lib/calc";
 
 const DEFAULT_PAYMENT = 500000;
 
@@ -14,28 +15,15 @@ const CONDITION_LABEL: Record<string, string> = {
   salary_transfer: "급여이체",
   pension_transfer: "연금이체/수령",
   card_spending: "카드 실적",
-  bundle_product: "번들/패키지",
+  bundle_product: "동시보유",
   event_participation: "이벤트",
+  bonus_rate_notice: "우대금리 안내",
   unclear: "해석 필요(난이도 높음)",
 };
 
-function difficultyLabel(level: number): string {
-  if (level <= 20) return "매우 쉬움";
-  if (level <= 40) return "쉬움";
-  if (level <= 60) return "보통";
-  if (level <= 80) return "어려움";
-  return "매우 어려움";
-}
-
-function toDisplayDifficultyScore(score: number): number {
-  const n = Number.isFinite(score) ? Math.round(Number(score)) : 0;
-  return Math.max(0, 100 - n);
-}
-
-
 function displayDifficultyScore(rawScore: number, category?: string): number {
   if (category === "marketing_agree" || category === "app_signup") return 0;
-  return toDisplayDifficultyScore(rawScore);
+  return toDisplayDifficulty(rawScore);
 }
 
 function buildDifficultyReason(conds: BonusCondition[], rawScore: number): string {
@@ -59,7 +47,7 @@ function buildDifficultyReason(conds: BonusCondition[], rawScore: number): strin
   if (ambiguousCount > 0) reason += ` · 해석불명 ${ambiguousCount}건`;
 
   const displayScore = displayDifficultyScore(rawScore);
-  reason += `, 난이도점수 ${displayScore}점`;
+  reason += ` · 난이도 ${difficultyLabel(displayScore)}`;
   return reason;
 }
 
@@ -74,7 +62,7 @@ export function DetailPage() {
   const [conditions, setConditions] = useState<BonusCondition[]>([]);
   const [allOptions, setAllOptions] = useState<ProductOption[]>([]);
   const [bankNameMap, setBankNameMap] = useState<Record<string, string>>({});
-  const [monthly, setMonthly] = useState<number>(DEFAULT_PAYMENT);
+  const [payment, setPayment] = useState<number>(DEFAULT_PAYMENT);
 
   useEffect(() => {
     Promise.all([
@@ -114,12 +102,16 @@ export function DetailPage() {
 
 
   const clearProductConditions = useMemo(() => {
-    return productConditions.filter((c) => !c.is_uncertain_parse && c.condition_category !== "unclear");
+    return productConditions.filter((c) =>
+      !c.is_uncertain_parse &&
+      c.condition_category !== "unclear" &&
+      c.condition_category !== "bonus_rate_notice"
+    );
   }, [productConditions]);
 
 
   const ambiguousProductConditions = useMemo(() => {
-    return productConditions.filter((c) => c.is_uncertain_parse || c.condition_category === "unclear");
+    return productConditions.filter((c) => c.is_uncertain_parse || c.condition_category === "unclear" || c.condition_category === "bonus_rate_notice");
   }, [productConditions]);
 
   const ambiguousRawText = useMemo(() => {
@@ -129,10 +121,6 @@ export function DetailPage() {
       .join("\n");
   }, [ambiguousProductConditions]);
 
-  const ambiguousProductConditionCount = useMemo(() => {
-    return productConditions.length - clearProductConditions.length;
-  }, [productConditions, clearProductConditions]);
-
   const productOptions = useMemo(() => {
     if (!row) return [];
     return allOptions
@@ -141,13 +129,16 @@ export function DetailPage() {
   }, [allOptions, row]);
 
   const productOptionRows = useMemo(() => {
+    if (!product) {
+      return [] as { term: number; baseRate: number | null; maxRate: number | null; interest: number; maturity: number }[];
+    }
     const map = new Map<number, { product: ProductOption; interest: number; maturity: number }>();
     productOptions.forEach((o) => {
       const baseRate = normalizeNumber(o.base_rate);
       const maxRate = normalizeNumber(o.max_rate);
       const realRate = normalizeNumber(row?.expected_rate ?? Math.max(baseRate, maxRate));
-      const interest = simpleMonthlyInterest(monthly, realRate, o.save_term_months);
-      const maturity = maturityAmount(monthly, o.save_term_months, interest);
+      const interest = expectedInterestByProductType(payment, realRate, o.save_term_months, product.product_type);
+      const maturity = maturityAmount(payment, o.save_term_months, interest, product.product_type);
       map.set(o.save_term_months, { product: o, interest, maturity });
     });
     return Array.from(map.entries())
@@ -159,21 +150,12 @@ export function DetailPage() {
         maturity: item.maturity,
       }))
       .sort((a, b) => a.term - b.term);
-  }, [monthly, productOptions, row]);
+  }, [payment, productOptions, row, product]);
 
   const maxInterest = useMemo(() => productOptionRows.reduce((m, r) => Math.max(m, r.interest), 0), [productOptionRows]);
   const normalizedDifficultyScore = row ? displayDifficultyScore(row.difficulty_score) : 100;
   const difficultyReason = useMemo(() => buildDifficultyReason(productConditions, row?.difficulty_score || 100), [productConditions, row]);
   const difficultyGrade = difficultyLabel(normalizedDifficultyScore);
-
-  const difficultyByCategory = useMemo(() => {
-    const grouped: Record<string, BonusCondition[]> = {};
-    for (const c of productConditions) {
-      grouped[c.condition_category] = grouped[c.condition_category] || [];
-      grouped[c.condition_category].push(c);
-    }
-    return grouped;
-  }, [productConditions]);
 
   if (!optionId) {
     return (
@@ -194,8 +176,17 @@ export function DetailPage() {
   }
 
   const expected = row.expected_rate;
-  const recomputedInterest = simpleMonthlyInterest(monthly, expected, row.save_term_months);
-  const maturity = maturityAmount(monthly, row.save_term_months, recomputedInterest);
+  const recomputedInterest = expectedInterestByProductType(payment, expected, row.save_term_months, product.product_type);
+  const maturity = maturityAmount(payment, row.save_term_months, recomputedInterest, product.product_type);
+
+  const parsedBaseRate = normalizeNumber(row.base_rate);
+  const parsedMaxRate = normalizeNumber(row.max_rate);
+  const hasRateGap = parsedMaxRate > parsedBaseRate + 1e-9;
+  const hasRawConditionText = !!(product.special_condition_text || "").trim();
+  const rawConditionSummary = (product.special_condition_text || "").trim();
+
+  const inferredUnknownCount = hasRateGap ? 1 : 0;
+  const effectiveUnknownCount = ambiguousProductConditions.length + (inferredUnknownCount > 0 && !ambiguousProductConditions.length ? 1 : 0);
 
   const bankLabel = product.company_name && product.company_name.trim()
     ? product.company_name
@@ -210,85 +201,94 @@ export function DetailPage() {
           {bankLabel} {product.product_name ? `· ${product.product_name}` : ""}
         </h3>
         <p>
-          권역: {product.fin_group_name} | 상품유형: {row.rate_type} | 기간: {row.save_term_months}개월
+          권역: {product.fin_group_name} | 상품유형: {(product.product_type === "deposit" ? "예금" : "적금")} | 기간: {row.save_term_months}개월
         </p>
         <p className="note">
           이 페이지는 공개 우대조건 기준 추정치입니다. 실제 적용 이율은 가입 시점/계약 조건에 따라 변동될 수 있습니다.
         </p>
 
-        <div className="topline">
-          <div>
-            <strong>기본금리:</strong> {fmtRate(row.base_rate)}
-            <br />
-            <strong>최고금리:</strong> {fmtRate(row.max_rate)}
-            <br />
-            <strong>현실금리(예상):</strong> {fmtRate(expected)}
+        <div className="detail-metrics">
+          <div className="metric-item">
+            <span>기본금리</span>
+            <strong>{fmtRate(row.base_rate)}</strong>
           </div>
-          <div>
-            <strong>난이도:</strong> {normalizedDifficultyScore}점 / {difficultyGrade}
-            <br />
-            <strong>우대조건 개수:</strong> {row.condition_count}개
-            <br />
-            <strong>예상우대금리:</strong> {fmtRate(row.expected_bonus_rate)}
-            <br />
-            <strong>조건 설명:</strong> {difficultyReason}
+          <div className="metric-item">
+            <span>최고금리</span>
+            <strong>{fmtRate(row.max_rate)}</strong>
           </div>
+          <div className="metric-item">
+            <span>현실금리</span>
+            <strong>{fmtRate(expected)}</strong>
+          </div>
+          <div className="metric-item">
+            <span>난이도</span>
+            <strong>{difficultyGrade}</strong>
+          </div>
+          <div className="metric-item">
+            <span>우대조건</span>
+            <strong>{row.condition_count}개</strong>
+                      </div>
+          <div className="metric-item">
+            <span>예상우대금리</span>
+            <strong>{fmtRate(row.expected_bonus_rate)}</strong>
+          </div>
+        </div>
+        <div className="section difficulty-reason">
+          <strong>난이도 이유</strong>
+          <div className="note">{difficultyReason}</div>
         </div>
       </div>
 
       <div className="card">
-        <h4>우대조건 원문 + 난이도</h4>
-        <ul>
-          {clearProductConditions.length === 0 ? (
-            <li>해석 가능한 우대조건이 없습니다.</li>
-          ) : (
-            clearProductConditions.map((c) => (
-              <li key={c.condition_id}>
-                <strong>[{CONDITION_LABEL[c.condition_category] || c.condition_category}]</strong>{" "}
-                {c.condition_text} (우대 {fmtRate(c.bonus_rate)})
-                <br />
-                <span className="note">우대조건 난이도: {difficultyLabel(toDisplayDifficultyScore(c.difficulty_level))} ({toDisplayDifficultyScore(c.difficulty_level)}점)</span>
-                {c.is_uncertain_parse ? " · 문구 해석 신뢰도 낮음" : ""}
-              </li>
-            ))
-          )}
-          {ambiguousProductConditionCount > 0 ? (
-            <li className="note">해석이 불명확한 조건이 {ambiguousProductConditionCount}건 있습니다.</li>
-          ) : null}
-        </ul>
-
-        {ambiguousProductConditions.length > 0 ? (
-          <div style={{ marginTop: 10 }}>
-            <details>
-              <summary>상세 원문 보기 ({ambiguousProductConditions.length}건)</summary>
-              <div className="note" style={{ marginTop: 8 }}>해석이 어려운 항목을 원문 그대로 확인하세요.</div>
-              <div className="table-wrap" style={{ marginTop: 8, maxHeight: 180, overflowY: "auto", border: "1px dashed #c7ddff", borderRadius: 8, padding: 8 }}>
-                <pre style={{ whiteSpace: "pre-wrap", margin: 0, fontSize: 12 }}>{ambiguousRawText || ""}</pre>
-              </div>
-            </details>
-          </div>
-        ) : null}
-      </div>
-
-      <div className="card">
-        <h4>우대조건별 카테고리 요약</h4>
-        {Object.keys(difficultyByCategory).length === 0 ? (
-          <p className="note">해당 상품에 등록된 우대조건 카테고리가 없습니다.</p>
+        <h4>우대조건 상세</h4>
+        {clearProductConditions.length === 0 ? (
+          <>
+            <p className="note">
+              해석 가능한 우대조건이 없습니다.
+              {effectiveUnknownCount > 0 ? (
+                <>
+                  <br />
+                  현재는 해석 불명확 항목 {effectiveUnknownCount}건이 있습니다.
+                </>
+              ) : null}
+              {effectiveUnknownCount === 0 && hasRawConditionText && rawConditionSummary ? (
+                <>
+                  <br />
+                  원문 우대조건: {rawConditionSummary}
+                </>
+              ) : null}
+              {effectiveUnknownCount === 0 && !hasRawConditionText && hasRateGap ? (
+                <>
+                  <br />
+                  원문 우대조건 텍스트가 비어있거나 파싱 대상에서 누락되었습니다.
+                </>
+              ) : null}
+            </p>
+          </>
         ) : (
-          <ul>
-            {Object.entries(difficultyByCategory).map(([cat, items]) => {
-              const min = Math.min(...items.map((x) => x.difficulty_level));
-              const max = Math.max(...items.map((x) => x.difficulty_level));
-              const avg = Math.round(items.reduce((s, x) => s + displayDifficultyScore(x.difficulty_level, x.condition_category), 0) / items.length);
-              const label = difficultyLabel(avg);
-              return (
-                <li key={cat}>
-                  <strong>{CONDITION_LABEL[cat] || cat}</strong>: {items.length}건 / 난이도 평균 {avg}점 ({label}), 점수 범위 {displayDifficultyScore(min, cat)}~{displayDifficultyScore(max, cat)}
-                </li>
-              );
-            })}
+          <ul className="detail-condition-list">
+            {clearProductConditions.map((c) => (
+              <li key={c.condition_id} className="detail-condition-item">
+                <div className="detail-condition-head">
+                  <span className="badge blue">{CONDITION_LABEL[c.condition_category] || c.condition_category}</span>
+                  <strong>{fmtRate(c.bonus_rate)} 우대</strong>
+                  <span className="note">{difficultyLabel(displayDifficultyScore(c.difficulty_level, c.condition_category))}</span>
+                </div>
+                <p>{c.condition_text}</p>
+              </li>
+            ))}
           </ul>
         )}
+
+        {effectiveUnknownCount > 0 ? (
+          <details className="detail-raw-block detail-scroll-row">
+            <summary>해석 불명확 항목 {effectiveUnknownCount}건 보기</summary>
+            <div className="table-wrap" style={{ marginTop: 10, maxHeight: 190, overflowY: "auto", border: "1px dashed #c7ddff", borderRadius: 8, padding: 10 }}>
+              <pre style={{ whiteSpace: "pre-wrap", margin: 0, fontSize: 12 }}>{ambiguousRawText || `해석 불명확 원문 데이터는 별도 추출되지 않았습니다.
+최고금리 적용 조건은 문구 패턴 차이로 파싱되지 않았을 수 있습니다.`}</pre>
+            </div>
+          </details>
+        ) : null}
       </div>
 
       <div className="card">
@@ -319,16 +319,16 @@ export function DetailPage() {
 
       <div className="card">
         <h4>기간별 납입 예상이자 (해당 납입금 기준)</h4>
-        <div className="note">월 납입금은 아래에서 조정 가능</div>
-        <div style={{ display: "flex", gap: 8, alignItems: "center", margin: "8px 0" }}>
-          <label htmlFor="detail-monthly">월 납입금</label>
+        <div className="note">입력 기준은 아래에서 조정 가능합니다.</div>
+        <div className="detail-monthly-line">
+          <label htmlFor="detail-payment">납입금</label>
           <input
-            id="detail-monthly"
-            value={monthly}
+            id="detail-payment"
+            value={payment}
             type="number"
             min={10000}
             step={10000}
-            onChange={(e) => setMonthly(Number(e.target.value || 0))}
+            onChange={(e) => setPayment(Number(e.target.value || 0))}
           />
         </div>
 

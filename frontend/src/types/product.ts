@@ -10,6 +10,7 @@ export type ConditionCategory =
   | "card_spending"
   | "bundle_product"
   | "event_participation"
+  | "bonus_rate_notice"
   | "unclear"
   | "unknown";
 
@@ -39,6 +40,7 @@ export interface ProductMeta {
   product_name: string;
   fin_group_code: string;
   fin_group_name: string;
+  product_type: "saving" | "deposit" | (string & {});
   saving_type: string;
   join_members: string;
   join_way: string[];
@@ -84,8 +86,7 @@ export interface Filters {
   minBaseRate: string;
   minMaxRate: string;
   minExpectedRate: string;
-  maxDifficulty: string;
-  savingType: string;
-  conditionCategory: string;
-  sort: string;
+  productNameQuery: string;
+  productType: "saving" | "deposit" | "";
+  conditionCategory: string[];
 }

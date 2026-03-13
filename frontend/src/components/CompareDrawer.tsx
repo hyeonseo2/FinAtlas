@@ -1,26 +1,28 @@
-import { useState } from "react";
 import { RankedOption } from "../types/product";
 import { fmtRate, fmtMoney } from "../lib/format";
-import { simpleMonthlyInterest, maturityAmount } from "../lib/calc";
+import { difficultyLabel, toDisplayDifficulty } from "../lib/difficulty";
+import { expectedInterestByProductType, maturityAmount } from "../lib/calc";
+
+const DRAWER_DEFAULT_PAYMENT = 500000;
 
 type DisplayOption = RankedOption & {
   bank_name: string;
   product_name: string;
+  product_type: string;
   bonus_condition_count: number;
 };
 
-export function CompareDrawer({ rows, visible, onClose }: { rows: DisplayOption[]; visible: boolean; onClose: () => void }) {
-  const [monthly, setMonthly] = useState(500000);
+export function CompareDrawer({ rows, visible, onClose, paymentAmount }: { rows: DisplayOption[]; visible: boolean; onClose: () => void; paymentAmount: number }) {
 
   if (!visible) return null;
 
   const withCalc = rows
     .map((r) => {
-      const interest = simpleMonthlyInterest(monthly, r.expected_rate, r.save_term_months);
+      const interest = expectedInterestByProductType(paymentAmount, r.expected_rate, r.save_term_months, r.product_type);
       return {
         ...r,
         interest,
-        maturity: maturityAmount(monthly, r.save_term_months, interest),
+        maturity: maturityAmount(paymentAmount, r.save_term_months, interest, r.product_type),
       };
     })
     .sort((a, b) => b.interest - a.interest);
@@ -34,20 +36,24 @@ export function CompareDrawer({ rows, visible, onClose }: { rows: DisplayOption[
         </div>
       </div>
 
-      <div className="topline" style={{ margin: "8px 0", alignItems: "center" }}>
-        <span>동일 납입금 기준 실수익 비교(세전)</span>
-        <input
-          type="number"
-          min={10000}
-          step={10000}
-          value={monthly}
-          onChange={(e) => setMonthly(Number(e.target.value || 0))}
-          style={{ maxWidth: 220 }}
-        />
+      <div className="topline" style={{ margin: "8px 0", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
+        <span>동일 기준 실수익 비교(세전)</span>
+        <div style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
+          <label htmlFor="drawer-payment">납입금</label>
+          <input
+            id="drawer-payment"
+            type="number"
+            min={10000}
+            step={10000}
+            value={paymentAmount}
+            readOnly
+            style={{ maxWidth: 220 }}
+          />
+        </div>
       </div>
 
       <div className="table-wrap">
-        <table>
+        <table className="compare-table">
           <thead>
             <tr>
               <th>금융사</th>
@@ -69,8 +75,7 @@ export function CompareDrawer({ rows, visible, onClose }: { rows: DisplayOption[
                 <td>{r.save_term_months}개월</td>
                 <td>{fmtRate(r.expected_rate)}</td>
                 <td>
-                  {r.difficulty_score}점<br />
-                  <span className="note">{r.difficulty_grade}</span>
+                  <span className="note">{difficultyLabel(toDisplayDifficulty(r.difficulty_score))}</span>
                 </td>
                 <td>{r.bonus_condition_count}개</td>
                 <td className="money-strong">{fmtMoney(r.interest)}</td>

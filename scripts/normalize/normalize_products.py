@@ -26,6 +26,15 @@ def _date_or_none(v):
     return None
 
 
+def infer_product_type(row: dict) -> str:
+    product_name = str(row.get("fin_prdt_nm", "")).lower()
+    saving_type = str(row.get("rsrv_type_nm", "")).lower()
+    txt = f"{saving_type} {product_name}".lower()
+    if "예금" in txt or "예치" in txt:
+        return "deposit"
+    return "saving"
+
+
 def normalize_products(rows: list[dict]) -> list[dict]:
     out = []
     now = datetime.utcnow().isoformat() + "Z"
@@ -45,7 +54,7 @@ def normalize_products(rows: list[dict]) -> list[dict]:
                 "company_name": row.get("fin_co_nm", ""),
                 "product_code": code,
                 "product_name": row.get("fin_prdt_nm", ""),
-                "product_type": "saving",
+                "product_type": infer_product_type(row),
                 "saving_type": row.get("rsrv_type_nm", ""),
                 "join_members": row.get("join_members", ""),
                 "join_way": [x.strip() for x in str(row.get("join_way", "")).replace("/", ",").split(",") if x.strip()],

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { HomePage } from "./pages/HomePage";
 import { ListPage } from "./pages/ListPage";
-import { ComparePage } from "./pages/ComparePage";
 import { DetailPage } from "./pages/DetailPage";
 
 function getRouteFromHash(): string {
@@ -32,9 +31,6 @@ export function App() {
     <div className="app">
       <section>
         <HomePage />
-      </section>
-      <section style={{ marginTop: 16 }}>
-        <ComparePage />
       </section>
       <section style={{ marginTop: 16 }}>
         <ListPage />

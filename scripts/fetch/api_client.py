@@ -8,18 +8,20 @@ class FinlifeError(RuntimeError):
 
 
 class FinlifeClient:
-    BASE_URL = "https://finlife.fss.or.kr/finlifeapi/savingProductsSearch.json"
+    BASE_URL_SAVING = "https://finlife.fss.or.kr/finlifeapi/savingProductsSearch.json"
+    BASE_URL_DEPOSIT = "https://finlife.fss.or.kr/finlifeapi/depositProductsSearch.json"
 
     def __init__(self, auth_key: str):
         self.auth_key = auth_key
 
-    def request_page(self, top_fin_grp_no: str, page_no: int) -> dict:
+    def request_page(self, top_fin_grp_no: str, page_no: int, product_type: str = "saving") -> dict:
+        base_url = self.BASE_URL_DEPOSIT if product_type == "deposit" else self.BASE_URL_SAVING
         params = {
             "auth": self.auth_key,
             "topFinGrpNo": top_fin_grp_no,
             "pageNo": str(page_no),
         }
-        r = requests.get(self.BASE_URL, params=params, timeout=20)
+        r = requests.get(base_url, params=params, timeout=20)
         if r.status_code >= 400:
             raise FinlifeError(f"HTTP {r.status_code}: {r.text[:200]}")
 

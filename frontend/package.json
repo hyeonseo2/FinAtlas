@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "build:pages": "tsc && vite build --base=\/",
-    "preview": "vite preview"
+    "build:pages": "tsc && vite build --base=/",
+    "preview": "vite preview",
+    "start": "node server.cjs"
   },
   "dependencies": {
     "react": "^18.3.1",
