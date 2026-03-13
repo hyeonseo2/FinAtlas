@@ -800,7 +800,43 @@ hr {
 
 .compare-table th,
 .compare-table td {
-  max-width: 0;
+  max-width: none;
+}
+
+.compare-table {
+  min-width: 760px;
+  table-layout: fixed;
+}
+
+.compare-table th:nth-child(1),
+.compare-table td:nth-child(1) {
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.compare-table th:nth-child(2),
+.compare-table td:nth-child(2) {
+  width: 320px;
+  min-width: 260px;
+}
+
+.compare-table th:nth-child(3),
+.compare-table td:nth-child(3),
+.compare-table th:nth-child(4),
+.compare-table td:nth-child(4),
+.compare-table th:nth-child(5),
+.compare-table td:nth-child(5),
+.compare-table th:nth-child(6),
+.compare-table td:nth-child(6),
+.compare-table th:nth-child(7),
+.compare-table td:nth-child(7),
+.compare-table th:nth-child(8),
+.compare-table td:nth-child(8),
+.compare-table th:nth-child(9),
+.compare-table td:nth-child(9) {
+  white-space: nowrap;
+  min-width: 90px;
 }
 
 .detail-raw-block pre {
@@ -940,11 +976,7 @@ hr {
 }
 
 
-.compare-table th:nth-child(2),
-.compare-table td:nth-child(2) {
-  width: 300px;
-  min-width: 220px;
-}
+/* compare-table product width override moved to upper section */
 
 .product-list-table .bank-cell,
 .compare-table .bank-cell {

@@ -262,6 +262,8 @@ export function ListPage() {
         </div>
       </div>
 
+      <CompareDrawer rows={compare} visible={compare.length > 0} onClose={() => setSelected(new Set())} paymentAmount={payment} />
+
       <ProductTable
         rows={pageRows}
         sortKey={sortKey}
@@ -271,8 +273,6 @@ export function ListPage() {
         onSelect={onSelect}
         selected={selected}
       />
-
-      <CompareDrawer rows={compare} visible={compare.length > 0} onClose={() => setSelected(new Set())} paymentAmount={payment} />
 
       <div className="topline" style={{ justifyContent: "space-between", marginTop: 10, gap: 10 }}>
         <small className="muted">표시 기준: 납입금 {payment.toLocaleString("ko-KR")}원</small>
