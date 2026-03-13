@@ -1,7 +1,8 @@
 # FinAtlas
 - [🔗FinAtlas - 금융 상품(예적금) 비교 분석 서비스](https://hyeonseo2.github.io/FinAtlas/)
-
 **금융 상품의 ‘복잡한 우대 조건’을 정리해, 내 상황에 맞는 저축/예금 상품을 빠르게 비교하는 금융상품 비교 분석 서비스**
+
+![finatlas_main.png](./docs/finatlas_main.png)
 
 ## 핵심 기능
 - **상품 비교 분석**: 기간, 기본금리, 최고금리, 현실금리, 난이도 기준으로 상품을 비교
