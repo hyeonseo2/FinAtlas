@@ -4927,6 +4927,19 @@
     "achievability_probability": 0.2
   },
   {
+    "condition_id": "0010471_24-0055_001",
+    "product_id": "0010471_24-0055",
+    "condition_text": "매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.",
+    "condition_category": "unclear",
+    "bonus_rate": 0.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
     "condition_id": "0010471_24-0059_001",
     "product_id": "0010471_24-0059",
     "condition_text": "매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.",
