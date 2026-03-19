@@ -1953,8 +1953,8 @@
         "dcls_month": "202602",
         "fin_co_no": "0010345",
         "fin_prdt_cd": "HK00103",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
@@ -1965,8 +1965,8 @@
         "dcls_month": "202602",
         "fin_co_no": "0010345",
         "fin_prdt_cd": "HK00103",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
@@ -2125,21 +2125,9 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010349",
-        "fin_prdt_cd": "310000",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
+        "save_trm": "36",
+        "intr_rate": 3.1,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202602",
@@ -2161,9 +2149,21 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010349",
+        "fin_prdt_cd": "310000",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 2.3,
+        "intr_rate2": 2.3
       },
       {
         "dcls_month": "202602",
@@ -2197,9 +2197,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -2209,21 +2209,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010349",
-        "fin_prdt_cd": "310007",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
+        "save_trm": "6",
+        "intr_rate": 2.3,
+        "intr_rate2": 2.3
       },
       {
         "dcls_month": "202602",
@@ -2241,13 +2229,13 @@
         "dcls_month": "202602",
         "fin_co_no": "0010349",
         "fin_prdt_cd": "310007",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
+        "save_trm": "12",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202602",
@@ -2305,6 +2293,18 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010349",
+        "fin_prdt_cd": "310007",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
         "intr_rate": 3.2,
         "intr_rate2": 3.2
@@ -2313,59 +2313,23 @@
         "dcls_month": "202602",
         "fin_co_no": "0010349",
         "fin_prdt_cd": "310806",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
+        "save_trm": "36",
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202602",
         "fin_co_no": "0010349",
         "fin_prdt_cd": "310806",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010349",
-        "fin_prdt_cd": "310806",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010349",
-        "fin_prdt_cd": "310806",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010349",
-        "fin_prdt_cd": "310806",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
         "intr_rate": 3.3,
         "intr_rate2": 3.3
       },
@@ -2389,6 +2353,30 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010349",
+        "fin_prdt_cd": "310806",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010349",
+        "fin_prdt_cd": "310806",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
         "intr_rate": 3.3,
         "intr_rate2": 3.3
@@ -2404,6 +2392,18 @@
         "save_trm": "12",
         "intr_rate": 3.7,
         "intr_rate2": 3.7
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010349",
+        "fin_prdt_cd": "310806",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
@@ -2457,18 +2457,6 @@
         "dcls_month": "202602",
         "fin_co_no": "0010350",
         "fin_prdt_cd": "310010",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010350",
-        "fin_prdt_cd": "310010",
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
@@ -2552,6 +2540,18 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010350",
+        "fin_prdt_cd": "310010",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010350",
         "fin_prdt_cd": "310011",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
@@ -2565,8 +2565,32 @@
         "dcls_month": "202602",
         "fin_co_no": "0010350",
         "fin_prdt_cd": "310011",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010350",
+        "fin_prdt_cd": "310011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010350",
+        "fin_prdt_cd": "310011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
@@ -2581,9 +2605,9 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
+        "save_trm": "6",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202602",
@@ -2605,30 +2629,6 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010350",
-        "fin_prdt_cd": "310011",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010350",
-        "fin_prdt_cd": "310011",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
         "intr_rate": 3.9,
         "intr_rate2": 3.9
@@ -2637,56 +2637,8 @@
         "dcls_month": "202602",
         "fin_co_no": "0010350",
         "fin_prdt_cd": "310011",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010350",
-        "fin_prdt_cd": "310013",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010350",
-        "fin_prdt_cd": "310013",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010350",
-        "fin_prdt_cd": "310013",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010350",
-        "fin_prdt_cd": "310013",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
@@ -2725,9 +2677,9 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "save_trm": "12",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202602",
@@ -2737,9 +2689,93 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010350",
+        "fin_prdt_cd": "310013",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010350",
+        "fin_prdt_cd": "310013",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010350",
+        "fin_prdt_cd": "310013",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
         "intr_rate": 3.8,
         "intr_rate2": 3.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010350",
+        "fin_prdt_cd": "310013",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010354",
+        "fin_prdt_cd": "MK310001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 2.8,
+        "intr_rate2": 2.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010354",
+        "fin_prdt_cd": "MK310001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.1,
+        "intr_rate2": 3.2
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010354",
+        "fin_prdt_cd": "MK310001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.1,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202602",
@@ -2756,7 +2792,7 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010354",
-        "fin_prdt_cd": "MK310001",
+        "fin_prdt_cd": "MK310004",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
@@ -2768,25 +2804,13 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010354",
-        "fin_prdt_cd": "MK310001",
+        "fin_prdt_cd": "MK310004",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.2
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010354",
-        "fin_prdt_cd": "MK310001",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.1,
+        "intr_rate": 3.2,
         "intr_rate2": 3.2
       },
       {
@@ -2812,30 +2836,6 @@
         "save_trm": "36",
         "intr_rate": 3,
         "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010354",
-        "fin_prdt_cd": "MK310004",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010354",
-        "fin_prdt_cd": "MK310004",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202602",
@@ -2893,9 +2893,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "save_trm": "6",
+        "intr_rate": 2.8,
+        "intr_rate2": 2.8
       },
       {
         "dcls_month": "202602",
@@ -2917,9 +2917,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "save_trm": "24",
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202602",
@@ -2929,9 +2929,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
+        "save_trm": "36",
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
@@ -3001,7 +3001,7 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
+        "save_trm": "36",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
@@ -3009,20 +3009,8 @@
         "dcls_month": "202602",
         "fin_co_no": "0010358",
         "fin_prdt_cd": "310002",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010358",
-        "fin_prdt_cd": "310002",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
@@ -3045,8 +3033,8 @@
         "dcls_month": "202602",
         "fin_co_no": "0010358",
         "fin_prdt_cd": "310002",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
@@ -3061,19 +3049,19 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "24",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
         "fin_co_no": "0010358",
-        "fin_prdt_cd": "310003",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
+        "fin_prdt_cd": "310002",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
@@ -3081,13 +3069,37 @@
         "dcls_month": "202602",
         "fin_co_no": "0010358",
         "fin_prdt_cd": "310003",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010358",
+        "fin_prdt_cd": "310003",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
         "intr_rate": 3.6,
         "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010358",
+        "fin_prdt_cd": "310003",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -3105,20 +3117,8 @@
         "dcls_month": "202602",
         "fin_co_no": "0010358",
         "fin_prdt_cd": "310003",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010358",
-        "fin_prdt_cd": "310003",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
@@ -3129,8 +3129,44 @@
         "dcls_month": "202602",
         "fin_co_no": "0010358",
         "fin_prdt_cd": "310003",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010358",
+        "fin_prdt_cd": "310004",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010358",
+        "fin_prdt_cd": "310004",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010358",
+        "fin_prdt_cd": "310004",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
@@ -3167,42 +3203,6 @@
         "fin_prdt_cd": "310004",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010358",
-        "fin_prdt_cd": "310004",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010358",
-        "fin_prdt_cd": "310004",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010358",
-        "fin_prdt_cd": "310004",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
@@ -3361,33 +3361,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010363",
-        "fin_prdt_cd": "310027",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
         "intr_rate": 2.1,
         "intr_rate2": 2.1
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010363",
-        "fin_prdt_cd": "310027",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202602",
@@ -3404,14 +3380,26 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010363",
-        "fin_prdt_cd": "310028",
+        "fin_prdt_cd": "310027",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010363",
+        "fin_prdt_cd": "310027",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202602",
@@ -3421,9 +3409,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "save_trm": "6",
+        "intr_rate": 2.1,
+        "intr_rate2": 2.1
       },
       {
         "dcls_month": "202602",
@@ -3445,9 +3433,21 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.1,
-        "intr_rate2": 2.1
+        "save_trm": "24",
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010363",
+        "fin_prdt_cd": "310028",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202602",
@@ -3457,9 +3457,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "save_trm": "6",
+        "intr_rate": 2.4,
+        "intr_rate2": 2.4
       },
       {
         "dcls_month": "202602",
@@ -3493,9 +3493,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.4,
-        "intr_rate2": 2.4
+        "save_trm": "36",
+        "intr_rate": 2.8,
+        "intr_rate2": 2.8
       },
       {
         "dcls_month": "202602",
@@ -3553,21 +3553,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010366",
-        "fin_prdt_cd": "024312001",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "save_trm": "6",
+        "intr_rate": 2.4,
+        "intr_rate2": 2.4
       },
       {
         "dcls_month": "202602",
@@ -3589,9 +3577,21 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.4,
-        "intr_rate2": 2.4
+        "save_trm": "24",
+        "intr_rate": 2.8,
+        "intr_rate2": 2.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010366",
+        "fin_prdt_cd": "024312001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 2.8,
+        "intr_rate2": 2.8
       },
       {
         "dcls_month": "202602",
@@ -3709,7 +3709,19 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "6",
+        "intr_rate": 2,
+        "intr_rate2": 2
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010378",
+        "fin_prdt_cd": "310001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
         "intr_rate": 2.5,
         "intr_rate2": 2.5
       },
@@ -3733,14 +3745,14 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
+        "save_trm": "36",
         "intr_rate": 2.5,
         "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
         "fin_co_no": "0010378",
-        "fin_prdt_cd": "310001",
+        "fin_prdt_cd": "310004",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
@@ -3757,7 +3769,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "12",
         "intr_rate": 2.5,
         "intr_rate2": 2.5
       },
@@ -3781,21 +3793,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
+        "save_trm": "36",
         "intr_rate": 2.5,
         "intr_rate2": 2.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010378",
-        "fin_prdt_cd": "310004",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2,
-        "intr_rate2": 2
       },
       {
         "dcls_month": "202602",
@@ -3949,21 +3949,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 4,
-        "intr_rate2": 4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010388",
-        "fin_prdt_cd": "310018",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "save_trm": "6",
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202602",
@@ -3985,9 +3973,21 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "save_trm": "24",
+        "intr_rate": 4,
+        "intr_rate2": 4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010388",
+        "fin_prdt_cd": "310018",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202602",
@@ -4057,7 +4057,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "24",
         "intr_rate": 2.4,
         "intr_rate2": 2.4
       },
@@ -4069,7 +4069,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
+        "save_trm": "36",
         "intr_rate": 2.4,
         "intr_rate2": 2.4
       },
@@ -4093,7 +4093,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "24",
         "intr_rate": 2.4,
         "intr_rate2": 2.4
       },
@@ -4105,7 +4105,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
+        "save_trm": "36",
         "intr_rate": 2.4,
         "intr_rate2": 2.4
       },
@@ -4177,21 +4177,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 1.5,
-        "intr_rate2": 2.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010390",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3,
-        "intr_rate2": 4
+        "save_trm": "36",
+        "intr_rate": 2.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202602",
@@ -4213,9 +4201,21 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 2.2,
-        "intr_rate2": 3.2
+        "save_trm": "12",
+        "intr_rate": 3,
+        "intr_rate2": 4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010390",
+        "fin_prdt_cd": "310009",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 1.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
@@ -4261,9 +4261,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 2.5,
-        "intr_rate2": 5.5
+        "save_trm": "24",
+        "intr_rate": 2.8,
+        "intr_rate2": 5.8
       },
       {
         "dcls_month": "202602",
@@ -4273,9 +4273,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 2.8,
-        "intr_rate2": 5.8
+        "save_trm": "36",
+        "intr_rate": 2.5,
+        "intr_rate2": 5.5
       },
       {
         "dcls_month": "202602",
@@ -4321,18 +4321,6 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 2.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010390",
-        "fin_prdt_cd": "310025",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
         "intr_rate": 1.5,
         "intr_rate2": 2.5
@@ -4357,6 +4345,18 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 2.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010390",
+        "fin_prdt_cd": "310025",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
         "intr_rate": 2.2,
         "intr_rate2": 3.2
@@ -4369,7 +4369,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
+        "save_trm": "24",
         "intr_rate": 2.2,
         "intr_rate2": 2.2
       },
@@ -4393,7 +4393,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
+        "save_trm": "6",
         "intr_rate": 2.2,
         "intr_rate2": 2.2
       },
@@ -4441,78 +4441,6 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH003",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH003",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH003",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH003",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH003",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH003",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
         "intr_rate": 3.6,
         "intr_rate2": 3.6
@@ -4532,9 +4460,69 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH004",
+        "fin_prdt_cd": "DH003",
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH003",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH003",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH003",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH003",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH003",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
@@ -4552,6 +4540,78 @@
         "save_trm": "6",
         "intr_rate": 3,
         "intr_rate2": 3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH004",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH004",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH004",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH004",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH004",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010404",
+        "fin_prdt_cd": "DH004",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202602",
@@ -4567,63 +4627,39 @@
       },
       {
         "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH004",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310001",
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH004",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH004",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH004",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010404",
-        "fin_prdt_cd": "DH004",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310001",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310001",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -4657,6 +4693,18 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
@@ -4672,54 +4720,6 @@
         "save_trm": "6",
         "intr_rate": 3,
         "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310001",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310001",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310001",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310001",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -4754,6 +4754,18 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310005",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
@@ -4808,72 +4820,12 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010416",
-        "fin_prdt_cd": "310005",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310006",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310006",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310006",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310006",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010416",
-        "fin_prdt_cd": "310006",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
@@ -4897,9 +4849,21 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
@@ -4912,18 +4876,54 @@
         "save_trm": "36",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010416",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
         "fin_co_no": "0010416",
         "fin_prdt_cd": "310009",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
@@ -4981,7 +4981,7 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
-        "save_trm": "36",
+        "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
@@ -5001,13 +5001,13 @@
         "dcls_month": "202602",
         "fin_co_no": "0010416",
         "fin_prdt_cd": "310009",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "save_trm": "36",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -5125,9 +5125,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
+        "save_trm": "12",
+        "intr_rate": 2.3,
+        "intr_rate2": 2.3
       },
       {
         "dcls_month": "202602",
@@ -5149,9 +5149,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
+        "save_trm": "36",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
@@ -5164,6 +5164,18 @@
         "save_trm": "6",
         "intr_rate": 2.3,
         "intr_rate2": 2.3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010418",
+        "fin_prdt_cd": "310004",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 2.4,
+        "intr_rate2": 2.4
       },
       {
         "dcls_month": "202602",
@@ -5191,63 +5203,15 @@
       },
       {
         "dcls_month": "202602",
-        "fin_co_no": "0010418",
-        "fin_prdt_cd": "310004",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 2.4,
-        "intr_rate2": 2.4
-      },
-      {
-        "dcls_month": "202602",
         "fin_co_no": "0010419",
         "fin_prdt_cd": "310009",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010419",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "3",
-        "intr_rate": 1.8,
-        "intr_rate2": 1.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010419",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010419",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "1",
-        "intr_rate": 1.8,
-        "intr_rate2": 1.8
+        "save_trm": "36",
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202602",
@@ -5269,9 +5233,45 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010419",
+        "fin_prdt_cd": "310009",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010419",
+        "fin_prdt_cd": "310009",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "3",
+        "intr_rate": 1.8,
+        "intr_rate2": 1.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010419",
+        "fin_prdt_cd": "310009",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "1",
+        "intr_rate": 1.8,
+        "intr_rate2": 1.8
       },
       {
         "dcls_month": "202602",
@@ -5305,9 +5305,21 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010419",
+        "fin_prdt_cd": "310010",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -5329,21 +5341,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010419",
-        "fin_prdt_cd": "310010",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "save_trm": "36",
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202602",
@@ -5351,9 +5351,9 @@
         "fin_prdt_cd": "KH3100",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
+        "save_trm": "36",
         "intr_rate": 2.5,
         "intr_rate2": 2.5
       },
@@ -5363,71 +5363,11 @@
         "fin_prdt_cd": "KH3100",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3100",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3100",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3100",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "1",
-        "intr_rate": 1.7,
-        "intr_rate2": 1.7
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3100",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "3",
-        "intr_rate": 2.2,
-        "intr_rate2": 2.2
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3100",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
@@ -5449,9 +5389,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
-        "save_trm": "24",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
@@ -5461,14 +5401,62 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
-        "save_trm": "36",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
+        "save_trm": "3",
+        "intr_rate": 2.2,
+        "intr_rate2": 2.2
       },
       {
         "dcls_month": "202602",
         "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3101",
+        "fin_prdt_cd": "KH3100",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
+        "save_trm": "1",
+        "intr_rate": 1.7,
+        "intr_rate2": 1.7
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3100",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3100",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3100",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3100",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
@@ -5483,83 +5471,35 @@
         "fin_prdt_cd": "KH3101",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
+        "save_trm": "36",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3101",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
+        "save_trm": "24",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3101",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3101",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3101",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3101",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "1",
-        "intr_rate": 1.7,
-        "intr_rate2": 1.7
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3101",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "36",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3101",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "24",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3101",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "3",
-        "intr_rate": 2.2,
-        "intr_rate2": 2.2
+        "intr_rate": 3.26,
+        "intr_rate2": 3.26
       },
       {
         "dcls_month": "202602",
@@ -5581,9 +5521,69 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
+        "save_trm": "3",
+        "intr_rate": 2.2,
+        "intr_rate2": 2.2
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3101",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
+        "save_trm": "1",
+        "intr_rate": 1.7,
+        "intr_rate2": 1.7
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3101",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3101",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3101",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.26,
-        "intr_rate2": 3.26
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3101",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
@@ -5593,7 +5593,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
@@ -5617,9 +5617,33 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
+        "save_trm": "36",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3103",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
+        "save_trm": "36",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3103",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
+        "save_trm": "24",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
@@ -5641,81 +5665,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
-        "save_trm": "36",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3103",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "24",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3103",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3103",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3103",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3103",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010421",
-        "fin_prdt_cd": "KH3103",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
-        "save_trm": "1",
-        "intr_rate": 1.7,
-        "intr_rate2": 1.7
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
@@ -5737,9 +5689,57 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
+        "save_trm": "1",
+        "intr_rate": 1.7,
+        "intr_rate2": 1.7
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3103",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3103",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3103",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010421",
+        "fin_prdt_cd": "KH3103",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
@@ -5749,7 +5749,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
+        "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
@@ -5761,7 +5761,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
+        "save_trm": "24",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
@@ -5809,6 +5809,18 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010426",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
@@ -5816,7 +5828,31 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010426",
-        "fin_prdt_cd": "310006",
+        "fin_prdt_cd": "310007",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010426",
+        "fin_prdt_cd": "310007",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010426",
+        "fin_prdt_cd": "310007",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
@@ -5836,42 +5872,6 @@
         "save_trm": "6",
         "intr_rate": 3,
         "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010426",
-        "fin_prdt_cd": "310007",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010426",
-        "fin_prdt_cd": "310007",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010426",
-        "fin_prdt_cd": "310007",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -5893,9 +5893,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -5917,9 +5917,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "save_trm": "36",
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
@@ -5929,9 +5929,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "save_trm": "12",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202602",
@@ -5953,9 +5953,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
+        "save_trm": "36",
+        "intr_rate": 3.1,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202602",
@@ -5965,9 +5965,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "save_trm": "12",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202602",
@@ -5989,9 +5989,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
+        "save_trm": "36",
+        "intr_rate": 3.1,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202602",
@@ -6001,9 +6001,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "save_trm": "12",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202602",
@@ -6025,9 +6025,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "save_trm": "36",
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
@@ -6097,9 +6097,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
+        "save_trm": "12",
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202602",
@@ -6121,9 +6121,33 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010437",
+        "fin_prdt_cd": "310005",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010437",
+        "fin_prdt_cd": "310005",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202602",
@@ -6152,26 +6176,26 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010437",
-        "fin_prdt_cd": "310005",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010437",
-        "fin_prdt_cd": "310005",
+        "fin_prdt_cd": "310006",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010437",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202602",
@@ -6188,26 +6212,26 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010437",
-        "fin_prdt_cd": "310006",
+        "fin_prdt_cd": "310007",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202602",
         "fin_co_no": "0010437",
-        "fin_prdt_cd": "310006",
+        "fin_prdt_cd": "310007",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202602",
@@ -6223,99 +6247,15 @@
       },
       {
         "dcls_month": "202602",
-        "fin_co_no": "0010437",
-        "fin_prdt_cd": "310007",
+        "fin_co_no": "0010438",
+        "fin_prdt_cd": "310009",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010437",
-        "fin_prdt_cd": "310007",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 4,
-        "intr_rate2": 4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010438",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010438",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010438",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010438",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
         "intr_rate": 2,
         "intr_rate2": 2
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010438",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010438",
-        "fin_prdt_cd": "310009",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202602",
@@ -6337,16 +6277,28 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2,
-        "intr_rate2": 2
+        "save_trm": "24",
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202602",
         "fin_co_no": "0010438",
-        "fin_prdt_cd": "310010",
+        "fin_prdt_cd": "310009",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010438",
+        "fin_prdt_cd": "310009",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
@@ -6356,12 +6308,36 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010438",
-        "fin_prdt_cd": "310010",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "fin_prdt_cd": "310009",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010438",
+        "fin_prdt_cd": "310009",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010438",
+        "fin_prdt_cd": "310009",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
         "intr_rate": 3.8,
         "intr_rate2": 3.8
       },
@@ -6369,8 +6345,8 @@
         "dcls_month": "202602",
         "fin_co_no": "0010438",
         "fin_prdt_cd": "310010",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
@@ -6385,9 +6361,9 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2,
-        "intr_rate2": 2
+        "save_trm": "24",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202602",
@@ -6409,16 +6385,16 @@
         "intr_rate_type_nm": "복리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "save_trm": "6",
+        "intr_rate": 2,
+        "intr_rate2": 2
       },
       {
         "dcls_month": "202602",
         "fin_co_no": "0010438",
         "fin_prdt_cd": "310010",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
@@ -6433,9 +6409,33 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010438",
+        "fin_prdt_cd": "310010",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
         "intr_rate": 3.7,
         "intr_rate2": 3.7
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010438",
+        "fin_prdt_cd": "310010",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 2,
+        "intr_rate2": 2
       },
       {
         "dcls_month": "202602",
@@ -6673,7 +6673,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
+        "save_trm": "12",
         "intr_rate": 4,
         "intr_rate2": 4
       },
@@ -6697,7 +6697,7 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
+        "save_trm": "36",
         "intr_rate": 4,
         "intr_rate2": 4
       },
@@ -6709,21 +6709,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010449",
-        "fin_prdt_cd": "NY310006",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "save_trm": "36",
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202602",
@@ -6745,9 +6733,21 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "save_trm": "12",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010449",
+        "fin_prdt_cd": "NY310006",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202602",
@@ -6781,9 +6781,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "save_trm": "24",
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202602",
@@ -6793,21 +6793,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010449",
-        "fin_prdt_cd": "NY310009",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "save_trm": "36",
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202602",
@@ -6829,6 +6817,18 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010449",
+        "fin_prdt_cd": "NY310009",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
         "intr_rate": 3.9,
         "intr_rate2": 3.9
@@ -6844,6 +6844,42 @@
         "save_trm": "36",
         "intr_rate": 4,
         "intr_rate2": 4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202602",
@@ -6860,78 +6896,6 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010453",
-        "fin_prdt_cd": "310001",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010453",
-        "fin_prdt_cd": "310001",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010453",
-        "fin_prdt_cd": "310001",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010453",
-        "fin_prdt_cd": "310005",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010453",
-        "fin_prdt_cd": "310005",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010453",
-        "fin_prdt_cd": "310005",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010453",
         "fin_prdt_cd": "310005",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
@@ -6944,38 +6908,38 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010453",
-        "fin_prdt_cd": "310006",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "36",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010453",
-        "fin_prdt_cd": "310006",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.6
-      },
-      {
-        "dcls_month": "202602",
-        "fin_co_no": "0010453",
-        "fin_prdt_cd": "310006",
+        "fin_prdt_cd": "310005",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310005",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310005",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202602",
@@ -6992,14 +6956,38 @@
       {
         "dcls_month": "202602",
         "fin_co_no": "0010453",
-        "fin_prdt_cd": "310011",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 4,
+        "intr_rate2": 4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310006",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310006",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202602",
@@ -7009,9 +6997,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "save_trm": "6",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202602",
@@ -7033,9 +7021,21 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
-        "save_trm": "6",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
+        "save_trm": "24",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
+      },
+      {
+        "dcls_month": "202602",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       }
     ]
   }
