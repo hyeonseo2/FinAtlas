@@ -1193,9 +1193,9 @@
         "join_member": "제한없음",
         "etc_note": "중도해지 이율 - ① 1개월 미만 : 보통예금이율 (0.2%)\n② 1개월이상~6개월미만 : 약정이율X50%\n③ 6개월이상~12개월미만 : 약정이율X55%\n④ 12개월이상~24개월미만 : 약정이율X60%\n⑤ 24개월이상~60개월미만 : 약정이율X70%",
         "max_limit": null,
-        "dcls_strt_day": "20260311",
+        "dcls_strt_day": "20260326",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603110754"
+        "fin_co_subm_day": "202603260826"
       },
       {
         "dcls_month": "202603",
@@ -1210,9 +1210,9 @@
         "join_member": "인터넷 및 모바일뱅킹 사용자",
         "etc_note": "중도해지 이율 - ① 1개월 미만 : 보통예금이율 (0.2%)\n② 1개월이상~6개월미만 : 약정이율X50%\n③ 6개월이상~12개월미만 : 약정이율X55%\n④ 12개월이상~24개월미만 : 약정이율X60%\n⑤ 24개월이상~60개월미만 : 약정이율X70%",
         "max_limit": null,
-        "dcls_strt_day": "20260311",
+        "dcls_strt_day": "20260326",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603110754"
+        "fin_co_subm_day": "202603260826"
       },
       {
         "dcls_month": "202603",
@@ -1244,9 +1244,9 @@
         "join_member": "비대면 어플사용자",
         "etc_note": "중도해지 이율 - ① 1개월 미만 : 보통예금이율 (0.2%)\n② 1개월이상~6개월미만 : 약정이율X50%\n③ 6개월이상~12개월미만 : 약정이율X55%\n④ 12개월이상~24개월미만 : 약정이율X60%\n⑤ 24개월이상~60개월미만 : 약정이율X70%",
         "max_limit": null,
-        "dcls_strt_day": "20260311",
+        "dcls_strt_day": "20260326",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603110754"
+        "fin_co_subm_day": "202603260826"
       },
       {
         "dcls_month": "202603",
@@ -5450,8 +5450,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.26,
-        "intr_rate2": 3.26
+        "intr_rate": 3.35,
+        "intr_rate2": 3.35
       },
       {
         "dcls_month": "202603",
@@ -5570,8 +5570,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.26,
-        "intr_rate2": 3.26
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202603",
@@ -5726,8 +5726,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.26,
-        "intr_rate2": 3.26
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202603",
