@@ -819,9 +819,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260220",
+        "dcls_strt_day": "20260327",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202602201200"
+        "fin_co_subm_day": "202603270829"
       },
       {
         "dcls_month": "202603",
@@ -836,9 +836,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260220",
+        "dcls_strt_day": "20260327",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202602201200"
+        "fin_co_subm_day": "202603270829"
       },
       {
         "dcls_month": "202603",
@@ -853,9 +853,9 @@
         "join_member": "? 아래의 조건 중 하나 이상을 충족하는 19세 이상 실명의 개인(1인 1계좌) - 18세 이하 자녀가 2명 이상인 부모 - 본인 혹은 배우자가 출산 예정인 자 - 신규 가입일 기준 2년 이내 출생 자녀를 둔 부모",
         "etc_note": "1. 1인당 가입한도 : 월 1만원 ~ 30만원\n2. 창구 가입 전용상품\n3. 가입기간 12개월 한정\n4. 판매한도 : 300좌(한도 소진 시 판매 중지)",
         "max_limit": 300000,
-        "dcls_strt_day": "20260220",
+        "dcls_strt_day": "20260327",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202602201200"
+        "fin_co_subm_day": "202603270829"
       },
       {
         "dcls_month": "202603",
@@ -4118,8 +4118,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202603",
@@ -4130,8 +4130,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 2.4,
-        "intr_rate2": 2.4
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202603",
@@ -4142,8 +4142,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 2.4,
-        "intr_rate2": 2.4
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202603",
@@ -4154,8 +4154,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 2.4,
-        "intr_rate2": 2.4
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202603",
@@ -4166,8 +4166,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 2.4,
-        "intr_rate2": 2.4
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202603",
@@ -4178,8 +4178,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202603",
@@ -4190,8 +4190,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.8,
-        "intr_rate2": 5.8
+        "intr_rate": 3.3,
+        "intr_rate2": 6.3
       },
       {
         "dcls_month": "202603",
