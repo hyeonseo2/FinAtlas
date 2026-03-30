@@ -352,17 +352,17 @@
         "fin_co_no": "0010024",
         "fin_prdt_cd": "21001236",
         "kor_co_nm": "경남은행",
-        "fin_prdt_nm": "주거래 프리미엄 적금",
+        "fin_prdt_nm": "오면우대! 하면우대!\n정기적금",
         "join_way": "영업점,인터넷,스마트폰",
         "mtrt_int": "만기후 1개월 이내: 일반정기예금 기본이율의 50%\n만기후 1개월 초과: 일반정기예금 기본이율의 20%",
-        "spcl_cnd": "①주거래우대 0.50%\n②공과금 자동이체 0.40~0.60%\n③신규고객 0.20%\n④주택청약종합저축 보유 0.10%\n⑤ 전자명함을 통한 신규 시 0.2%",
+        "spcl_cnd": "오면우대(신규)\n①신규고객이 이 적금가입시 3.00%\n②상품가입 전 마케팅동의시 0.10%\n③이 적금 신규월 포함 3개월 동안 10만원 이상 경남은행 카드 대금결제시 2.00%\n하면우대(기존)\n①급여 또는 연금입금시 1.50%\n②공과금 자동이체시 2.00%\n③경남은행 카드이용시1.50%\n④상품가입 전 마케팅동의시 0.10%",
         "join_deny": "1",
-        "join_member": "실명의 개인 및 개인사업자",
-        "etc_note": "1.계악기간은 1년제, 2년제, 3년제로 한다.\n2. 적립금액은 매월 1만원이상, 최고금액은 제한없음",
-        "max_limit": 999999999,
-        "dcls_strt_day": "20260320",
+        "join_member": "실명의 개인",
+        "etc_note": "1.계악기간은 1년제로 한다.\n2. 적립금액은 매월 10만원이상, 50만원 이하(1만원 이상)",
+        "max_limit": 500000,
+        "dcls_strt_day": "20260330",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202603201527"
+        "fin_co_subm_day": "202603301120"
       },
       {
         "dcls_month": "202603",
@@ -462,9 +462,9 @@
         "join_member": "개인사업자, 조합(비영리법인 포함), 법인",
         "etc_note": "해당없음",
         "max_limit": null,
-        "dcls_strt_day": "20260323",
+        "dcls_strt_day": "20260330",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603230935"
+        "fin_co_subm_day": "202603300935"
       },
       {
         "dcls_month": "202603",
@@ -479,9 +479,9 @@
         "join_member": "개인, 개인사업자, 임의단체",
         "etc_note": "해당없음",
         "max_limit": 5000000,
-        "dcls_strt_day": "20260323",
+        "dcls_strt_day": "20260330",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603230938"
+        "fin_co_subm_day": "202603300938"
       },
       {
         "dcls_month": "202603",
@@ -581,9 +581,9 @@
         "join_member": "개인",
         "etc_note": "가입기간 1개월 이상 6개월 이하(일 단위)\n\n초입금 및 매일 1천원이상  5만원이내(천원 단위)",
         "max_limit": 1550000,
-        "dcls_strt_day": "20260327",
+        "dcls_strt_day": "20260330",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603270919"
+        "fin_co_subm_day": "202603300943"
       },
       {
         "dcls_month": "202603",
@@ -598,9 +598,9 @@
         "join_member": "만19세~만34세 개인 및 개인사업자",
         "etc_note": "초입금 및 매회 1만원 이상, 월 50만원 이내 자유적립\n\n급여이체 실적과 개인사업자 계좌 실적 우대금리는 중복 적용 불가\n\n * 급여입금실적 인정기준\n  - 가입기간 12개월 이하 : 3개월 이상 급여이체\n  - 가입기간 24개월 이하 : 12개월 이상 급여이체",
         "max_limit": 500000,
-        "dcls_strt_day": "20260327",
+        "dcls_strt_day": "20260330",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603270919"
+        "fin_co_subm_day": "202603300943"
       },
       {
         "dcls_month": "202603",
@@ -615,9 +615,9 @@
         "join_member": "개인",
         "etc_note": "초입금5만원 이상 및 매회 1만원 이상, 매월50만원이내\n(단, 만기일 전 3개월 이내에는 이전 적립금 합계액을 초과하여 입금불가)\n\n※자세한 사항은 상품설명서 참조",
         "max_limit": 500000,
-        "dcls_strt_day": "20260327",
+        "dcls_strt_day": "20260330",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603270919"
+        "fin_co_subm_day": "202603300943"
       },
       {
         "dcls_month": "202603",
@@ -632,9 +632,9 @@
         "join_member": "개인",
         "etc_note": "1.초입금1만원 이상 및 매회 1천원 이상, 매월50만원이내\n\n2. 고향사랑기부금 우대금리는 농협은행/농축협 영업점 또는 고향사랑e음 홈페이지를 통한 고향사랑기부금 납부실적이 확인되는 경우 제공\n\n3. 연간 판매액의 0.1% 공익기금 적립\n\n※자세한 사항은 상품설명서 참조",
         "max_limit": 500000,
-        "dcls_strt_day": "20260327",
+        "dcls_strt_day": "20260330",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603270919"
+        "fin_co_subm_day": "202603300943"
       },
       {
         "dcls_month": "202603",
@@ -649,9 +649,9 @@
         "join_member": "만18세이상 개인",
         "etc_note": "초입금 및 매회 입금 1만원 이상 원 단위,  1인당 분기별 3백만원 이내 적립 가능\n(단,계약기간 3/4 경과 후 적립할 수 있는 금액은 이전 적립누계액의 1/2이내)",
         "max_limit": 3000000,
-        "dcls_strt_day": "20260327",
+        "dcls_strt_day": "20260330",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603270919"
+        "fin_co_subm_day": "202603300943"
       },
       {
         "dcls_month": "202603",
@@ -1815,8 +1815,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.5,
-        "intr_rate2": 4.1
+        "intr_rate": 1.9,
+        "intr_rate2": 7
       },
       {
         "dcls_month": "202603",
@@ -2007,8 +2007,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.14,
-        "intr_rate2": 3.14
+        "intr_rate": 3.34,
+        "intr_rate2": 3.34
       },
       {
         "dcls_month": "202603",
@@ -2019,8 +2019,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 2.83,
-        "intr_rate2": 2.83
+        "intr_rate": 2.97,
+        "intr_rate2": 2.97
       },
       {
         "dcls_month": "202603",
@@ -2031,8 +2031,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.71,
-        "intr_rate2": 2.71
+        "intr_rate": 2.75,
+        "intr_rate2": 2.75
       },
       {
         "dcls_month": "202603",
@@ -2043,8 +2043,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
-        "intr_rate": 2.62,
-        "intr_rate2": 2.62
+        "intr_rate": 2.61,
+        "intr_rate2": 2.61
       },
       {
         "dcls_month": "202603",
@@ -2055,8 +2055,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 3.24,
-        "intr_rate2": 3.24
+        "intr_rate": 3.44,
+        "intr_rate2": 3.44
       },
       {
         "dcls_month": "202603",
@@ -2067,8 +2067,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 2.93,
-        "intr_rate2": 2.93
+        "intr_rate": 3.07,
+        "intr_rate2": 3.07
       },
       {
         "dcls_month": "202603",
@@ -2079,6 +2079,18 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
+        "intr_rate": 2.95,
+        "intr_rate2": 2.95
+      },
+      {
+        "dcls_month": "202603",
+        "fin_co_no": "0010030",
+        "fin_prdt_cd": "03700",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "F",
+        "rsrv_type_nm": "자유적립식",
+        "save_trm": "6",
         "intr_rate": 2.91,
         "intr_rate2": 2.91
       },
@@ -2090,21 +2102,9 @@
         "intr_rate_type_nm": "단리",
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
-        "save_trm": "6",
-        "intr_rate": 2.92,
-        "intr_rate2": 2.92
-      },
-      {
-        "dcls_month": "202603",
-        "fin_co_no": "0010030",
-        "fin_prdt_cd": "03700",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "F",
-        "rsrv_type_nm": "자유적립식",
         "save_trm": "3",
-        "intr_rate": 2.58,
-        "intr_rate2": 2.58
+        "intr_rate": 2.57,
+        "intr_rate2": 2.57
       },
       {
         "dcls_month": "202603",
@@ -2115,8 +2115,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "1",
-        "intr_rate": 2.58,
-        "intr_rate2": 2.58
+        "intr_rate": 2.57,
+        "intr_rate2": 2.57
       },
       {
         "dcls_month": "202603",
@@ -2463,8 +2463,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 2.61,
-        "intr_rate2": 3.41
+        "intr_rate": 2.62,
+        "intr_rate2": 3.42
       },
       {
         "dcls_month": "202603",
