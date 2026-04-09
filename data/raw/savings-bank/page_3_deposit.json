@@ -819,9 +819,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260401",
+        "dcls_strt_day": "20260408",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604011120"
+        "fin_co_subm_day": "202604080945"
       },
       {
         "dcls_month": "202603",
@@ -836,9 +836,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260401",
+        "dcls_strt_day": "20260408",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604011120"
+        "fin_co_subm_day": "202604080945"
       },
       {
         "dcls_month": "202603",
@@ -1055,11 +1055,11 @@
         "spcl_cnd": "없음.",
         "join_deny": "1",
         "join_member": "제한없음.",
-        "etc_note": "중도해지 이율\n(실 예치 기간 기준)\n*1개월 미만: 0.5%\n*1개월~3개월 미만: 1.60%\n*3개월~6개월 미만: 1.70%\n*6개월~11개월 미만: 1.80%\n*11개월 이상: 1.95%",
+        "etc_note": "중도해지 이율\n(실 예치 기간 기준)\n*1개월 미만: 0.5%\n*1개월~3개월 미만: 1.60%\n*3개월~6개월 미만: 1.70%\n*6개월~11개월 미만: 1.80%\n*11개월 이상: 1.80%",
         "max_limit": null,
-        "dcls_strt_day": "20260408",
+        "dcls_strt_day": "20260409",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604080843"
+        "fin_co_subm_day": "202604090820"
       },
       {
         "dcls_month": "202603",
@@ -1072,11 +1072,11 @@
         "spcl_cnd": "없음.",
         "join_deny": "1",
         "join_member": "개인(만19세이상)",
-        "etc_note": "중도해지 이율\n(실 예치 기간 기준)\n*1개월 미만: 0.5%\n*1개월~3개월 미만: 1.60%\n*3개월~6개월 미만: 1.70%\n*6개월~11개월 미만: 1.85%\n*11개월 이상: 2.05%",
+        "etc_note": "중도해지 이율\n(실 예치 기간 기준)\n*1개월 미만: 0.5%\n*1개월~3개월 미만: 1.60%\n*3개월~6개월 미만: 1.70%\n*6개월~11개월 미만: 1.85%\n*11개월 이상: 1.85%",
         "max_limit": null,
-        "dcls_strt_day": "20260408",
+        "dcls_strt_day": "20260409",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604080843"
+        "fin_co_subm_day": "202604090820"
       },
       {
         "dcls_month": "202603",
@@ -4506,8 +4506,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202603",
@@ -4556,8 +4556,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202603",
@@ -4606,8 +4606,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202603",
@@ -4636,8 +4636,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202603",
@@ -5936,8 +5936,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202603",
@@ -5976,8 +5976,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202603",
@@ -6016,8 +6016,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.56,
-        "intr_rate2": 3.56
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202603",
@@ -6056,8 +6056,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.56,
-        "intr_rate2": 3.56
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202603",
