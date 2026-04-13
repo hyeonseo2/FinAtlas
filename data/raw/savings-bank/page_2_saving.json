@@ -1125,9 +1125,9 @@
         "join_member": "제한없음",
         "etc_note": "중도해지이율\n-1개월 미만: 보통예금이율\n-1개월 이상~3개월 미만: 계약일의 계약기간별 약정이율의 50%\n-3개월 이상~12개월 미만: 계약일의 계약기간별 약정이율의 60%\n-12개월 이상: 계약일의 계약기간별 약정이율의 70%",
         "max_limit": null,
-        "dcls_strt_day": "20260319",
+        "dcls_strt_day": "20260410",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202603190851"
+        "fin_co_subm_day": "202604100835"
       },
       {
         "dcls_month": "202603",
@@ -6026,8 +6026,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.25,
-        "intr_rate2": 3.25
+        "intr_rate": 3.35,
+        "intr_rate2": 3.35
       },
       {
         "dcls_month": "202603",
@@ -6038,8 +6038,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 3.35,
+        "intr_rate2": 3.35
       },
       {
         "dcls_month": "202603",
@@ -6098,8 +6098,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.25,
-        "intr_rate2": 3.25
+        "intr_rate": 3.35,
+        "intr_rate2": 3.35
       },
       {
         "dcls_month": "202603",
@@ -6110,8 +6110,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 3.35,
+        "intr_rate2": 3.35
       },
       {
         "dcls_month": "202603",
