@@ -190,9 +190,9 @@
         "join_member": "제한없음",
         "etc_note": "스마트폰 및 인터넷 전용가입",
         "max_limit": 1000000000,
-        "dcls_strt_day": "20260408",
+        "dcls_strt_day": "20260413",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604080835"
+        "fin_co_subm_day": "202604130843"
       },
       {
         "dcls_month": "202603",
@@ -207,9 +207,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": 1000000000,
-        "dcls_strt_day": "20260408",
+        "dcls_strt_day": "20260413",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604080835"
+        "fin_co_subm_day": "202604130843"
       },
       {
         "dcls_month": "202603",
@@ -224,9 +224,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": 1000000000,
-        "dcls_strt_day": "20260408",
+        "dcls_strt_day": "20260413",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604080835"
+        "fin_co_subm_day": "202604130843"
       },
       {
         "dcls_month": "202603",
@@ -2366,8 +2366,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.54,
-        "intr_rate2": 3.54
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202603",
@@ -2426,8 +2426,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.54,
-        "intr_rate2": 3.54
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202603",
