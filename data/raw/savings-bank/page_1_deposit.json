@@ -1,7 +1,7 @@
 {
   "result": {
     "prdt_div": "D",
-    "total_count": 387,
+    "total_count": 388,
     "max_page_no": 4,
     "now_page_no": 1,
     "err_cd": "000",
@@ -1021,11 +1021,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한없음",
-        "etc_note": "1. 최소가입금액: 10만원이상\n2. 정기예금 12개월 초과 시 : 2.70%, 24개월 초과 시 : 2.60% (정기예금 12개월만 3.51% 적용)",
+        "etc_note": "1. 최소가입금액: 10만원이상\n2. 정기예금 12개월 초과 시 : 2.70%, 24개월 초과 시 : 2.60% (정기예금 12개월만 3.46% 적용)",
         "max_limit": null,
-        "dcls_strt_day": "20260402",
+        "dcls_strt_day": "20260415",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604020757"
+        "fin_co_subm_day": "202604150838"
       },
       {
         "dcls_month": "202603",
@@ -1038,11 +1038,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한없음",
-        "etc_note": "1. 최소가입금액: 10만원이상\n2. 정기예금 12개월 초과 시 : 2.70%, 24개월 초과 시 : 2.60% (정기예금 12개월만 3.51% 적용)",
+        "etc_note": "1. 최소가입금액: 10만원이상\n2. 정기예금 12개월 초과 시 : 2.70%, 24개월 초과 시 : 2.60% (정기예금 12개월만 3.46% 적용)",
         "max_limit": null,
-        "dcls_strt_day": "20260402",
+        "dcls_strt_day": "20260415",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604020757"
+        "fin_co_subm_day": "202604150838"
       },
       {
         "dcls_month": "202603",
@@ -5556,8 +5556,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.46,
+        "intr_rate2": 3.46
       },
       {
         "dcls_month": "202603",
@@ -5616,8 +5616,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.46,
+        "intr_rate2": 3.46
       },
       {
         "dcls_month": "202603",
@@ -5676,8 +5676,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.46,
+        "intr_rate2": 3.46
       },
       {
         "dcls_month": "202603",
@@ -5736,8 +5736,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.46,
+        "intr_rate2": 3.46
       },
       {
         "dcls_month": "202603",
