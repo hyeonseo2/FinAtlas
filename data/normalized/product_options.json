@@ -2065,8 +2065,8 @@
     "save_term_months": 1,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 2.14,
-    "max_rate": 2.24,
+    "base_rate": 2.13,
+    "max_rate": 2.23,
     "rate_gap": 0.1
   },
   {
@@ -2535,8 +2535,8 @@
     "save_term_months": 6,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 2.6,
-    "max_rate": 2.6,
+    "base_rate": 2.59,
+    "max_rate": 2.59,
     "rate_gap": 0.0
   },
   {
@@ -2545,8 +2545,8 @@
     "save_term_months": 12,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 2.84,
-    "max_rate": 2.84,
+    "base_rate": 2.83,
+    "max_rate": 2.83,
     "rate_gap": 0.0
   },
   {
@@ -2565,8 +2565,8 @@
     "save_term_months": 36,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 2.89,
-    "max_rate": 2.89,
+    "base_rate": 2.81,
+    "max_rate": 2.81,
     "rate_gap": 0.0
   },
   {
@@ -2575,8 +2575,8 @@
     "save_term_months": 1,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 2.29,
-    "max_rate": 2.29,
+    "base_rate": 2.28,
+    "max_rate": 2.28,
     "rate_gap": 0.0
   },
   {
@@ -2585,8 +2585,8 @@
     "save_term_months": 3,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 2.51,
-    "max_rate": 2.51,
+    "base_rate": 2.5,
+    "max_rate": 2.5,
     "rate_gap": 0.0
   },
   {
@@ -2595,8 +2595,8 @@
     "save_term_months": 6,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 2.7,
-    "max_rate": 2.7,
+    "base_rate": 2.69,
+    "max_rate": 2.69,
     "rate_gap": 0.0
   },
   {
@@ -2605,8 +2605,8 @@
     "save_term_months": 12,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 2.91,
-    "max_rate": 2.91,
+    "base_rate": 2.9,
+    "max_rate": 2.9,
     "rate_gap": 0.0
   },
   {
@@ -34315,8 +34315,8 @@
     "save_term_months": 12,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 3.4,
-    "max_rate": 3.4,
+    "base_rate": 3.5,
+    "max_rate": 3.5,
     "rate_gap": 0.0
   },
   {
@@ -34355,8 +34355,8 @@
     "save_term_months": 12,
     "rate_type": "복리",
     "rate_type_code": "M",
-    "base_rate": 3.4,
-    "max_rate": 3.4,
+    "base_rate": 3.5,
+    "max_rate": 3.5,
     "rate_gap": 0.0
   },
   {
@@ -37355,8 +37355,8 @@
     "save_term_months": 12,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 3.3,
-    "max_rate": 3.3,
+    "base_rate": 3.4,
+    "max_rate": 3.4,
     "rate_gap": 0.0
   },
   {
@@ -37405,8 +37405,8 @@
     "save_term_months": 12,
     "rate_type": "복리",
     "rate_type_code": "M",
-    "base_rate": 3.3,
-    "max_rate": 3.3,
+    "base_rate": 3.4,
+    "max_rate": 3.4,
     "rate_gap": 0.0
   },
   {
@@ -37455,8 +37455,8 @@
     "save_term_months": 12,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 3.3,
-    "max_rate": 3.3,
+    "base_rate": 3.4,
+    "max_rate": 3.4,
     "rate_gap": 0.0
   },
   {
@@ -37505,8 +37505,8 @@
     "save_term_months": 12,
     "rate_type": "복리",
     "rate_type_code": "M",
-    "base_rate": 3.3,
-    "max_rate": 3.3,
+    "base_rate": 3.4,
+    "max_rate": 3.4,
     "rate_gap": 0.0
   },
   {
@@ -37555,8 +37555,8 @@
     "save_term_months": 12,
     "rate_type": "단리",
     "rate_type_code": "S",
-    "base_rate": 3.3,
-    "max_rate": 3.3,
+    "base_rate": 3.4,
+    "max_rate": 3.4,
     "rate_gap": 0.0
   },
   {
@@ -37605,8 +37605,8 @@
     "save_term_months": 12,
     "rate_type": "복리",
     "rate_type_code": "M",
-    "base_rate": 3.3,
-    "max_rate": 3.3,
+    "base_rate": 3.4,
+    "max_rate": 3.4,
     "rate_gap": 0.0
   },
   {

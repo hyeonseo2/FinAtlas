@@ -1057,9 +1057,9 @@
         "join_member": "제한없음",
         "etc_note": "예금자보호한도외 기타사항 없음",
         "max_limit": null,
-        "dcls_strt_day": "20260407",
+        "dcls_strt_day": "20260416",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604070814"
+        "fin_co_subm_day": "202604160816"
       },
       {
         "dcls_month": "202603",
@@ -5876,8 +5876,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202603",
@@ -5916,8 +5916,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202603",
