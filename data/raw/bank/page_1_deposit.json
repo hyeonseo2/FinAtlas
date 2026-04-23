@@ -124,7 +124,7 @@
         "max_limit": 50000000,
         "dcls_strt_day": "20260420",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604220839"
+        "fin_co_subm_day": "202604230841"
       },
       {
         "dcls_month": "202604",
@@ -141,7 +141,7 @@
         "max_limit": null,
         "dcls_strt_day": "20260420",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604220839"
+        "fin_co_subm_day": "202604230840"
       },
       {
         "dcls_month": "202604",
@@ -158,7 +158,7 @@
         "max_limit": 100000000,
         "dcls_strt_day": "20260420",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604220828"
+        "fin_co_subm_day": "202604230841"
       },
       {
         "dcls_month": "202604",
@@ -175,7 +175,7 @@
         "max_limit": 1000000000,
         "dcls_strt_day": "20260420",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604220828"
+        "fin_co_subm_day": "202604230841"
       },
       {
         "dcls_month": "202604",
@@ -241,9 +241,9 @@
         "join_member": "실명의 개인(임의단체 제외",
         "etc_note": "가입금액 1계좌당 1백만원이상\n인터넷/스마트폰뱅킹 가입상품",
         "max_limit": null,
-        "dcls_strt_day": "20260420",
+        "dcls_strt_day": "20260423",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604201258"
+        "fin_co_subm_day": "202604231647"
       },
       {
         "dcls_month": "202604",
@@ -253,14 +253,14 @@
         "fin_prdt_nm": "JB 123 정기예금\n (만기일시지급식)",
         "join_way": "인터넷,스마트폰",
         "mtrt_int": "만기후 1개월 이하 : 만기일 현재 계약기간별 정기예금 실행이율 1/2\n만기후 1개월 초과 : 연 0.01%",
-        "spcl_cnd": "자동재예치 우대이율\n1회차 0.1%,\n2회차 0.2%,\n3회차 0.3%\n\n(이벤트우대이율)\n2026.1.5~6.30 까지\n1)가입일직전 6개월 동안 당행 원화 정기예금 보유이력이 없는 경우 0.50%\n2.개인(신용)정보 수집/이용 동의한 경우(단, 상품서비스 안내수단 전체 동의한 경우에 한함) 0.10%",
+        "spcl_cnd": "자동재예치 우대이율\n1회차 0.1%,\n2회차 0.2%,\n3회차 0.3%\n\n(이벤트우대이율)\n2026.1.5~6.30 까지\n1)가입일직전 6개월 동안 당행 원화 정기예금 보유이력이 없는 경우 0.50%\n2.개인(신용)정보 수집/이용 동의한 경우(단, 상품서비스 안내수단 전체 동의한 경우에 한함) 0.10%\n* 본 이벤트는 2026년 4월 20일자로 이벤트 우대이율이 변경되어 4월 20일 가입자부터 해당 우대이벤트 우대이율 적용",
         "join_deny": "1",
         "join_member": "실명의 개인 또는 개인사업자 (1인 다계좌 가입 가능함)",
         "etc_note": "예금의 신규 : 인터넷뱅킹, 모바일뱅킹, 모바일웹, BDT\n예금의 해지 : 인터넷뱅킹, 모바일뱅킹, 영업점\n가입금액 최저 1백만원이상",
         "max_limit": null,
-        "dcls_strt_day": "20260420",
+        "dcls_strt_day": "20260423",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604201258"
+        "fin_co_subm_day": "202604231647"
       },
       {
         "dcls_month": "202604",
@@ -275,9 +275,9 @@
         "join_member": "실명의 개인 및 개인사업자",
         "etc_note": "가입금액 : 계좌당 10만원 이상\n예금의 신규 : 모바일뱅킹, 모바일Web\n예금의 해지 : 모바일뱅킹, 인터넷뱅킹, 영업점\n계약기간 : 1개월이상 12개월이내(월단위)",
         "max_limit": null,
-        "dcls_strt_day": "20260420",
+        "dcls_strt_day": "20260423",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604201258"
+        "fin_co_subm_day": "202604231647"
       },
       {
         "dcls_month": "202604",
@@ -462,9 +462,9 @@
         "join_member": "개인",
         "etc_note": "기타유의사항없음.",
         "max_limit": null,
-        "dcls_strt_day": "20260422",
+        "dcls_strt_day": "20260423",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604221058"
+        "fin_co_subm_day": "202604231041"
       },
       {
         "dcls_month": "202604",
@@ -479,9 +479,9 @@
         "join_member": "개인",
         "etc_note": "1. 300만원이상 가입\n2. 온실가스 줄이기 실천서약서 동의시 가입가능\n3. 신규가입 계좌당 2천원씩 녹색환경기금 적립\n※ 자세한 사항은 상품설명서 참조",
         "max_limit": null,
-        "dcls_strt_day": "20260422",
+        "dcls_strt_day": "20260423",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604221058"
+        "fin_co_subm_day": "202604231041"
       },
       {
         "dcls_month": "202604",
@@ -496,9 +496,9 @@
         "join_member": "개인",
         "etc_note": "1. 10만원 이상 10억원 이내 가입",
         "max_limit": 1000000000,
-        "dcls_strt_day": "20260422",
+        "dcls_strt_day": "20260423",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604221058"
+        "fin_co_subm_day": "202604231041"
       },
       {
         "dcls_month": "202604",
@@ -513,9 +513,9 @@
         "join_member": "개인",
         "etc_note": "1. 100만원 이상 가입\n2. 고향사랑기부금 우대금리는 농협은행/농축협 영업점 또는 고향사랑e음 홈페이지를 통한 고향사랑기부금 납부실적이 확인되는 경우 제공\n3. 연간 판매액의 0.1% 공익기금 적립\n\n※ 우대조건 관련 자세한 사항은 상품설명서 참조",
         "max_limit": null,
-        "dcls_strt_day": "20260422",
+        "dcls_strt_day": "20260423",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604221058"
+        "fin_co_subm_day": "202604231041"
       },
       {
         "dcls_month": "202604",
@@ -1195,8 +1195,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.11,
-        "intr_rate2": 3.11
+        "intr_rate": 3.21,
+        "intr_rate2": 3.21
       },
       {
         "dcls_month": "202604",
