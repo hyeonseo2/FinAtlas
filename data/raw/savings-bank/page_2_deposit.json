@@ -20,9 +20,9 @@
         "join_member": "-만19세이상의 개인",
         "etc_note": "-통장을 발급하지 않는 온라인 전용상품으로 영업점 해지시 우대금리 적용불가",
         "max_limit": null,
-        "dcls_strt_day": "20260420",
+        "dcls_strt_day": "20260430",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604201400"
+        "fin_co_subm_day": "202604300941"
       },
       {
         "dcls_month": "202604",
@@ -37,9 +37,9 @@
         "join_member": "-제한없음",
         "etc_note": "- 상품최초 가입일자부터 1년이 경과하여 해지하는 경우에는 금번 금리변경＊전 일자까지는 약정이율이 적용되고, 금번 금리변경일 이후 1년 경과 전 중도해지 시 위 기간별 중도해지이율이 적용됩니다.\n* 본건 회전식정기예금 금리는 최초가입 일부터 1년 단위로 변경 적용되며, 적용되는 약정이율은 \n금리변경일의 당행 회전식 정기예금 금리가 적용됩니다.",
         "max_limit": null,
-        "dcls_strt_day": "20260420",
+        "dcls_strt_day": "20260430",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604201400"
+        "fin_co_subm_day": "202604300941"
       },
       {
         "dcls_month": "202604",
@@ -54,9 +54,9 @@
         "join_member": "-만19세이상의 개인",
         "etc_note": "- 상품최초 가입일자부터 1년이 경과하여 해지하는 경우에는 금번 금리변경＊전 일자까지는 약정이율이 적용되고, 금번 금리변경일 이후 1년 경과 전 중도해지 시 위 기간별 중도해지이율이 적용됩니다.\n* 본건 회전식정기예금 금리는 최초가입 일부터 1년 단위로 변경 적용되며, 적용되는 약정이율은 \n금리변경일의 당행 e-회전식 정기예금 금리가 적용됩니다.",
         "max_limit": null,
-        "dcls_strt_day": "20260420",
+        "dcls_strt_day": "20260430",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604201400"
+        "fin_co_subm_day": "202604300941"
       },
       {
         "dcls_month": "202604",
@@ -1746,8 +1746,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1806,8 +1806,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1836,8 +1836,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202604",
@@ -1846,8 +1846,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202604",
@@ -1856,8 +1856,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1866,8 +1866,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.2
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
