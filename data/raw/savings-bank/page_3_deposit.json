@@ -1,29 +1,12 @@
 {
   "result": {
     "prdt_div": "D",
-    "total_count": 391,
+    "total_count": 390,
     "max_page_no": 4,
     "now_page_no": 3,
     "err_cd": "000",
     "err_msg": "정상",
     "baseList": [
-      {
-        "dcls_month": "202604",
-        "fin_co_no": "0010473",
-        "fin_prdt_cd": "GP240099",
-        "kor_co_nm": "상상인저축은행",
-        "fin_prdt_nm": "뱅뱅뱅 정기예금-단기",
-        "join_way": "스마트폰",
-        "mtrt_int": "[2019년 7월 1일 이전 신규]\n연 0.1% (세전)\n\n[2019년 7월 1일 신규분부터]\n- 1개월 이내 : 당초 약정이율과 만기시점 해당상품 신규약정이율 중 낮은 이율\n- 1개월 초과 : 연 0.1% (세전)",
-        "spcl_cnd": "없음",
-        "join_deny": "1",
-        "join_member": "제한없음",
-        "etc_note": "없음",
-        "max_limit": null,
-        "dcls_strt_day": "20260420",
-        "dcls_end_day": null,
-        "fin_co_subm_day": "202604200835"
-      },
       {
         "dcls_month": "202604",
         "fin_co_no": "0010473",
@@ -1706,69 +1689,26 @@
         "dcls_strt_day": "20260420",
         "dcls_end_day": null,
         "fin_co_subm_day": "202604201400"
+      },
+      {
+        "dcls_month": "202604",
+        "fin_co_no": "0010562",
+        "fin_prdt_cd": "240005",
+        "kor_co_nm": "오성저축은행",
+        "fin_prdt_nm": "회전식정기예금 6M",
+        "join_way": "영업점",
+        "mtrt_int": "1개월이하-약정금리와 기준금리 중 낮은금리\n1개월초과-보통예금이율",
+        "spcl_cnd": "없음",
+        "join_deny": "1",
+        "join_member": "제한없음",
+        "etc_note": "없음",
+        "max_limit": null,
+        "dcls_strt_day": "20260420",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202604201400"
       }
     ],
     "optionList": [
-      {
-        "dcls_month": "202604",
-        "fin_co_no": "0010473",
-        "fin_prdt_cd": "GP240099",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "save_trm": "1",
-        "intr_rate": 1.86,
-        "intr_rate2": 1.86
-      },
-      {
-        "dcls_month": "202604",
-        "fin_co_no": "0010473",
-        "fin_prdt_cd": "GP240099",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "save_trm": "3",
-        "intr_rate": 1.96,
-        "intr_rate2": 1.96
-      },
-      {
-        "dcls_month": "202604",
-        "fin_co_no": "0010473",
-        "fin_prdt_cd": "GP240099",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "save_trm": "6",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
-      },
-      {
-        "dcls_month": "202604",
-        "fin_co_no": "0010473",
-        "fin_prdt_cd": "GP240099",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "save_trm": "1",
-        "intr_rate": 1.86,
-        "intr_rate2": 1.86
-      },
-      {
-        "dcls_month": "202604",
-        "fin_co_no": "0010473",
-        "fin_prdt_cd": "GP240099",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "save_trm": "3",
-        "intr_rate": 1.96,
-        "intr_rate2": 1.96
-      },
-      {
-        "dcls_month": "202604",
-        "fin_co_no": "0010473",
-        "fin_prdt_cd": "GP240099",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "save_trm": "6",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
-      },
       {
         "dcls_month": "202604",
         "fin_co_no": "0010473",
@@ -8578,6 +8518,26 @@
         "save_trm": "12",
         "intr_rate": 2.96,
         "intr_rate2": 2.96
+      },
+      {
+        "dcls_month": "202604",
+        "fin_co_no": "0010562",
+        "fin_prdt_cd": "240005",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "save_trm": "6",
+        "intr_rate": 2.39,
+        "intr_rate2": 2.39
+      },
+      {
+        "dcls_month": "202604",
+        "fin_co_no": "0010562",
+        "fin_prdt_cd": "240005",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "save_trm": "6",
+        "intr_rate": 2.39,
+        "intr_rate2": 2.39
       }
     ]
   }
