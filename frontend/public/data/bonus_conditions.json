@@ -4719,22 +4719,22 @@
     "achievability_probability": 0.2
   },
   {
-    "condition_id": "0010356_1001_000",
-    "product_id": "0010356_1001",
-    "condition_text": "예금 가입일 기준 예금거래기간 3년 이상이며 직전 2년 평잔 10억원 이상인 고객(단",
-    "condition_category": "auto_transfer",
-    "bonus_rate": 0.0,
-    "difficulty_level": 75,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": true,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.25
-  },
-  {
     "condition_id": "0010356_1001_001",
     "product_id": "0010356_1001",
-    "condition_text": "대출관련 예금 등 제외) : 0.1%p",
+    "condition_text": "계좌별 가입금액 10억원 이상 : 0.1%p(최초 계약기간 한정)",
+    "condition_category": "first_customer",
+    "bonus_rate": 0.1,
+    "difficulty_level": 65,
+    "requires_existing_relationship": true,
+    "requires_recurring_action": false,
+    "is_unclear": false,
+    "is_uncertain_parse": false,
+    "achievability_probability": 0.35
+  },
+  {
+    "condition_id": "0010356_1001_002",
+    "product_id": "0010356_1001",
+    "condition_text": "우수고객 : 0.1%p(거래기간 3년 이상",
     "condition_category": "unclear",
     "bonus_rate": 0.1,
     "difficulty_level": 80,
@@ -4743,6 +4743,19 @@
     "is_unclear": true,
     "is_uncertain_parse": true,
     "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0010356_1001_003",
+    "product_id": "0010356_1001",
+    "condition_text": "직전 2년 평잔 10억원 이상인 고객.",
+    "condition_category": "auto_transfer",
+    "bonus_rate": 0.0,
+    "difficulty_level": 75,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": true,
+    "is_unclear": false,
+    "is_uncertain_parse": false,
+    "achievability_probability": 0.25
   },
   {
     "condition_id": "0010359_240037_001",
