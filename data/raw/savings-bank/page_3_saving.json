@@ -133,15 +133,15 @@
         "kor_co_nm": "에스앤티저축은행",
         "fin_prdt_nm": "정기적금",
         "join_way": "영업점",
-        "mtrt_int": "-만기 후 1개월 이내 : 가입당시 약정금리\n-만기 후 1개월 이후 : 0.20% (보통예금 금리적용)",
+        "mtrt_int": "-만기 후 1개월 이내 : 가입당시 약정금리\n-만기 후 1개월 초과 : 0.20% (보통예금 금리적용)",
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "-",
         "max_limit": null,
-        "dcls_strt_day": "20260420",
+        "dcls_strt_day": "20260520",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604201500"
+        "fin_co_subm_day": "202605200846"
       },
       {
         "dcls_month": "202604",
@@ -150,15 +150,15 @@
         "kor_co_nm": "에스앤티저축은행",
         "fin_prdt_nm": "정기적금(비대면)",
         "join_way": "인터넷,스마트폰",
-        "mtrt_int": "-만기 후 1개월 이내 : 가입당시 약정금리\n-만기 후 1개월 이후 : 0.20% (보통예금 금리적용)",
+        "mtrt_int": "-만기 후 1개월 이내 : 가입당시 약정금리\n-만기 후 1개월 초과 : 0.20% (보통예금 금리적용)",
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "-",
         "max_limit": null,
-        "dcls_strt_day": "20260420",
+        "dcls_strt_day": "20260520",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202604201500"
+        "fin_co_subm_day": "202605200846"
       },
       {
         "dcls_month": "202604",
@@ -1807,8 +1807,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1819,8 +1819,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1831,8 +1831,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1843,8 +1843,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1855,8 +1855,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1867,8 +1867,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1879,8 +1879,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
@@ -1891,8 +1891,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
-        "intr_rate": 2.5,
-        "intr_rate2": 2.5
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202604",
