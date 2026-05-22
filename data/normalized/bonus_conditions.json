@@ -2433,7 +2433,7 @@
   {
     "condition_id": "0010022_10-01-20-024-0059-0000_008",
     "product_id": "0010022_10-01-20-024-0059-0000",
-    "condition_text": "상품서비스 안내수단에 전체 동의한 경우) 0.10%",
+    "condition_text": "상품서비스 안내수단 전체 동의한 경우에 한함) 0.10%",
     "condition_category": "unclear",
     "bonus_rate": 0.1,
     "difficulty_level": 80,
@@ -4808,6 +4808,32 @@
     "is_unclear": false,
     "is_uncertain_parse": false,
     "achievability_probability": 0.9
+  },
+  {
+    "condition_id": "0010370_250033_003",
+    "product_id": "0010370_250033",
+    "condition_text": "(1천만원 이하",
+    "condition_category": "unclear",
+    "bonus_rate": 0.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0010370_250033_004",
+    "product_id": "0010370_250033",
+    "condition_text": "12개월 약정시)",
+    "condition_category": "unclear",
+    "bonus_rate": 0.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
   },
   {
     "condition_id": "0010370_250039_000",

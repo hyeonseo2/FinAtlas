@@ -615,9 +615,9 @@
         "join_member": "제한없음",
         "etc_note": "현금IC카드 발급 불가 상품",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260521",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605210840"
       },
       {
         "dcls_month": "202605",
@@ -649,9 +649,9 @@
         "join_member": "제한없음",
         "etc_note": "현금IC카드 발급 불가 상품",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260521",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605210840"
       },
       {
         "dcls_month": "202605",
@@ -3963,8 +3963,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.63,
-        "intr_rate2": 3.63
+        "intr_rate": 3.66,
+        "intr_rate2": 3.66
       },
       {
         "dcls_month": "202605",
@@ -3973,8 +3973,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.63,
-        "intr_rate2": 3.63
+        "intr_rate": 3.66,
+        "intr_rate2": 3.66
       },
       {
         "dcls_month": "202605",
@@ -4133,8 +4133,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.63,
-        "intr_rate2": 3.63
+        "intr_rate": 3.65,
+        "intr_rate2": 3.65
       },
       {
         "dcls_month": "202605",
@@ -4193,8 +4193,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.63,
-        "intr_rate2": 3.63
+        "intr_rate": 3.65,
+        "intr_rate2": 3.65
       },
       {
         "dcls_month": "202605",
