@@ -1,7 +1,7 @@
 {
   "result": {
     "prdt_div": "S",
-    "total_count": 277,
+    "total_count": 278,
     "max_page_no": 3,
     "now_page_no": 1,
     "err_cd": "000",
@@ -547,9 +547,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -564,9 +564,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -581,9 +581,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",

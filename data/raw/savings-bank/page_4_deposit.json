@@ -1,12 +1,29 @@
 {
   "result": {
     "prdt_div": "D",
-    "total_count": 391,
+    "total_count": 392,
     "max_page_no": 4,
     "now_page_no": 4,
     "err_cd": "000",
     "err_msg": "정상",
     "baseList": [
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0010562",
+        "fin_prdt_cd": "240003",
+        "kor_co_nm": "오성저축은행",
+        "fin_prdt_nm": "회전식정기예금",
+        "join_way": "영업점",
+        "mtrt_int": "1개월이하-약정금리와 기준금리 중 낮은금리\n1개월초과-보통예금이율",
+        "spcl_cnd": "없음",
+        "join_deny": "1",
+        "join_member": "제한없음",
+        "etc_note": "없음",
+        "max_limit": null,
+        "dcls_strt_day": "20260520",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202605201110"
+      },
       {
         "dcls_month": "202605",
         "fin_co_no": "0010562",
@@ -122,9 +139,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260521",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605210742"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -139,9 +156,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260521",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605210742"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -156,9 +173,9 @@
         "join_member": "개인(만19세이상)",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260521",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605210742"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -292,9 +309,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -309,9 +326,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -326,9 +343,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -343,9 +360,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -360,9 +377,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -377,9 +394,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -394,9 +411,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -411,9 +428,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -428,9 +445,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -445,9 +462,9 @@
         "join_member": "비거주 외국인 외 제한없음",
         "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -649,9 +666,9 @@
         "join_member": "제한없음",
         "etc_note": "현금IC카드 발급 불가 상품",
         "max_limit": null,
-        "dcls_strt_day": "20260521",
+        "dcls_strt_day": "20260526",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605210840"
+        "fin_co_subm_day": "202605261000"
       },
       {
         "dcls_month": "202605",
@@ -1559,6 +1576,26 @@
       {
         "dcls_month": "202605",
         "fin_co_no": "0010562",
+        "fin_prdt_cd": "240003",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "save_trm": "12",
+        "intr_rate": 2.96,
+        "intr_rate2": 2.96
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0010562",
+        "fin_prdt_cd": "240003",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "save_trm": "12",
+        "intr_rate": 2.96,
+        "intr_rate2": 2.96
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0010562",
         "fin_prdt_cd": "240004",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
@@ -1933,8 +1970,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.45,
+        "intr_rate2": 3.45
       },
       {
         "dcls_month": "202605",
@@ -1983,8 +2020,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.45,
+        "intr_rate2": 3.45
       },
       {
         "dcls_month": "202605",
@@ -2033,8 +2070,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.45,
+        "intr_rate2": 3.45
       },
       {
         "dcls_month": "202605",
@@ -2083,8 +2120,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.45,
+        "intr_rate2": 3.45
       },
       {
         "dcls_month": "202605",
@@ -2133,8 +2170,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.45,
+        "intr_rate2": 3.45
       },
       {
         "dcls_month": "202605",
@@ -2183,8 +2220,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.45,
+        "intr_rate2": 3.45
       },
       {
         "dcls_month": "202605",
@@ -2773,8 +2810,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -2783,8 +2820,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -2793,8 +2830,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -2803,8 +2840,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -2823,8 +2860,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -2833,8 +2870,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -2843,8 +2880,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -2853,8 +2890,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -2873,8 +2910,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -2883,8 +2920,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -2893,8 +2930,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -2903,8 +2940,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -2923,8 +2960,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -2933,8 +2970,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -2943,8 +2980,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -2953,8 +2990,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -2973,8 +3010,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -2983,8 +3020,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -2993,8 +3030,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3003,8 +3040,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3023,8 +3060,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3033,8 +3070,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3043,8 +3080,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3053,8 +3090,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3073,8 +3110,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3083,8 +3120,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3093,8 +3130,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3103,8 +3140,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3123,8 +3160,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3133,8 +3170,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3143,8 +3180,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3153,8 +3190,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3173,8 +3210,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3183,8 +3220,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3193,8 +3230,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3203,8 +3240,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3223,8 +3260,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3233,8 +3270,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3243,8 +3280,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3253,8 +3290,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3273,8 +3310,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3283,8 +3320,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3293,8 +3330,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3303,8 +3340,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3323,8 +3360,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3333,8 +3370,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3343,8 +3380,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3353,8 +3390,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3373,8 +3410,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3383,8 +3420,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3393,8 +3430,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3403,8 +3440,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3423,8 +3460,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "3",
-        "intr_rate": 3.09,
-        "intr_rate2": 3.09
+        "intr_rate": 2.99,
+        "intr_rate2": 2.99
       },
       {
         "dcls_month": "202605",
@@ -3433,8 +3470,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 3.17,
-        "intr_rate2": 3.17
+        "intr_rate": 3.08,
+        "intr_rate2": 3.08
       },
       {
         "dcls_month": "202605",
@@ -3443,8 +3480,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3453,8 +3490,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.38,
-        "intr_rate2": 3.38
+        "intr_rate": 3.29,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202605",
@@ -3463,8 +3500,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3473,8 +3510,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "36",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3483,8 +3520,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3493,8 +3530,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "36",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3503,8 +3540,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3513,8 +3550,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "36",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3523,8 +3560,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3533,8 +3570,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "36",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3543,8 +3580,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3553,8 +3590,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "36",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3563,8 +3600,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -3573,8 +3610,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "36",
-        "intr_rate": 3.34,
-        "intr_rate2": 3.34
+        "intr_rate": 3.25,
+        "intr_rate2": 3.25
       },
       {
         "dcls_month": "202605",
@@ -4133,8 +4170,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.65,
-        "intr_rate2": 3.65
+        "intr_rate": 3.66,
+        "intr_rate2": 3.66
       },
       {
         "dcls_month": "202605",
@@ -4193,8 +4230,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.65,
-        "intr_rate2": 3.65
+        "intr_rate": 3.66,
+        "intr_rate2": 3.66
       },
       {
         "dcls_month": "202605",
