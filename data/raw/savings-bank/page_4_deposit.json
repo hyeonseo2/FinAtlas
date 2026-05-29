@@ -1,7 +1,7 @@
 {
   "result": {
     "prdt_div": "D",
-    "total_count": 392,
+    "total_count": 393,
     "max_page_no": 4,
     "now_page_no": 4,
     "err_cd": "000",
@@ -1196,6 +1196,23 @@
         "dcls_strt_day": "20260520",
         "dcls_end_day": null,
         "fin_co_subm_day": "202605201110"
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0013166",
+        "fin_prdt_cd": "240011",
+        "kor_co_nm": "하나저축은행",
+        "fin_prdt_nm": "3개월 6개월 변동형 정기예금",
+        "join_way": "영업점,인터넷,스마트폰",
+        "mtrt_int": "-1 개월 이내 : 가입 당시 약정금리나 만기(해지)시 동일상품 ·계약기간 신규약정금리 중 낮은 금리\n-1개월 초과 : 현행 고시 보통예금 금리",
+        "spcl_cnd": "-",
+        "join_deny": "1",
+        "join_member": "제한없음",
+        "etc_note": "1. 회전주기 (매 3개월, 6개월)마다 계약기간 이내에서 이자율 변동 및 이자를 지급하는 장기 정기예금(3개월,6개월 변동금리)\n\n2. 최저가입금액 : 10만원이상\n\n3. 중도해지금리\n-1개월미만 : 보통예금 금리 \n-1개월이상~6개월 미만 : 약정금리 x 50%",
+        "max_limit": null,
+        "dcls_strt_day": "20260528",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202605281423"
       },
       {
         "dcls_month": "202605",
@@ -6352,6 +6369,46 @@
         "save_trm": "12",
         "intr_rate": 2.9,
         "intr_rate2": 2.9
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0013166",
+        "fin_prdt_cd": "240011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "save_trm": "3",
+        "intr_rate": 2.7,
+        "intr_rate2": 2.7
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0013166",
+        "fin_prdt_cd": "240011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "save_trm": "6",
+        "intr_rate": 2.8,
+        "intr_rate2": 2.8
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0013166",
+        "fin_prdt_cd": "240011",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "save_trm": "3",
+        "intr_rate": 2.7,
+        "intr_rate2": 2.7
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0013166",
+        "fin_prdt_cd": "240011",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "save_trm": "6",
+        "intr_rate": 2.8,
+        "intr_rate2": 2.8
       },
       {
         "dcls_month": "202605",
