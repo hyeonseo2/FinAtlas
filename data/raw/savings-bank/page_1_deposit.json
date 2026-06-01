@@ -613,11 +613,11 @@
         "spcl_cnd": "* 가입시점 우대금리 조건 충족시 최대 0.1%p 가산 적용(계약기간 24개월 이내)\n- 계좌별 가입금액 10억원 이상 : 0.1%p(최초 계약기간 한정)\n- 우수고객 : 0.1%p(거래기간 3년 이상, 직전 2년 평잔 10억원 이상인 고객. 단, 대출관련 예금 등 제외)",
         "join_deny": "1",
         "join_member": "제한없음",
-        "etc_note": "* 중도해지금리\n1개월 미만 : 0.20%,\n3개월 미만 : 1.40%,\n6개월 미만 : 1.74%, \n12개월 미만 : 1.80%,\n12개월 이상\n- 연단위 기간 : 해당 기간별 가입시점 고시금리 적용\n- 연단위 기간 초과분 : 초과기간에 해당하는 가입시점의 중도해지금리 적용 \n\n* 우수고객 중도해지금리 : 실예치기간 기본금리 적용",
+        "etc_note": "* 중도해지금리\n1개월 미만 : 0.20%,\n3개월 미만 : 1.50%,\n6개월 미만 : 1.75%, \n12개월 미만 : 1.80%,\n12개월 이상\n- 연단위 기간 : 해당 기간별 가입시점 고시금리 적용\n- 연단위 기간 초과분 : 초과기간에 해당하는 가입시점의 중도해지금리 적용 \n\n* 우수고객 중도해지금리 : 실예치기간 기본금리 적용",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260601",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606010817"
       },
       {
         "dcls_month": "202605",
@@ -3786,16 +3786,6 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "1",
-        "intr_rate": 2.6,
-        "intr_rate2": 2.7
-      },
-      {
-        "dcls_month": "202605",
-        "fin_co_no": "0010356",
-        "fin_prdt_cd": "1001",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "save_trm": "3",
         "intr_rate": 2.8,
         "intr_rate2": 2.9
       },
@@ -3805,9 +3795,9 @@
         "fin_prdt_cd": "1001",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
-        "save_trm": "6",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.3
+        "save_trm": "3",
+        "intr_rate": 3,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202605",
@@ -3815,7 +3805,7 @@
         "fin_prdt_cd": "1001",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
-        "save_trm": "12",
+        "save_trm": "6",
         "intr_rate": 3.3,
         "intr_rate2": 3.4
       },
@@ -3825,9 +3815,19 @@
         "fin_prdt_cd": "1001",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
+        "save_trm": "12",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0010356",
+        "fin_prdt_cd": "1001",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3,
-        "intr_rate2": 3.1
+        "intr_rate": 3.4,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202605",
@@ -3836,16 +3836,6 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "1",
-        "intr_rate": 2.6,
-        "intr_rate2": 2.7
-      },
-      {
-        "dcls_month": "202605",
-        "fin_co_no": "0010356",
-        "fin_prdt_cd": "1001",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "save_trm": "3",
         "intr_rate": 2.8,
         "intr_rate2": 2.9
       },
@@ -3855,9 +3845,9 @@
         "fin_prdt_cd": "1001",
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
-        "save_trm": "6",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.3
+        "save_trm": "3",
+        "intr_rate": 3,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202605",
@@ -3865,7 +3855,7 @@
         "fin_prdt_cd": "1001",
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
-        "save_trm": "12",
+        "save_trm": "6",
         "intr_rate": 3.3,
         "intr_rate2": 3.4
       },
@@ -3875,9 +3865,19 @@
         "fin_prdt_cd": "1001",
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
+        "save_trm": "12",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.5
+      },
+      {
+        "dcls_month": "202605",
+        "fin_co_no": "0010356",
+        "fin_prdt_cd": "1001",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3,
-        "intr_rate2": 3.1
+        "intr_rate": 3.4,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202605",
