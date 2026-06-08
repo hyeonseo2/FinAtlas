@@ -904,9 +904,9 @@
         "join_member": "제한없음",
         "etc_note": "중도해지이율:\n1개월미만: 계약일의 보통예금 금리, \n1개월이상 6개월미만: 약정이율의 50%, \n6개월이상 12개월미만: 약정이율의 60%, 12개월이상: 약정이율의 70%",
         "max_limit": null,
-        "dcls_strt_day": "20260602",
+        "dcls_strt_day": "20260608",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606020814"
+        "fin_co_subm_day": "202606080821"
       },
       {
         "dcls_month": "202605",
@@ -921,9 +921,9 @@
         "join_member": "만19세이상 내국인 개인고객, 본인 스마트폰 소지자, 신분증(주민등록증 또는 운전면허증)소지자, 최근 30일이내 전은행에서 입출금통장 개설내역이 없는 고객, 미국인납세자에 해당하지 않는 고객",
         "etc_note": "중도해지이율:\n1개월미만: 계약일의 보통예금 금리, \n1개월이상 6개월미만: 약정이율의 50%, \n6개월이상 12개월미만: 약정이율의 60%, 12개월이상: 약정이율의 70%",
         "max_limit": null,
-        "dcls_strt_day": "20260602",
+        "dcls_strt_day": "20260608",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606020814"
+        "fin_co_subm_day": "202606080821"
       },
       {
         "dcls_month": "202605",
@@ -1222,14 +1222,14 @@
         "fin_prdt_nm": "정기예금 (대면)",
         "join_way": "영업점",
         "mtrt_int": "* 만기 후 1개월 이내 기간 : 당초 약정금리 또는 만기시 동일상품 동일계약기간의 신규 약정금리 중 낮은이율\n* 만기 후 1개월 초과 이후 기간 : 보통예금 이율(연 0.50%) 적용",
-        "spcl_cnd": "해당사항 없음",
+        "spcl_cnd": "12개월 정기예금(대면) 기본금리(연 3.41%) + 영업점장 우대금리(연0.10%)",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "최소가입금액: 10만원 이상",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260605",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606050846"
       },
       {
         "dcls_month": "202605",
@@ -1239,14 +1239,14 @@
         "fin_prdt_nm": "회전정기예금 (대면, 전지점)",
         "join_way": "영업점",
         "mtrt_int": "* 만기 후 1개월 이내 기간 : 최종 회전이율과 만기 시점 동일 상품 동일 계약기간의 신규 약정금리 중 낮은 금리를 적용\n* 만기 후 1개월 초과 이후 기간 : 보통예금 이율(연 0.50%) 적용",
-        "spcl_cnd": "*회전정기예금(회전주기 12개월) 기본금리: 매 1년마다 해당시점 정기예금 1년 금리 +0.1%로 자동연장되는 변동금리 상품(1년 단위 확정금리). 매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.\n12개월 정기예금(대면) 기본금리(연 3.41%)+ 기본 우대금리(연 0.10%)",
+        "spcl_cnd": "*회전정기예금(회전주기 12개월) 기본금리: 매 1년마다 해당시점 정기예금 1년 금리 +0.1%로 자동연장되는 변동금리 상품(1년 단위 확정금리). 매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.\n12개월 정기예금(대면) 기본금리(연 3.41%)+ 기본 우대금리(연 0.10%)+영업점장 우대금리(연 0.10%)",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "최소가입금액: 10만원 이상",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260605",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606050846"
       },
       {
         "dcls_month": "202605",
@@ -1256,14 +1256,14 @@
         "fin_prdt_nm": "회전정기예금 (비대면)",
         "join_way": "인터넷,스마트폰",
         "mtrt_int": "* 만기 후 1개월 이내 기간 : 최종 회전이율과 만기 시점 동일 상품 동일 계약기간의 신규 약정금리 중 낮은 금리를 적용\n* 만기 후 1개월 초과 이후 기간 : 보통예금 이율(연 0.50%) 적용",
-        "spcl_cnd": "*회전정기예금(회전주기 12개월) 기본금리: 매 1년마다 해당시점 정기예금 1년 금리 +0.1%로 자동연장되는 변동금리 상품(1년 단위 확정금리). 매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.\n12개월 정기예금(비대면) 기본금리(연 3.51%)+ 기본 우대금리(연 0.10%)",
+        "spcl_cnd": "*회전정기예금(회전주기 12개월) 기본금리: 매 1년마다 해당시점 정기예금 1년 금리 +0.1%로 자동연장되는 변동금리 상품(1년 단위 확정금리). 매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.\n12개월 정기예금(비대면) 기본금리(연 3.51%)+ 기본 우대금리(연 0.10%)+영업점장 우대금리(연 0.10%)",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "비대면 전용상품\n최소가입금액: 10만원 이상",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260605",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606050846"
       },
       {
         "dcls_month": "202605",
@@ -1273,14 +1273,14 @@
         "fin_prdt_nm": "정기예금 (비대면)",
         "join_way": "인터넷,스마트폰",
         "mtrt_int": "* 만기 후 1개월 이내 기간 : 당초 약정금리 또는 만기시 동일상품 동일계약기간의 신규 약정금리 중 낮은이율\n* 만기 후 1개월 초과 이후 기간 : 보통예금 이율(연 0.50%) 적용",
-        "spcl_cnd": "해당사항 없음",
+        "spcl_cnd": "12개월 정기예금(비대면) 기본금리(연 3.51%) + 영업점장 우대금리(연 0.10%)",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "비대면 전용상품\n최소가입금액: 10만원 이상",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260605",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606050846"
       },
       {
         "dcls_month": "202605",
@@ -1307,14 +1307,14 @@
         "fin_prdt_nm": "페퍼스회전정기예금 (디지털페퍼앱)",
         "join_way": "스마트폰",
         "mtrt_int": "* 만기 후 1개월 이내 기간 : 최종 회전이율과 만기 시점 동일 상품 동일 계약기간의 신규 약정금리 중 낮은 금리를 적용\n* 만기 후 1개월 초과 이후 기간 : 보통예금 이율(연 0.50%) 적용",
-        "spcl_cnd": "*페퍼스회전정기예금(회전주기 12개월) 기본금리:매 1년마다 해당시점 정기예금 1년 금리 +0.1%로 자동연장되는 변동금리 상품(1년 단위 확정금리). 매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.\n12개월 정기예금(비대면) 기본금리(연 3.51%)+ 기본 우대금리(연 0.10%)",
+        "spcl_cnd": "*페퍼스회전정기예금(회전주기 12개월) 기본금리:매 1년마다 해당시점 정기예금 1년 금리 +0.1%로 자동연장되는 변동금리 상품(1년 단위 확정금리). 매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.\n12개월 정기예금(비대면) 기본금리(연 3.51%)+ 기본 우대금리(연 0.10%)+영업점장 우대금리(연 0.10%)",
         "join_deny": "1",
         "join_member": "실명의 개인",
         "etc_note": "비대면 전용상품\n최소가입금액: 10만원 이상",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260605",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606050846"
       },
       {
         "dcls_month": "202605",
@@ -1324,14 +1324,14 @@
         "fin_prdt_nm": "페퍼스 정기예금 (디지털페퍼앱)",
         "join_way": "스마트폰",
         "mtrt_int": "* 만기 후 1개월 이내 기간 : 당초 약정금리 또는 만기시 동일상품 동일계약기간의 신규 약정금리 중 낮은이율\n* 만기 후 1개월 초과 이후 기간 : 보통예금 이율(연 0.50%) 적용",
-        "spcl_cnd": "해당사항 없음",
+        "spcl_cnd": "12개월 정기예금(비대면) 기본금리(연 3.51%) + 영업점장 우대금리(연 0.10%)",
         "join_deny": "1",
         "join_member": "실명의 개인",
         "etc_note": "비대면 전용상품\n최소가입금액: 10만원 이상",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260605",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606050846"
       },
       {
         "dcls_month": "202605",
@@ -1358,14 +1358,14 @@
         "fin_prdt_nm": "♥회전정기예금(창구 전용) (평촌, 부천)",
         "join_way": "영업점",
         "mtrt_int": "* 만기 후 1개월 이내 기간 : 최종 회전이율과 만기 시점 동일 상품 동일 계약기간의 신규 약정금리 중 낮은 금리를 적용\n* 만기 후 1개월 초과 이후 기간 : 보통예금 이율(연 0.50%) 적용",
-        "spcl_cnd": "*♥회전정기예금(회전주기 12개월) 기본금리: 매 1년마다 해당시점 정기예금 1년 금리 +0.1%로 자동연장되는 변동금리 상품(1년 단위 확정금리). 매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.\n12개월 정기예금(대면) 기본금리(연 3.41%)+ 기본 우대금리(연 0.10%)",
+        "spcl_cnd": "*♥회전정기예금(회전주기 12개월) 기본금리: 매 1년마다 해당시점 정기예금 1년 금리 +0.1%로 자동연장되는 변동금리 상품(1년 단위 확정금리). 매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.\n12개월 정기예금(대면) 기본금리(연 3.41%)+ 기본 우대금리(연 0.10%)+영업점장 우대금리(연 0.10%)",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "창구 내방 고객 전용 회전정기예금: 평촌♥(평촌지점), 부천♥(부천지점), 최소 가입금액: 10만원 이상",
         "max_limit": null,
-        "dcls_strt_day": "20260601",
+        "dcls_strt_day": "20260605",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606010839"
+        "fin_co_subm_day": "202606050846"
       },
       {
         "dcls_month": "202605",
@@ -5596,8 +5596,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.1,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202605",
@@ -5606,8 +5606,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202605",
@@ -5616,8 +5616,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5626,8 +5626,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "36",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202605",
@@ -5656,8 +5656,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.1,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202605",
@@ -5666,8 +5666,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202605",
@@ -5676,8 +5676,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5686,8 +5686,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "36",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202605",
@@ -5716,8 +5716,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.1,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202605",
@@ -5726,8 +5726,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202605",
@@ -5736,8 +5736,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5746,8 +5746,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "36",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202605",
@@ -5776,8 +5776,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 2.9,
-        "intr_rate2": 2.9
+        "intr_rate": 3.1,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202605",
@@ -5786,8 +5786,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202605",
@@ -5796,8 +5796,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5806,8 +5806,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "36",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.3
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       },
       {
         "dcls_month": "202605",
@@ -7146,8 +7146,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.41,
-        "intr_rate2": 3.41
+        "intr_rate": 3.51,
+        "intr_rate2": 3.51
       },
       {
         "dcls_month": "202605",
@@ -7206,8 +7206,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.41,
-        "intr_rate2": 3.41
+        "intr_rate": 3.51,
+        "intr_rate2": 3.51
       },
       {
         "dcls_month": "202605",
@@ -7236,8 +7236,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.61,
+        "intr_rate2": 3.61
       },
       {
         "dcls_month": "202605",
@@ -7246,8 +7246,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.61,
+        "intr_rate2": 3.61
       },
       {
         "dcls_month": "202605",
@@ -7256,8 +7256,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.61,
-        "intr_rate2": 3.61
+        "intr_rate": 3.71,
+        "intr_rate2": 3.71
       },
       {
         "dcls_month": "202605",
@@ -7266,8 +7266,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.61,
-        "intr_rate2": 3.61
+        "intr_rate": 3.71,
+        "intr_rate2": 3.71
       },
       {
         "dcls_month": "202605",
@@ -7306,8 +7306,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.61,
+        "intr_rate2": 3.61
       },
       {
         "dcls_month": "202605",
@@ -7366,8 +7366,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.61,
+        "intr_rate2": 3.61
       },
       {
         "dcls_month": "202605",
@@ -7456,8 +7456,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.61,
-        "intr_rate2": 3.61
+        "intr_rate": 3.71,
+        "intr_rate2": 3.71
       },
       {
         "dcls_month": "202605",
@@ -7466,8 +7466,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.61,
-        "intr_rate2": 3.61
+        "intr_rate": 3.71,
+        "intr_rate2": 3.71
       },
       {
         "dcls_month": "202605",
@@ -7506,8 +7506,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.61,
+        "intr_rate2": 3.61
       },
       {
         "dcls_month": "202605",
@@ -7566,8 +7566,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.61,
+        "intr_rate2": 3.61
       },
       {
         "dcls_month": "202605",
@@ -7656,8 +7656,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.61,
+        "intr_rate2": 3.61
       },
       {
         "dcls_month": "202605",
@@ -7666,8 +7666,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.51,
-        "intr_rate2": 3.51
+        "intr_rate": 3.61,
+        "intr_rate2": 3.61
       },
       {
         "dcls_month": "202605",
