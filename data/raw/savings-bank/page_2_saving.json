@@ -275,9 +275,9 @@
         "join_member": "제한없음",
         "etc_note": "중도해지이율:\n1개월미만: 계약일의 보통예금 금리, \n1개월이상 6개월미만: 약정이율의 50%, \n6개월이상 12개월미만: 약정이율의 60%, 12개월이상: 약정이율의 70%",
         "max_limit": null,
-        "dcls_strt_day": "20260608",
+        "dcls_strt_day": "20260615",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606080821"
+        "fin_co_subm_day": "202606150821"
       },
       {
         "dcls_month": "202605",
@@ -292,9 +292,9 @@
         "join_member": "만19세이상 내국인 개인고객, 본인 스마트폰 소지자, 신분증(주민등록증 또는 운전면허증)소지자, 최근 30일이내 전은행에서 입출금통장 개설내역이 없는 고객, 미국인납세자에 해당하지 않는 고객",
         "etc_note": "중도해지이율:\n1개월미만: 계약일의 보통예금 금리, \n1개월이상 6개월미만: 약정이율의 50%, \n6개월이상 12개월미만: 약정이율의 60%, 12개월이상: 약정이율의 70%",
         "max_limit": null,
-        "dcls_strt_day": "20260608",
+        "dcls_strt_day": "20260615",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606080821"
+        "fin_co_subm_day": "202606150821"
       },
       {
         "dcls_month": "202605",
@@ -734,9 +734,9 @@
         "join_member": "없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260615",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606150819"
       },
       {
         "dcls_month": "202605",
@@ -751,9 +751,9 @@
         "join_member": "인터넷뱅킹, 스마트폰뱅킹 전용",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260615",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606150819"
       },
       {
         "dcls_month": "202605",
@@ -768,9 +768,9 @@
         "join_member": "자체앱(Mymo) 전용",
         "etc_note": "자체앱(Mymo) 전용",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260615",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606150819"
       },
       {
         "dcls_month": "202605",
@@ -785,9 +785,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260602",
+        "dcls_strt_day": "20260615",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606020900"
+        "fin_co_subm_day": "202606150825"
       },
       {
         "dcls_month": "202605",
@@ -802,9 +802,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260602",
+        "dcls_strt_day": "20260615",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606020900"
+        "fin_co_subm_day": "202606150825"
       },
       {
         "dcls_month": "202605",
@@ -2606,8 +2606,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202605",
@@ -2618,8 +2618,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202605",
