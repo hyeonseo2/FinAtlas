@@ -71,9 +71,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260615",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606151548"
+        "fin_co_subm_day": "202606181120"
       },
       {
         "dcls_month": "202605",
@@ -88,9 +88,9 @@
         "join_member": "만19세 이상 내국인(법인불가)",
         "etc_note": "SB톡톡플러스 비로그인서비스로 신규가입 시",
         "max_limit": null,
-        "dcls_strt_day": "20260615",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606151548"
+        "fin_co_subm_day": "202606181120"
       },
       {
         "dcls_month": "202605",
@@ -105,9 +105,9 @@
         "join_member": "제한없음",
         "etc_note": "인터넷뱅킹, SB톡톡플러스 로그인 시",
         "max_limit": null,
-        "dcls_strt_day": "20260615",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606151548"
+        "fin_co_subm_day": "202606181120"
       },
       {
         "dcls_month": "202605",
@@ -241,9 +241,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260609",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606091742"
+        "fin_co_subm_day": "202606180909"
       },
       {
         "dcls_month": "202605",
@@ -258,9 +258,9 @@
         "join_member": "제한없음",
         "etc_note": "월 최대 불입금: 100만원",
         "max_limit": 1000000,
-        "dcls_strt_day": "20260609",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606091742"
+        "fin_co_subm_day": "202606180909"
       },
       {
         "dcls_month": "202605",
@@ -983,15 +983,15 @@
         "kor_co_nm": "신한저축은행",
         "fin_prdt_nm": "정기적금",
         "join_way": "영업점",
-        "mtrt_int": "- 1개월 이내 : 약정금리\n- 1개월 초과 : 보통예금금리",
+        "mtrt_int": "- 1개월 이내 : 당초 약정이율과 (이연)만기일의 고시이율(동일상품, 동일기간) 중 낮은 이율\n- 1개월 초과 : 보통예금이율",
         "spcl_cnd": "▶탄소포인트제(에코마일리지) 가입 인증 완료시 0.5% 우대금리 제공\n*12개월 가입에 한하여 1인1계좌 가입가능",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "- 이자지급방식 : 만기일시지급\n- 가입방법 : 영업점 방문\n- 해지방법 : 영업점 방문 또는 인터넷홈페이지/모바일앱에 접속하여 해약",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606181845"
       },
       {
         "dcls_month": "202605",
@@ -1000,15 +1000,15 @@
         "kor_co_nm": "신한저축은행",
         "fin_prdt_nm": "e-정기적금",
         "join_way": "인터넷",
-        "mtrt_int": "- 1개월 이내 : 약정금리\n- 1개월 초과 : 보통예금금리",
+        "mtrt_int": "- 1개월 이내 : 당초 약정이율과 (이연)만기일의 고시이율(동일상품, 동일기간) 중 낮은 이율\n- 1개월 초과 : 보통예금이율",
         "spcl_cnd": "▶탄소포인트제(에코마일리지) 가입 인증 완료시 0.5% 우대금리 제공\n*12개월 가입에 한하여 1인1계좌 가입가능",
         "join_deny": "1",
         "join_member": "개인",
         "etc_note": "- 이자지급방식 : 만기일시지급\n- 가입방법 : 인터넷홈페이지\n- 해지방법 : 인터넷홈페이지/모바일앱에 접속하여 해약",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606181845"
       },
       {
         "dcls_month": "202605",
@@ -1017,15 +1017,15 @@
         "kor_co_nm": "신한저축은행",
         "fin_prdt_nm": "자유적립적금",
         "join_way": "영업점",
-        "mtrt_int": "- 1개월 이내 : 약정금리\n- 1개월 초과 : 보통예금금리",
+        "mtrt_int": "- 1개월 이내 : 당초 약정이율과 (이연)만기일의 고시이율(동일상품, 동일기간) 중 낮은 이율\n- 1개월 초과 : 보통예금이율",
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "- 이자지급방식 : 만기일시지급\n- 가입방법 : 영업점 방문\n- 해지방법 : 영업점 방문 또는 인터넷홈페이지/모바일앱에 접속하여 해약",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606181845"
       },
       {
         "dcls_month": "202605",
@@ -1034,15 +1034,15 @@
         "kor_co_nm": "신한저축은행",
         "fin_prdt_nm": "e-자유적립적금",
         "join_way": "인터넷",
-        "mtrt_int": "- 1개월 이내 : 약정금리\n- 1개월 초과 : 보통예금금리",
+        "mtrt_int": "- 1개월 이내 : 당초 약정이율과 (이연)만기일의 고시이율(동일상품, 동일기간) 중 낮은 이율\n- 1개월 초과 : 보통예금이율",
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "개인",
         "etc_note": "- 이자지급방식 : 만기일시지급\n- 가입방법 : 인터넷홈페이지\n- 해지방법 : 인터넷홈페이지/모바일앱에 접속하여 해약",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606181845"
       },
       {
         "dcls_month": "202605",
@@ -1051,15 +1051,15 @@
         "kor_co_nm": "신한저축은행",
         "fin_prdt_nm": "s-정기적금",
         "join_way": "스마트폰",
-        "mtrt_int": "- 1개월 이내 : 약정금리\n- 1개월 초과 : 보통예금금리",
+        "mtrt_int": "- 1개월 이내 : 당초 약정이율과 (이연)만기일의 고시이율(동일상품, 동일기간) 중 낮은 이율\n- 1개월 초과 : 보통예금이율",
         "spcl_cnd": "▶탄소포인트제(에코마일리지) 가입 인증 완료시 0.5% 우대금리 제공\n*12개월 가입에 한하여 1인1계좌 가입가능",
         "join_deny": "1",
         "join_member": "개인",
         "etc_note": "- 이자지급방식 : 만기일시지급\n- 가입방법 : 모바일앱\n- 해지방법 : 인터넷홈페이지/모바일앱에 접속하여 해약\n- 2023.02.13 smart-정기적금에서 s-정기적금으로 상품명 변경",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606181845"
       },
       {
         "dcls_month": "202605",
@@ -1068,15 +1068,15 @@
         "kor_co_nm": "신한저축은행",
         "fin_prdt_nm": "청포도 청년적금",
         "join_way": "인터넷,스마트폰",
-        "mtrt_int": "- 1개월 이내 : 약정금리\n- 1개월 초과 : 보통예금금리",
+        "mtrt_int": "- 1개월 이내 : 당초 약정이율과 (이연)만기일의 고시이율(동일상품, 동일기간) 중 낮은 이율\n- 1개월 초과 : 보통예금이율",
         "spcl_cnd": "①개인(신용)정보 수집?이용 동의[상품서비스안내 등] 상품서비스 안내 수단 전체 동의시 0.1 % 우대금리 제공\n②계약기간 총 월불입금 횟수의 1/2이상을 당사 입출금계좌에서 이체하여 불입하는 경우 0.3% 우대금리 제공\n③가입 후 만기해지시까지 통장 미발행시(ESG) 0.6% 우대금리 제공",
         "join_deny": "3",
         "join_member": "19~39세",
-        "etc_note": "①번 우대이율은 가입시점에 지급\n②③번 우대이율은 만기해지시점에 지급/가입일로부터 만기일까지의 기간에 대해 적용되며 중도해지시에는 지급하지 않음\n* 우대이율은 약정금리에 반영되어 중도해지이율, 만기후이율 산정시 포함되며, 만기앞당김해지시에도 포함",
+        "etc_note": "①번 우대이율은 가입시점에 지급\n②③번 우대이율은 만기해지시점에 지급/가입일로부터 만기일까지의 기간에 대해 적용되며 중도해지시에는 지급하지 않음\n* 만기일의 고시이율에는 우대이율이 포함되지 않습니다.",
         "max_limit": 300000,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606181845"
       },
       {
         "dcls_month": "202605",
@@ -1085,15 +1085,15 @@
         "kor_co_nm": "신한저축은행",
         "fin_prdt_nm": "s-자유적립적금",
         "join_way": "스마트폰",
-        "mtrt_int": "- 1개월 이내 : 약정금리\n- 1개월 초과 : 보통예금금리",
+        "mtrt_int": "- 1개월 이내 : 당초 약정이율과 (이연)만기일의 고시이율(동일상품, 동일기간) 중 낮은 이율\n- 1개월 초과 : 보통예금이율",
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "개인",
         "etc_note": "- 이자지급방식 : 만기일시지급\n- 가입방법 : 모바일앱\n- 해지방법 : 인터넷홈페이지/모바일앱에 접속하여 해약\n- 2023.02.13 smart-자유적립적금에서 s-자유적립적금으로 상품명 변경",
         "max_limit": null,
-        "dcls_strt_day": "20260520",
+        "dcls_strt_day": "20260618",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202605201110"
+        "fin_co_subm_day": "202606181845"
       },
       {
         "dcls_month": "202605",
@@ -1642,8 +1642,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202605",
@@ -1654,8 +1654,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202605",
@@ -1690,8 +1690,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202605",
@@ -2206,8 +2206,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202605",
@@ -2218,8 +2218,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202605",
@@ -2254,8 +2254,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202605",
@@ -2266,8 +2266,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202605",
@@ -4990,8 +4990,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.6
+        "intr_rate": 3,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202605",
@@ -5002,8 +5002,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5014,8 +5014,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5026,8 +5026,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5074,8 +5074,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 1.6,
-        "intr_rate2": 1.6
+        "intr_rate": 1.5,
+        "intr_rate2": 1.5
       },
       {
         "dcls_month": "202605",
@@ -5086,8 +5086,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 1.6,
-        "intr_rate2": 1.6
+        "intr_rate": 1.5,
+        "intr_rate2": 1.5
       },
       {
         "dcls_month": "202605",
@@ -5098,8 +5098,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 1.6,
-        "intr_rate2": 1.6
+        "intr_rate": 1.5,
+        "intr_rate2": 1.5
       },
       {
         "dcls_month": "202605",
@@ -5110,8 +5110,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.6
+        "intr_rate": 3,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202605",
@@ -5122,8 +5122,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5134,8 +5134,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5146,8 +5146,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.1
+        "intr_rate": 3,
+        "intr_rate2": 3
       },
       {
         "dcls_month": "202605",
@@ -5182,8 +5182,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 1.6,
-        "intr_rate2": 1.6
+        "intr_rate": 1.5,
+        "intr_rate2": 1.5
       },
       {
         "dcls_month": "202605",
@@ -5194,8 +5194,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 1.6,
-        "intr_rate2": 1.6
+        "intr_rate": 1.5,
+        "intr_rate2": 1.5
       },
       {
         "dcls_month": "202605",
@@ -5206,8 +5206,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 1.6,
-        "intr_rate2": 1.6
+        "intr_rate": 1.5,
+        "intr_rate2": 1.5
       },
       {
         "dcls_month": "202605",
