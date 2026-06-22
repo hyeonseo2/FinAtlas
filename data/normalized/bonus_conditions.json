@@ -2,7 +2,7 @@
   {
     "condition_id": "0010001_WR0001F_000",
     "product_id": "0010001_WR0001F",
-    "condition_text": "거래실적 인정기간 중 우리은행 입출식 계좌에서 각 항목별 실적 월수가 계약기간의 절반 이상인 경우",
+    "condition_text": "거래실적 인정기간 중 입출식 계좌에서 아래 실적월수가 계약기간의 1/2이상인 경우",
     "condition_category": "unclear",
     "bonus_rate": 0.0,
     "difficulty_level": 80,
@@ -15,7 +15,7 @@
   {
     "condition_id": "0010001_WR0001F_001",
     "product_id": "0010001_WR0001F",
-    "condition_text": "급여/연금 이체: 연 0.7%p",
+    "condition_text": "급여/연금 이체:연 0.7%p",
     "condition_category": "pension_transfer",
     "bonus_rate": 0.7,
     "difficulty_level": 90,
@@ -28,20 +28,20 @@
   {
     "condition_id": "0010001_WR0001F_002",
     "product_id": "0010001_WR0001F",
-    "condition_text": "공과금 자동이체: 연 0.3%p",
-    "condition_category": "auto_transfer",
+    "condition_text": "공과금 이체:0.3%p",
+    "condition_category": "unclear",
     "bonus_rate": 0.3,
-    "difficulty_level": 75,
+    "difficulty_level": 80,
     "requires_existing_relationship": false,
-    "requires_recurring_action": true,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.25
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
   },
   {
     "condition_id": "0010001_WR0001F_003",
     "product_id": "0010001_WR0001F",
-    "condition_text": "우리카드(신용/체크) 결제금액 10만원 이상 출금: 연 0.3%p",
+    "condition_text": "우리카드 신용/체크카드 결제금액 10만원 이상 출금:연 0.3%p",
     "condition_category": "card_spending",
     "bonus_rate": 0.3,
     "difficulty_level": 12,
@@ -54,7 +54,7 @@
   {
     "condition_id": "0010001_WR0001F_004",
     "product_id": "0010001_WR0001F",
-    "condition_text": "마케팅(전화·SMS) 동의 및 만기해지시점까지 유지: 연 0.1%p",
+    "condition_text": "우리은행 상품서비스 마케팅 동의 항목 중 전화(휴대폰) 및 SMS항목을 모두 동의 후 만기해지시점까지 유지:연 0.1%p",
     "condition_category": "marketing_agree",
     "bonus_rate": 0.1,
     "difficulty_level": 5,
@@ -63,19 +63,6 @@
     "is_unclear": false,
     "is_uncertain_parse": false,
     "achievability_probability": 0.95
-  },
-  {
-    "condition_id": "0010001_WR0001F_005",
-    "product_id": "0010001_WR0001F",
-    "condition_text": "상품 가입 시 금리우대쿠폰 적용한 경우",
-    "condition_category": "unclear",
-    "bonus_rate": 0.0,
-    "difficulty_level": 80,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": false,
-    "is_unclear": true,
-    "is_uncertain_parse": true,
-    "achievability_probability": 0.2
   },
   {
     "condition_id": "0010001_WR0001L_003",
@@ -483,7 +470,7 @@
   {
     "condition_id": "0010024_21000111_001",
     "product_id": "0010024_21000111",
-    "condition_text": "②월부금이 50만원 이상인 경우 0.20%",
+    "condition_text": "②월부금이 50만원 이상인 경우 0.2%",
     "condition_category": "auto_transfer",
     "bonus_rate": 0.2,
     "difficulty_level": 18,
@@ -626,7 +613,7 @@
   {
     "condition_id": "0010024_21001236_001",
     "product_id": "0010024_21001236",
-    "condition_text": "①적금가입시3.00%",
+    "condition_text": "①적금가입시3.0%",
     "condition_category": "unclear",
     "bonus_rate": 3.0,
     "difficulty_level": 80,
@@ -639,7 +626,7 @@
   {
     "condition_id": "0010024_21001236_002",
     "product_id": "0010024_21001236",
-    "condition_text": "②상품가입 전 마케팅동의시0.10%",
+    "condition_text": "②상품가입 전 마케팅동의시0.1%",
     "condition_category": "marketing_agree",
     "bonus_rate": 0.1,
     "difficulty_level": 5,
@@ -652,7 +639,7 @@
   {
     "condition_id": "0010024_21001236_003",
     "product_id": "0010024_21001236",
-    "condition_text": "③이 적금 신규월 포함 3개월 동안 10만원 이상 경남은행 카드 대금결제시2.00%",
+    "condition_text": "③이 적금 신규월 포함 3개월 동안 10만원 이상 경남은행 카드 대금결제시2.0%",
     "condition_category": "card_spending",
     "bonus_rate": 2.0,
     "difficulty_level": 12,
@@ -665,7 +652,7 @@
   {
     "condition_id": "0010024_21001236_005",
     "product_id": "0010024_21001236",
-    "condition_text": "①급여 또는 연금입금시1.50%",
+    "condition_text": "①급여 또는 연금입금시1.5%",
     "condition_category": "pension_transfer",
     "bonus_rate": 1.5,
     "difficulty_level": 90,
@@ -678,7 +665,7 @@
   {
     "condition_id": "0010024_21001236_006",
     "product_id": "0010024_21001236",
-    "condition_text": "②공과금 자동이체시 2.00%",
+    "condition_text": "②공과금 자동이체시 2.0%",
     "condition_category": "auto_transfer",
     "bonus_rate": 2.0,
     "difficulty_level": 75,
@@ -691,7 +678,7 @@
   {
     "condition_id": "0010024_21001236_007",
     "product_id": "0010024_21001236",
-    "condition_text": "③경남은행 카드이용시(8회이상&10만원이상 카드대금 결제보유)1.50%",
+    "condition_text": "③경남은행 카드이용시(8회이상&10만원이상 카드대금 결제보유)1.5%",
     "condition_category": "card_spending",
     "bonus_rate": 1.5,
     "difficulty_level": 12,
@@ -704,7 +691,7 @@
   {
     "condition_id": "0010024_21001236_008",
     "product_id": "0010024_21001236",
-    "condition_text": "④상품가입 전 마케팅동의시0.10%",
+    "condition_text": "④상품가입 전 마케팅동의시0.1%",
     "condition_category": "marketing_agree",
     "bonus_rate": 0.1,
     "difficulty_level": 5,
@@ -756,7 +743,7 @@
   {
     "condition_id": "0010024_21001292_000",
     "product_id": "0010024_21001292",
-    "condition_text": "①주거래우대 0.50%",
+    "condition_text": "①주거래우대 0.5%",
     "condition_category": "first_customer",
     "bonus_rate": 0.5,
     "difficulty_level": 65,
@@ -769,7 +756,7 @@
   {
     "condition_id": "0010024_21001292_001",
     "product_id": "0010024_21001292",
-    "condition_text": "②공과금 자동이체 0.40~0.60%",
+    "condition_text": "②공과금 자동이체 0.4~0.6%",
     "condition_category": "auto_transfer",
     "bonus_rate": 0.6,
     "difficulty_level": 75,
@@ -782,7 +769,7 @@
   {
     "condition_id": "0010024_21001292_002",
     "product_id": "0010024_21001292",
-    "condition_text": "③신규고객 0.20%",
+    "condition_text": "③신규고객 0.2%",
     "condition_category": "first_customer",
     "bonus_rate": 0.2,
     "difficulty_level": 65,
@@ -795,7 +782,7 @@
   {
     "condition_id": "0010024_21001292_003",
     "product_id": "0010024_21001292",
-    "condition_text": "④주택청약종합저축 보유 0.10%",
+    "condition_text": "④주택청약종합저축 보유 0.1%",
     "condition_category": "unclear",
     "bonus_rate": 0.1,
     "difficulty_level": 80,
