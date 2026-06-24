@@ -4940,6 +4940,32 @@
     "achievability_probability": 0.2
   },
   {
+    "condition_id": "0010457_240008_000",
+    "product_id": "0010457_240008",
+    "condition_text": "재예치 우대 : 0.05%",
+    "condition_category": "unclear",
+    "bonus_rate": 0.05,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0010457_240008_001",
+    "product_id": "0010457_240008",
+    "condition_text": "(1년이상 예치한 정기예.적금을 만기 1년이상 정기예금으로 재예치시 적용)",
+    "condition_category": "unclear",
+    "bonus_rate": 0.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
     "condition_id": "0010463_240001 240002_001",
     "product_id": "0010463_240001 240002",
     "condition_text": "000만원한도",
