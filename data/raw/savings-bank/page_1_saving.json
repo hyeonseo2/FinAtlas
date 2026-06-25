@@ -649,9 +649,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": 3000000,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260624",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202606240854"
       },
       {
         "dcls_month": "202606",
@@ -1584,9 +1584,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260624",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202606241526"
       },
       {
         "dcls_month": "202606",
@@ -1601,9 +1601,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260624",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202606241526"
       },
       {
         "dcls_month": "202606",
@@ -1618,9 +1618,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260624",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202606241526"
       },
       {
         "dcls_month": "202606",
@@ -1635,9 +1635,9 @@
         "join_member": "만19세미만 미성년자",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260624",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202606241526"
       },
       {
         "dcls_month": "202606",
@@ -1703,9 +1703,9 @@
         "join_member": "개인 및 법인고객",
         "etc_note": ".",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260624",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202606240834"
       }
     ],
     "optionList": [
@@ -3686,8 +3686,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 2.65,
-        "intr_rate2": 2.75
+        "intr_rate": 3.7,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202606",
@@ -3722,8 +3722,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "3",
-        "intr_rate": 2.3,
-        "intr_rate2": 2.4
+        "intr_rate": 3.7,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202606",
