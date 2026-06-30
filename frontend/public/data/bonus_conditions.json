@@ -1965,7 +1965,7 @@
   {
     "condition_id": "0010002_00320342_000",
     "product_id": "0010002_00320342",
-    "condition_text": "SC제일은행 최초 거래 신규고객에 대하여 우대 이율을 제공함 (보너스이율0.2%) 2.SC제일마이백통장에서 출금하여 이 예금을 신규하는경우에 보너스이율을 제공함",
+    "condition_text": "SC제일은행 최초 거래 신규고객에 대하여 우대 이율을 제공함 (보너스이율0.2%)",
     "condition_category": "first_customer",
     "bonus_rate": 0.2,
     "difficulty_level": 65,
@@ -1976,9 +1976,22 @@
     "achievability_probability": 0.35
   },
   {
-    "condition_id": "0010002_00320342_001",
+    "condition_id": "0010002_00320342_002",
     "product_id": "0010002_00320342",
-    "condition_text": "(가입기간:1년제/ 보너스이율:0.1% / 만기해약하는 경우에 한해 보너스이율을 적용함)",
+    "condition_text": "6~12개월제(만기일시지급식) 5천만원 이상 가입",
+    "condition_category": "unclear",
+    "bonus_rate": 0.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0010002_00320342_004",
+    "product_id": "0010002_00320342",
+    "condition_text": "(가입기간: 6개월~1년제/ 보너스이율:0.1% / 만기해약하는 경우에 한해 보너스이율을 적용함)",
     "condition_category": "unclear",
     "bonus_rate": 0.1,
     "difficulty_level": 80,
@@ -2550,9 +2563,9 @@
   {
     "condition_id": "0010024_21001280_002",
     "product_id": "0010024_21001280",
-    "condition_text": "③이벤트금리(비대면금리) 최대 0.85% (3개월 0.55% / 6",
+    "condition_text": "③이벤트금리(비대면금리) 최대 1.40% (3개월 0.55% / 6",
     "condition_category": "app_signup",
-    "bonus_rate": 0.85,
+    "bonus_rate": 1.4,
     "difficulty_level": 9,
     "requires_existing_relationship": false,
     "requires_recurring_action": false,
@@ -2563,9 +2576,9 @@
   {
     "condition_id": "0010024_21001280_003",
     "product_id": "0010024_21001280",
-    "condition_text": "9개월 0.70% / 12개월 0.85%)",
+    "condition_text": "9개월 0.90% / 12개월 1.40%)",
     "condition_category": "unclear",
-    "bonus_rate": 0.85,
+    "bonus_rate": 1.4,
     "difficulty_level": 80,
     "requires_existing_relationship": false,
     "requires_recurring_action": false,
