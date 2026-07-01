@@ -4643,9 +4643,9 @@
   {
     "condition_id": "0010350_240023_000",
     "product_id": "0010350_240023",
-    "condition_text": "영업점 내방 12개월 신규 또는 재예치 시 + 0.4%",
+    "condition_text": "영업점 내방 12개월 신규 또는 재예치 시 + 0.2%",
     "condition_category": "first_customer",
-    "bonus_rate": 0.4,
+    "bonus_rate": 0.2,
     "difficulty_level": 65,
     "requires_existing_relationship": true,
     "requires_recurring_action": false,
@@ -4656,9 +4656,9 @@
   {
     "condition_id": "0010350_240031_000",
     "product_id": "0010350_240031",
-    "condition_text": "영업점 내방 12개월 신규 또는 재예치 시 + 0.4%",
+    "condition_text": "영업점 내방 12개월 신규 또는 재예치 시 + 0.2%",
     "condition_category": "first_customer",
-    "bonus_rate": 0.4,
+    "bonus_rate": 0.2,
     "difficulty_level": 65,
     "requires_existing_relationship": true,
     "requires_recurring_action": false,
