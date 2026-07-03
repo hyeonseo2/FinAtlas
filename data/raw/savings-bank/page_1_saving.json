@@ -1176,9 +1176,9 @@
         "join_member": "제한없음",
         "etc_note": "중도해지 이율 - ① 1개월 미만 : 보통예금이율 (0.2%)\n② 1개월이상~6개월미만 : 약정이율X50%\n③ 6개월이상~12개월미만 : 약정이율X55%\n④ 12개월이상~24개월미만 : 약정이율X60%\n⑤ 24개월이상~60개월미만 : 약정이율X70%",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260702",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606220848"
+        "fin_co_subm_day": "202607020858"
       },
       {
         "dcls_month": "202606",
@@ -1193,9 +1193,9 @@
         "join_member": "인터넷 및 모바일뱅킹 사용자",
         "etc_note": "중도해지 이율 - ① 1개월 미만 : 보통예금이율 (0.2%)\n② 1개월이상~6개월미만 : 약정이율X50%\n③ 6개월이상~12개월미만 : 약정이율X55%\n④ 12개월이상~24개월미만 : 약정이율X60%\n⑤ 24개월이상~60개월미만 : 약정이율X70%",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260702",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606220848"
+        "fin_co_subm_day": "202607020858"
       },
       {
         "dcls_month": "202606",
@@ -1227,9 +1227,9 @@
         "join_member": "비대면 어플사용자",
         "etc_note": "중도해지 이율 - ① 1개월 미만 : 보통예금이율 (0.2%)\n② 1개월이상~6개월미만 : 약정이율X50%\n③ 6개월이상~12개월미만 : 약정이율X55%\n④ 12개월이상~24개월미만 : 약정이율X60%\n⑤ 24개월이상~60개월미만 : 약정이율X70%",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260702",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606220848"
+        "fin_co_subm_day": "202607020858"
       },
       {
         "dcls_month": "202606",
@@ -5354,8 +5354,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202606",
@@ -5366,8 +5366,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202606",
@@ -5378,8 +5378,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202606",
@@ -5486,8 +5486,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202606",
@@ -5522,8 +5522,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202606",
@@ -5534,8 +5534,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202606",
@@ -5654,8 +5654,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202606",
@@ -5678,8 +5678,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202606",
@@ -5690,8 +5690,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202606",
