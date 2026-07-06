@@ -1701,11 +1701,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한없음",
-        "etc_note": "없음",
+        "etc_note": "2026.07.04 신규분부터 적용",
         "max_limit": null,
         "dcls_strt_day": "20260703",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607030901"
+        "fin_co_subm_day": "202607031612"
       }
     ],
     "optionList": [
@@ -8116,8 +8116,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4.51,
-        "intr_rate2": 4.51
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202606",
@@ -8166,8 +8166,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4.51,
-        "intr_rate2": 4.51
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202606",
