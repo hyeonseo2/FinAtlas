@@ -1533,9 +1533,9 @@
         "join_member": "제한없음",
         "etc_note": "3년제 정기예금으로 가입 후 매 1년 마다 해당시점 금리로 자동연장되는 변동금리 상품. 매 1년 경과 후 중도해지 시 가입일부터 1년 경과 시점까지는 정상이율을 적용함",
         "max_limit": 10000000000,
-        "dcls_strt_day": "20260626",
+        "dcls_strt_day": "20260706",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606260844"
+        "fin_co_subm_day": "202607060839"
       },
       {
         "dcls_month": "202606",
@@ -1550,9 +1550,9 @@
         "join_member": "제한없음",
         "etc_note": "3년제 정기예금으로 가입 후 매 1년 마다 해당시점 금리로 자동연장되는 변동금리 상품. 매 1년 경과 후 중도해지 시 가입일부터 1년 경과 시점까지는 정상이율을 적용함",
         "max_limit": 10000000000,
-        "dcls_strt_day": "20260626",
+        "dcls_strt_day": "20260706",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606260844"
+        "fin_co_subm_day": "202607060839"
       },
       {
         "dcls_month": "202606",
@@ -7677,8 +7677,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4.4,
-        "intr_rate2": 4.5
+        "intr_rate": 3.91,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7687,8 +7687,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 4.4,
-        "intr_rate2": 4.5
+        "intr_rate": 3.91,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7697,8 +7697,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "36",
-        "intr_rate": 4.4,
-        "intr_rate2": 4.5
+        "intr_rate": 3.91,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7707,8 +7707,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4.4,
-        "intr_rate2": 4.5
+        "intr_rate": 3.91,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7717,8 +7717,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 4.4,
-        "intr_rate2": 4.5
+        "intr_rate": 3.91,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7727,8 +7727,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "36",
-        "intr_rate": 4.4,
-        "intr_rate2": 4.5
+        "intr_rate": 3.91,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7737,8 +7737,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4.5,
-        "intr_rate2": 4.5
+        "intr_rate": 4.01,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7747,8 +7747,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 4.5,
-        "intr_rate2": 4.5
+        "intr_rate": 4.01,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7757,8 +7757,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "36",
-        "intr_rate": 4.5,
-        "intr_rate2": 4.5
+        "intr_rate": 4.01,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7767,8 +7767,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4.5,
-        "intr_rate2": 4.5
+        "intr_rate": 4.01,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7777,8 +7777,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 4.5,
-        "intr_rate2": 4.5
+        "intr_rate": 4.01,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
@@ -7787,8 +7787,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "36",
-        "intr_rate": 4.5,
-        "intr_rate2": 4.5
+        "intr_rate": 4.01,
+        "intr_rate2": 4.01
       },
       {
         "dcls_month": "202606",
