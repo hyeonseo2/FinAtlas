@@ -20,9 +20,9 @@
         "join_member": "개인",
         "etc_note": ".",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010755"
+        "fin_co_subm_day": "202607080813"
       },
       {
         "dcls_month": "202606",
@@ -428,9 +428,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260707",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202607071054"
       },
       {
         "dcls_month": "202606",
@@ -445,9 +445,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260707",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202607071054"
       },
       {
         "dcls_month": "202606",
@@ -462,9 +462,9 @@
         "join_member": "제한없음",
         "etc_note": "1. 1인 1계좌\n2. 1인당 가입한도 : 최대 월 100만원",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260707",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202607071054"
       },
       {
         "dcls_month": "202606",
@@ -479,9 +479,9 @@
         "join_member": "제한없음",
         "etc_note": "1. 1인 1계좌\n2. 1인당 가입한도 : 최대 월 100만원",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260707",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202607071054"
       },
       {
         "dcls_month": "202606",
@@ -496,9 +496,9 @@
         "join_member": "반려동물 양육중인 개인고객",
         "etc_note": "1. 1인 1계좌\n2. 1인당 가입한도 : 최대 월 100만원\n3. 반려동물등록증, 예방접종내역서 등 기타 증빙자료 필요",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260707",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202607071054"
       },
       {
         "dcls_month": "202606",
@@ -513,9 +513,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260707",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202607071054"
       },
       {
         "dcls_month": "202606",
@@ -1742,8 +1742,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202606",
@@ -3315,7 +3315,7 @@
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
         "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate2": 4.3
       },
       {
         "dcls_month": "202606",
@@ -3327,7 +3327,7 @@
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
         "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate2": 4.3
       },
       {
         "dcls_month": "202606",
@@ -3339,7 +3339,7 @@
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
         "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate2": 4.3
       },
       {
         "dcls_month": "202606",

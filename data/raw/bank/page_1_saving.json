@@ -479,9 +479,9 @@
         "join_member": "개인사업자, 조합(비영리법인 포함), 법인",
         "etc_note": "해당없음",
         "max_limit": null,
-        "dcls_strt_day": "20260707",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607071104"
+        "fin_co_subm_day": "202607081043"
       },
       {
         "dcls_month": "202606",
@@ -496,9 +496,9 @@
         "join_member": "개인, 개인사업자, 임의단체",
         "etc_note": "해당없음",
         "max_limit": 5000000,
-        "dcls_strt_day": "20260707",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607071108"
+        "fin_co_subm_day": "202607081043"
       },
       {
         "dcls_month": "202606",
@@ -2065,8 +2065,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.59,
-        "intr_rate2": 3.59
+        "intr_rate": 3.39,
+        "intr_rate2": 3.39
       },
       {
         "dcls_month": "202606",
@@ -2077,8 +2077,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202606",
@@ -2101,8 +2101,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202606",
@@ -2113,8 +2113,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3.69,
-        "intr_rate2": 3.69
+        "intr_rate": 3.49,
+        "intr_rate2": 3.49
       },
       {
         "dcls_month": "202606",

@@ -1669,9 +1669,9 @@
         "join_member": "개인 및 법인고객",
         "etc_note": ".",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010755"
+        "fin_co_subm_day": "202607080813"
       },
       {
         "dcls_month": "202606",
@@ -1686,9 +1686,9 @@
         "join_member": "개인 및 법인고객",
         "etc_note": ".",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010755"
+        "fin_co_subm_day": "202607080813"
       },
       {
         "dcls_month": "202606",
@@ -1703,9 +1703,9 @@
         "join_member": "미취학아동과 부모님이 함께 가입",
         "etc_note": ".",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010755"
+        "fin_co_subm_day": "202607080813"
       }
     ],
     "optionList": [
@@ -6926,8 +6926,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202606",
