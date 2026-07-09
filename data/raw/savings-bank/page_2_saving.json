@@ -3,7 +3,7 @@
     "prdt_div": "S",
     "total_count": 276,
     "max_page_no": 3,
-    "now_page_no": 2,
+    "now_page_no": 1,
     "err_cd": "000",
     "err_msg": "정상",
     "baseList": [
@@ -666,9 +666,9 @@
         "join_member": "없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221048"
+        "fin_co_subm_day": "202607080917"
       },
       {
         "dcls_month": "202606",
@@ -683,9 +683,9 @@
         "join_member": "인터넷뱅킹, 스마트폰뱅킹 전용",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221048"
+        "fin_co_subm_day": "202607080917"
       },
       {
         "dcls_month": "202606",
@@ -700,9 +700,9 @@
         "join_member": "자체앱(Mymo) 전용",
         "etc_note": "자체앱(Mymo) 전용",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260708",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221048"
+        "fin_co_subm_day": "202607080917"
       },
       {
         "dcls_month": "202606",
