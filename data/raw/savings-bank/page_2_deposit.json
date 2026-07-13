@@ -1137,14 +1137,14 @@
         "fin_prdt_nm": "정기예금",
         "join_way": "영업점",
         "mtrt_int": "1개월내 : 약정금리와 해당 계약기간의 현행금리 중 낮은 금리 \n1개월 초과: 보통예금 금리",
-        "spcl_cnd": "*(특판,창구전용)텐텐플러스정기예금 가입시 10개월 (세전)연 4.5%\n*(특판,창구전용)텐텐더블정기예금 가입시 20개월 (세전)연 4.5%",
+        "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260710",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010843"
+        "fin_co_subm_day": "202607101724"
       },
       {
         "dcls_month": "202606",
@@ -1159,9 +1159,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260710",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010843"
+        "fin_co_subm_day": "202607101724"
       },
       {
         "dcls_month": "202606",
@@ -1176,9 +1176,9 @@
         "join_member": "제한없음",
         "etc_note": "1. 계약기간 60개월(회전주기 12개월)\n2. 변동금리 정기예금\n3. 약정한 회전주기(12개월)로 계약기간 이내에서 이자율이 변동되는 상품",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260710",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010843"
+        "fin_co_subm_day": "202607101724"
       },
       {
         "dcls_month": "202606",
@@ -1193,9 +1193,9 @@
         "join_member": "제한없음",
         "etc_note": "1. 계약기간 60개월(회전주기 12개월)\n2. 변동금리 정기예금\n3. 약정한 회전주기(12개월)로 계약기간 이내에서 이자율이 변동되는 상품",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260710",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010843"
+        "fin_co_subm_day": "202607101724"
       },
       {
         "dcls_month": "202606",
@@ -1210,9 +1210,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260710",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010843"
+        "fin_co_subm_day": "202607101724"
       },
       {
         "dcls_month": "202606",
@@ -1227,9 +1227,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260701",
+        "dcls_strt_day": "20260710",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607010843"
+        "fin_co_subm_day": "202607101724"
       },
       {
         "dcls_month": "202606",

@@ -4979,32 +4979,6 @@
     "achievability_probability": 0.2
   },
   {
-    "condition_id": "0010468_240002_001",
-    "product_id": "0010468_240002",
-    "condition_text": "창구전용)텐텐플러스정기예금 가입시 10개월 (세전)연 4.5%",
-    "condition_category": "unclear",
-    "bonus_rate": 4.5,
-    "difficulty_level": 80,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": false,
-    "is_unclear": true,
-    "is_uncertain_parse": true,
-    "achievability_probability": 0.2
-  },
-  {
-    "condition_id": "0010468_240002_003",
-    "product_id": "0010468_240002",
-    "condition_text": "창구전용)텐텐더블정기예금 가입시 20개월 (세전)연 4.5%",
-    "condition_category": "unclear",
-    "bonus_rate": 4.5,
-    "difficulty_level": 80,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": false,
-    "is_unclear": true,
-    "is_uncertain_parse": true,
-    "achievability_probability": 0.2
-  },
-  {
     "condition_id": "0010471_24-0055_001",
     "product_id": "0010471_24-0055",
     "condition_text": "매 1년 경과 후 중도해지시 회전일로부터 1년 경과 시점까지는 정상이율 적용.",
