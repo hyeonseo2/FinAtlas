@@ -3315,58 +3315,6 @@
     "achievability_probability": 0.9
   },
   {
-    "condition_id": "0010388_310008_001",
-    "product_id": "0010388_310008",
-    "condition_text": "가입대상: 만7세 이하 미성년자",
-    "condition_category": "unclear",
-    "bonus_rate": 0.0,
-    "difficulty_level": 80,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": false,
-    "is_unclear": true,
-    "is_uncertain_parse": true,
-    "achievability_probability": 0.2
-  },
-  {
-    "condition_id": "0010388_310008_002",
-    "product_id": "0010388_310008",
-    "condition_text": "1인 1계좌 / 영업점 전용상품 (부모님 내방)",
-    "condition_category": "first_customer",
-    "bonus_rate": 0.0,
-    "difficulty_level": 65,
-    "requires_existing_relationship": true,
-    "requires_recurring_action": false,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.35
-  },
-  {
-    "condition_id": "0010388_310008_007",
-    "product_id": "0010388_310008",
-    "condition_text": "부모님 인터넷뱅킹가입 필수",
-    "condition_category": "app_signup",
-    "bonus_rate": 0.0,
-    "difficulty_level": 9,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": false,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.9
-  },
-  {
-    "condition_id": "0010388_310008_008",
-    "product_id": "0010388_310008",
-    "condition_text": "가입금액: 최대 월 불입액 10만원",
-    "condition_category": "unclear",
-    "bonus_rate": 0.0,
-    "difficulty_level": 80,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": false,
-    "is_unclear": true,
-    "is_uncertain_parse": true,
-    "achievability_probability": 0.2
-  },
-  {
     "condition_id": "0010388_310011_003",
     "product_id": "0010388_310011",
     "condition_text": "부모신분증 -부모님 인터넷뱅킹가입 필수 -가입금액: 최대 월 불입액 10만원",

@@ -1,7 +1,7 @@
 {
   "result": {
     "prdt_div": "S",
-    "total_count": 276,
+    "total_count": 275,
     "max_page_no": 3,
     "now_page_no": 1,
     "err_cd": "000",
@@ -338,14 +338,14 @@
         "fin_prdt_nm": "푸른 정기적금",
         "join_way": "영업점,인터넷,스마트폰",
         "mtrt_int": "만기 후 보통예금 금리에 연동\n(단, 만기 1개월 경과시점까지는 약정금리와 동일상품의 만기시점 고시금리 중 낮은 금리 적용)",
-        "spcl_cnd": "- 없음",
+        "spcl_cnd": "없음",
         "join_deny": "1",
-        "join_member": "제한 없음",
-        "etc_note": "- 중도해지금리\n1개월 미만 : 0.20%,\n6개월 미만 : 1.65%, \n12개월 미만 : 2.02%,\n12개월 이상 : 2.05%",
+        "join_member": "제한없음",
+        "etc_note": "- 중도해지금리\n1개월 미만 : 0.20%,\n6개월 미만 : 1.90%, \n12개월 미만 : 2.27%,\n12개월 이상 : 2.30%",
         "max_limit": null,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260715",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202607150814"
       },
       {
         "dcls_month": "202606",
@@ -355,14 +355,14 @@
         "fin_prdt_nm": "프리스타일 적금",
         "join_way": "영업점,인터넷,스마트폰",
         "mtrt_int": "만기 후 보통예금 금리에 연동\n(단, 만기 1개월 경과시점까지는 약정금리와 동일상품의 만기시점 고시금리 중 낮은 금리 적용)",
-        "spcl_cnd": "-",
+        "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "개인",
-        "etc_note": "- 중도해지금리\n1개월 미만 : 0.20%,\n3개월 미만 : 1.15%,\n6개월 미만 : 1.49%, \n12개월 미만 : 1.50%,\n12개월 이상 : 1.55% \n\n- 1인 1계좌만 가능\n- 최고한도 : 5억원",
+        "etc_note": "- 중도해지금리\n1개월 미만 : 0.20%,\n3개월 미만 : 1.60%,\n6개월 미만 : 1.85%, \n12개월 미만 : 1.94%,\n12개월 이상 : 1.95% \n\n- 1인 1계좌만 가능\n- 최고한도 : 5억원",
         "max_limit": 500000000,
-        "dcls_strt_day": "20260622",
+        "dcls_strt_day": "20260715",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
+        "fin_co_subm_day": "202607150814"
       },
       {
         "dcls_month": "202606",
@@ -700,23 +700,6 @@
         "join_member": "개인 (직장인)",
         "etc_note": "* 중도해지이율 (입금액마다 경과기간별 차등 적용) - 1개월미만 : 가입일의 보통예금 금리 - 6개월미만 : 약정이율X50% - 9개월미만 : 약정이율X55% - 12개월미만 : 약정이율X60% - 12개월이상 : 약정이율X70%",
         "max_limit": 300000,
-        "dcls_strt_day": "20260622",
-        "dcls_end_day": null,
-        "fin_co_subm_day": "202606221120"
-      },
-      {
-        "dcls_month": "202606",
-        "fin_co_no": "0010388",
-        "fin_prdt_cd": "310008",
-        "kor_co_nm": "다올저축은행",
-        "fin_prdt_nm": "아이사랑 정기적금",
-        "join_way": "영업점",
-        "mtrt_int": "- 1개월 까지 : 당초 약정이율과 만기 시 약정이율을 비교하여 낮은 금리 적용 \n- 1개월 초과 : 연0.1%",
-        "spcl_cnd": "[※유의사항] \n-가입대상: 만7세 이하 미성년자 \n-1인 1계좌 / 영업점 전용상품 (부모님 내방) \n-필요서류: 자녀 명의 가족관계서류, 기본증명서, 도장, 부모신분증 \n-부모님 인터넷뱅킹가입 필수 \n-가입금액: 최대 월 불입액 10만원",
-        "join_deny": "3",
-        "join_member": "개인 (만 7세 이하 미성년자)",
-        "etc_note": "* 중도해지이율 (입금액마다 경과기간별 차등 적용) \n- 1개월미만 : 가입일의 보통예금 금리 \n- 6개월미만 : 약정이율X50% \n- 9개월미만 : 약정이율X55% \n- 12개월미만 : 약정이율X60% \n- 12개월이상 : 약정이율X70%",
-        "max_limit": 100000,
         "dcls_strt_day": "20260622",
         "dcls_end_day": null,
         "fin_co_subm_day": "202606221120"
@@ -1701,6 +1684,23 @@
         "spcl_cnd": "미취학아동과 부모님이 함께 가입하는 경우",
         "join_deny": "1",
         "join_member": "미취학아동과 부모님이 함께 가입",
+        "etc_note": ".",
+        "max_limit": null,
+        "dcls_strt_day": "20260708",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202607080813"
+      },
+      {
+        "dcls_month": "202606",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310011",
+        "kor_co_nm": "부림저축은행",
+        "fin_prdt_nm": "톡톡정기적금(비대면)",
+        "join_way": "스마트폰",
+        "mtrt_int": "- 만기후 1개월 이내 : 가입당시 약정금리와 현재 금리 비교 후 낮은금리\n- 만기후 1개월 초과 : 연 0.25%",
+        "spcl_cnd": "없음",
+        "join_deny": "1",
+        "join_member": "개인",
         "etc_note": ".",
         "max_limit": null,
         "dcls_strt_day": "20260708",
@@ -2846,8 +2846,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202606",
@@ -2858,8 +2858,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202606",
@@ -2870,8 +2870,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "6",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202606",
@@ -2882,8 +2882,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 2.4,
-        "intr_rate2": 2.4
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202606",
@@ -2894,8 +2894,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 2.7,
-        "intr_rate2": 2.7
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202606",
@@ -3842,30 +3842,6 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3,
-        "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202606",
-        "fin_co_no": "0010388",
-        "fin_prdt_cd": "310008",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3,
-        "intr_rate2": 3
-      },
-      {
-        "dcls_month": "202606",
-        "fin_co_no": "0010388",
-        "fin_prdt_cd": "310008",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
         "intr_rate": 3,
         "intr_rate2": 3
       },
@@ -6988,6 +6964,54 @@
         "save_trm": "12",
         "intr_rate": 4.2,
         "intr_rate2": 4.2
+      },
+      {
+        "dcls_month": "202606",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "36",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
+      },
+      {
+        "dcls_month": "202606",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.4,
+        "intr_rate2": 3.4
+      },
+      {
+        "dcls_month": "202606",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
+      },
+      {
+        "dcls_month": "202606",
+        "fin_co_no": "0010453",
+        "fin_prdt_cd": "310011",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "6",
+        "intr_rate": 2.5,
+        "intr_rate2": 2.5
       }
     ]
   }
