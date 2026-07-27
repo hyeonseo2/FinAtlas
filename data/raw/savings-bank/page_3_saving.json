@@ -256,11 +256,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "비거주 외국인 외 제한없음",
-        "etc_note": "-만65세 이상 비과세 종합저축 5,000만원 가능",
+        "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260724",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202607240938"
       },
       {
         "dcls_month": "202607",
@@ -273,11 +273,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "비거주 외국인 외 제한없음",
-        "etc_note": "-만65세 이상 비과세 종합저축 5,000만원 가능",
+        "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260724",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202607240938"
       },
       {
         "dcls_month": "202607",
@@ -307,11 +307,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "비거주 외국인 외 제한없음",
-        "etc_note": "-만65세 이상 비과세 종합저축 5,000만원 가능",
+        "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260724",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202607240938"
       },
       {
         "dcls_month": "202607",
@@ -324,11 +324,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "비거주 외국인 외 제한없음",
-        "etc_note": "-만65세 이상 비과세 종합저축 5,000만원 가능",
+        "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260724",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202607240938"
       },
       {
         "dcls_month": "202607",
@@ -341,11 +341,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "비거주 외국인 외 제한없음",
-        "etc_note": "-만65세 이상 비과세 종합저축 5,000만원 가능",
+        "etc_note": "-65세 이상 거주자로서 [기초연금법] 제2조 제2호에 따른 기초연금 수급자 비과세 종합저축 5,000만원 가능",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260724",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202607240938"
       },
       {
         "dcls_month": "202607",
@@ -2282,44 +2282,44 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
+      },
+      {
+        "dcls_month": "202607",
+        "fin_co_no": "0010576",
+        "fin_prdt_cd": "310007",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202607",
+        "fin_co_no": "0010576",
+        "fin_prdt_cd": "310007",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
       {
         "dcls_month": "202607",
         "fin_co_no": "0010576",
-        "fin_prdt_cd": "310007",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202607",
-        "fin_co_no": "0010576",
-        "fin_prdt_cd": "310007",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
-      },
-      {
-        "dcls_month": "202607",
-        "fin_co_no": "0010576",
         "fin_prdt_cd": "310009",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202607",
@@ -2330,8 +2330,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202607",
@@ -2342,8 +2342,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202607",
@@ -2378,8 +2378,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202607",
@@ -2390,8 +2390,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202607",
@@ -2402,8 +2402,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202607",
@@ -2414,44 +2414,44 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
+      },
+      {
+        "dcls_month": "202607",
+        "fin_co_no": "0010576",
+        "fin_prdt_cd": "310015",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "24",
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
+      },
+      {
+        "dcls_month": "202607",
+        "fin_co_no": "0010576",
+        "fin_prdt_cd": "310015",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "rsrv_type": "S",
+        "rsrv_type_nm": "정액적립식",
+        "save_trm": "12",
         "intr_rate": 3.5,
         "intr_rate2": 3.5
       },
       {
         "dcls_month": "202607",
         "fin_co_no": "0010576",
-        "fin_prdt_cd": "310015",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202607",
-        "fin_co_no": "0010576",
-        "fin_prdt_cd": "310015",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "rsrv_type": "S",
-        "rsrv_type_nm": "정액적립식",
-        "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
-      },
-      {
-        "dcls_month": "202607",
-        "fin_co_no": "0010576",
         "fin_prdt_cd": "310016",
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.5,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202607",
@@ -2462,8 +2462,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 3.4
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202607",
@@ -2474,8 +2474,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202607",
