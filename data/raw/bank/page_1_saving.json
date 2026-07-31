@@ -309,9 +309,9 @@
         "join_member": "실명의 개인 및 개인사업자",
         "etc_note": "1. 계약기간은 1년 이상 3년 이하 월단위로 한다.\n2. 적립금액은 5만원 이상, 최고금액은 제한없음",
         "max_limit": 999999999,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202607201140"
+        "fin_co_subm_day": "202607311039"
       },
       {
         "dcls_month": "202607",
@@ -326,9 +326,9 @@
         "join_member": "거래대상자는 제한을 두지 아니한다. 다만, 국가 및 지방자치단체는 이 예금을 거래할 수 없다.",
         "etc_note": "1. 계약기간은 6개월 이상 2년 이내 월단위로 한다.\n2. 초입금 1만원 이상 월별 500만원 이내에서 자유롭게 저축\n3. 최대 저축횟수는 999회 이내",
         "max_limit": 5000000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202607201140"
+        "fin_co_subm_day": "202607311039"
       },
       {
         "dcls_month": "202607",
@@ -343,9 +343,9 @@
         "join_member": "실명의 개인 및 개인사업자",
         "etc_note": "1.계약기간은 1개월 이상 36개월 이하 월단위로 한다.\n2..1인 1계좌로 가입가능\n2.매월 최소 1만원 이상, 최고 월 100만원 이하 (천원 단위)",
         "max_limit": 1000000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202607201140"
+        "fin_co_subm_day": "202607311039"
       },
       {
         "dcls_month": "202607",
@@ -360,9 +360,9 @@
         "join_member": "실명의 개인 및 개인사업자",
         "etc_note": "1.계악기간은 1년제, 2년제, 3년제로 한다.\n2. 적립금액은 매월 1만원이상, 최고금액은 제한없음",
         "max_limit": 999999999,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202607201140"
+        "fin_co_subm_day": "202607311039"
       },
       {
         "dcls_month": "202607",
@@ -372,14 +372,14 @@
         "fin_prdt_nm": "오늘도세이브적금",
         "join_way": "인터넷,스마트폰,기타",
         "mtrt_int": "만기후 1개월 이내: 일반정기예금 기본이율의 50%\n만기후 1개월 초과: 일반정기예금 기본이율의 20%",
-        "spcl_cnd": "①마케팅동의 0.15%\n②목돈마련 축하이율 0.30~1.00%\n③친구 추천번호 0.30~0.60%",
+        "spcl_cnd": "①마케팅동의 0.25%\n②목돈마련 축하이율 0.50~1.50%",
         "join_deny": "1",
         "join_member": "실명의 개인 및 개인사업자",
-        "etc_note": "1. 계약기간은 1개월 이상 6개월 이내 월단위로 한다.\n2. 초입금 일 1천원 이상 10만원 이하 자유롭게 저축\n3. 최대 저축횟수는 999회 이내",
+        "etc_note": "1. 계약기간은 3개월 이상 6개월 이내 월단위로 한다.\n2. 초입금 일 1천원 이상 10만원 이하 자유롭게 저축\n3. 최대 저축횟수는 999회 이내",
         "max_limit": 100000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202607201140"
+        "fin_co_subm_day": "202607311039"
       },
       {
         "dcls_month": "202607",
@@ -394,9 +394,9 @@
         "join_member": "실명의 개인",
         "etc_note": "1.계악기간은 1년제로 한다.\n2. 적립금액은 매월 10만원이상, 50만원 이하(1만원 이상)",
         "max_limit": 500000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202607201140"
+        "fin_co_subm_day": "202607311039"
       },
       {
         "dcls_month": "202607",
@@ -683,9 +683,9 @@
         "join_member": "실명의 개인\n또는 개인사업자",
         "etc_note": "1. 1인 1계좌만 가능\n(급여하나월복리적금,연금하나 월복리적금과 중복가입 불가)\n2. 가입금액 \n - 최저1만원~300만원이하\n3. 적립한도\n 분기당 1만원이상 300만원\n (자유적립식)",
         "max_limit": 3000000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201120"
+        "fin_co_subm_day": "202607310958"
       },
       {
         "dcls_month": "202607",
@@ -717,9 +717,9 @@
         "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
         "etc_note": "가입금액: 1만원 이상 30만원 이하\n가입기간: 6개월, 1년, 2년, 3년 \n(1인 최대 15계좌)",
         "max_limit": 300000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607200924"
+        "fin_co_subm_day": "202607311545"
       },
       {
         "dcls_month": "202607",
@@ -734,9 +734,9 @@
         "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
         "etc_note": "가입금액: 0원\n가입기간: 31일\n(1인 최대 1계좌)\n적립방법 : 연결계좌를 통한 직접 입금만 가능하며, 입금은 신규일부터 만기일 전일까지 1일 1회 가능\n납입금액 : 1일(1회) 최소 100원, 최대 5만원",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607200924"
+        "fin_co_subm_day": "202607311545"
       },
       {
         "dcls_month": "202607",
@@ -751,9 +751,9 @@
         "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
         "etc_note": "가입금액: 1만원 이상 1천만원 이하\n가입기간: 6개월 , 1년\n(1인 최대1계좌)",
         "max_limit": 10000000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607200924"
+        "fin_co_subm_day": "202607311545"
       },
       {
         "dcls_month": "202607",
@@ -766,11 +766,11 @@
         "spcl_cnd": "1. 입금실적에 따라 우대금리 적용\n2. 금리쿠폰을 입력시 우대금리 적용",
         "join_deny": "1",
         "join_member": "만 17세 미만의 실명의 개인",
-        "etc_note": "가입금액: 0원 / 최대 납입금액 : 월 30만원 \n가입기간 : 1년,2년,3년,4년,5년\n ㅇ 4년 금리: 최저 연 3.3% ~ 최고 연 8.3%\n ㅇ 5년 금리: 최저 연 3.5% ~ 최고 연 8.5%",
+        "etc_note": "가입금액: 0원 / 최대 납입금액 : 월 30만원 \n가입기간 : 1년,2년,3년,4년,5년\n ㅇ 4년 금리: 최저 연 3.3% ~ 최고 연 7.3%\n ㅇ 5년 금리: 최저 연 3.5% ~ 최고 연 7.5%",
         "max_limit": 300000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607200924"
+        "fin_co_subm_day": "202607311545"
       },
       {
         "dcls_month": "202607",
@@ -785,9 +785,9 @@
         "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
         "etc_note": "가입금액: 1천원 이상 300만원 이하\n가입기간: 6개월 ~ 36개월\n(1인 최대 3계좌)",
         "max_limit": 3000000,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260731",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607200924"
+        "fin_co_subm_day": "202607311545"
       },
       {
         "dcls_month": "202607",
@@ -1700,8 +1700,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 2.6,
-        "intr_rate2": 3.6
+        "intr_rate": 2.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202607",
@@ -1712,8 +1712,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 2.6,
-        "intr_rate2": 3.6
+        "intr_rate": 2.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202607",
@@ -1724,8 +1724,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.7,
-        "intr_rate2": 3.7
+        "intr_rate": 2.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202607",
@@ -1736,8 +1736,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.8
+        "intr_rate": 3.2,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202607",
@@ -1760,8 +1760,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3.7
+        "intr_rate": 3.1,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202607",
@@ -1784,8 +1784,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 2.1,
-        "intr_rate2": 4.6
+        "intr_rate": 2.3,
+        "intr_rate2": 4.8
       },
       {
         "dcls_month": "202607",
@@ -1796,8 +1796,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 2.1,
-        "intr_rate2": 4.6
+        "intr_rate": 2.3,
+        "intr_rate2": 4.8
       },
       {
         "dcls_month": "202607",
@@ -1808,8 +1808,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 2.1,
-        "intr_rate2": 4.6
+        "intr_rate": 2.3,
+        "intr_rate2": 4.8
       },
       {
         "dcls_month": "202607",
@@ -1820,8 +1820,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 1.8,
-        "intr_rate2": 4.3
+        "intr_rate": 2,
+        "intr_rate2": 4.5
       },
       {
         "dcls_month": "202607",
@@ -1832,8 +1832,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 2.35,
-        "intr_rate2": 3.95
+        "intr_rate": 2.55,
+        "intr_rate2": 4.15
       },
       {
         "dcls_month": "202607",
@@ -1844,8 +1844,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 2.35,
-        "intr_rate2": 3.95
+        "intr_rate": 2.55,
+        "intr_rate2": 4.15
       },
       {
         "dcls_month": "202607",
@@ -1856,8 +1856,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 2.5,
-        "intr_rate2": 4.1
+        "intr_rate": 2.7,
+        "intr_rate2": 4.3
       },
       {
         "dcls_month": "202607",
@@ -2528,8 +2528,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 2.75,
-        "intr_rate2": 3.75
+        "intr_rate": 2.95,
+        "intr_rate2": 3.95
       },
       {
         "dcls_month": "202607",
@@ -2540,8 +2540,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 2.8,
-        "intr_rate2": 3.8
+        "intr_rate": 3,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202607",
@@ -2552,8 +2552,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 2.85,
-        "intr_rate2": 3.85
+        "intr_rate": 3.1,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202607",
@@ -2769,7 +2769,7 @@
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
         "intr_rate": 3,
-        "intr_rate2": 8
+        "intr_rate2": 7
       },
       {
         "dcls_month": "202607",
@@ -2781,7 +2781,7 @@
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
         "intr_rate": 3,
-        "intr_rate2": 8
+        "intr_rate2": 7
       },
       {
         "dcls_month": "202607",
@@ -2793,7 +2793,7 @@
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
         "intr_rate": 3.3,
-        "intr_rate2": 8.3
+        "intr_rate2": 7.3
       },
       {
         "dcls_month": "202607",
