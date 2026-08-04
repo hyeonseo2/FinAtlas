@@ -224,9 +224,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260730",
+        "dcls_strt_day": "20260803",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607301702"
+        "fin_co_subm_day": "202608031713"
       },
       {
         "dcls_month": "202607",
@@ -241,9 +241,9 @@
         "join_member": "제한없음",
         "etc_note": "계좌당 가입한도:5천만원",
         "max_limit": 50000000,
-        "dcls_strt_day": "20260730",
+        "dcls_strt_day": "20260803",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607301702"
+        "fin_co_subm_day": "202608031713"
       },
       {
         "dcls_month": "202607",
@@ -258,9 +258,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260730",
+        "dcls_strt_day": "20260803",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607301702"
+        "fin_co_subm_day": "202608031713"
       },
       {
         "dcls_month": "202607",
@@ -275,9 +275,9 @@
         "join_member": "제한없음",
         "etc_note": "계좌당 가입한도:5천만원",
         "max_limit": 50000000,
-        "dcls_strt_day": "20260730",
+        "dcls_strt_day": "20260803",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607301702"
+        "fin_co_subm_day": "202608031713"
       },
       {
         "dcls_month": "202607",
@@ -2561,8 +2561,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202607",
@@ -2601,8 +2601,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202607",
@@ -2691,8 +2691,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4.01,
-        "intr_rate2": 4.01
+        "intr_rate": 3.81,
+        "intr_rate2": 3.81
       },
       {
         "dcls_month": "202607",
@@ -2701,8 +2701,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4.01,
-        "intr_rate2": 4.01
+        "intr_rate": 3.81,
+        "intr_rate2": 3.81
       },
       {
         "dcls_month": "202607",
