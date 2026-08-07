@@ -1125,9 +1125,9 @@
         "join_member": "제한없음",
         "etc_note": "중도해지이율\n-1개월 미만: 보통예금이율\n-1개월 이상~3개월 미만: 계약일의 계약기간별 약정이율의 50%\n-3개월 이상~12개월 미만: 계약일의 계약기간별 약정이율의 60%\n-12개월 이상: 계약일의 계약기간별 약정이율의 70%",
         "max_limit": null,
-        "dcls_strt_day": "20260805",
+        "dcls_strt_day": "20260806",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608050820"
+        "fin_co_subm_day": "202608060836"
       },
       {
         "dcls_month": "202607",
@@ -6038,8 +6038,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 4.11,
-        "intr_rate2": 4.11
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202607",
@@ -6050,8 +6050,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202607",
@@ -6074,8 +6074,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202607",
@@ -6086,8 +6086,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 4.11,
-        "intr_rate2": 4.11
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202607",
@@ -6110,8 +6110,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 4.11,
-        "intr_rate2": 4.11
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202607",
@@ -6122,8 +6122,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202607",
@@ -6146,8 +6146,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.3,
+        "intr_rate2": 3.3
       },
       {
         "dcls_month": "202607",
@@ -6158,8 +6158,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 4.11,
-        "intr_rate2": 4.11
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202607",
