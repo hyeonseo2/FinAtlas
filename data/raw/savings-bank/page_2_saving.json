@@ -20,9 +20,9 @@
         "join_member": "미취학아동과 부모님이 함께 가입",
         "etc_note": ".",
         "max_limit": null,
-        "dcls_strt_day": "20260803",
+        "dcls_strt_day": "20260812",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608031010"
+        "fin_co_subm_day": "202608120831"
       },
       {
         "dcls_month": "202607",
@@ -37,9 +37,9 @@
         "join_member": "개인",
         "etc_note": ".",
         "max_limit": null,
-        "dcls_strt_day": "20260803",
+        "dcls_strt_day": "20260812",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608031010"
+        "fin_co_subm_day": "202608120831"
       },
       {
         "dcls_month": "202607",
@@ -377,9 +377,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260811",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202608110852"
       },
       {
         "dcls_month": "202607",
@@ -394,9 +394,9 @@
         "join_member": "제한없음",
         "etc_note": "1. 최소가입금액 : 월 30만원\n2. 창구 가입 전용상품",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260811",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202608110852"
       },
       {
         "dcls_month": "202607",
@@ -411,9 +411,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260811",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202608110852"
       },
       {
         "dcls_month": "202607",
@@ -428,9 +428,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260811",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202608110852"
       },
       {
         "dcls_month": "202607",
@@ -1652,9 +1652,9 @@
         "join_member": "제한없음",
         "etc_note": "예금자보호법에 따라 예금보험공사가 보호하되, 원금과 소정의 이자를 합하여 1인당 \"최고 5천만원\"이며, 5천만원을 초과하는 나머지 금액은 보호하지 않습니다.",
         "max_limit": null,
-        "dcls_strt_day": "20260720",
+        "dcls_strt_day": "20260811",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202607201300"
+        "fin_co_subm_day": "202608110954"
       },
       {
         "dcls_month": "202607",
@@ -3026,8 +3026,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 4.1,
-        "intr_rate2": 4.1
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202607",
@@ -3038,8 +3038,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 4.1,
-        "intr_rate2": 4.1
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202607",
@@ -3050,8 +3050,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202607",
@@ -3074,8 +3074,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 4
+        "intr_rate": 3.2,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202607",
@@ -3086,8 +3086,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202607",
@@ -3110,8 +3110,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 4.1,
-        "intr_rate2": 4.1
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202607",
@@ -3122,8 +3122,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 4.1,
-        "intr_rate2": 4.1
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202607",
@@ -3134,8 +3134,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
-        "intr_rate": 4.1,
-        "intr_rate2": 4.1
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202607",
@@ -3146,8 +3146,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
-        "intr_rate": 4.1,
-        "intr_rate2": 4.1
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202607",
@@ -3158,8 +3158,8 @@
         "rsrv_type": "S",
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
-        "intr_rate": 3.3,
-        "intr_rate2": 3.3
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202607",
