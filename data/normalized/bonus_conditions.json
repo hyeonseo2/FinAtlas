@@ -1432,9 +1432,22 @@
   {
     "condition_id": "0013175_10-047-1387-0001_005",
     "product_id": "0013175_10-047-1387-0001",
-    "condition_text": "고향사랑특별금리 : 0.05%p(금리시장상황에 따라 변동 가능)",
+    "condition_text": "NH채움카드 또는 [zgm.고향으로 카드] 이용실적 우대 : 0.1%p",
+    "condition_category": "card_spending",
+    "bonus_rate": 0.1,
+    "difficulty_level": 75,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": true,
+    "is_unclear": false,
+    "is_uncertain_parse": false,
+    "achievability_probability": 0.25
+  },
+  {
+    "condition_id": "0013175_10-047-1387-0001_006",
+    "product_id": "0013175_10-047-1387-0001",
+    "condition_text": "고향사랑특별금리 : 0.1%p(금리시장상황에 따라 변동 가능)",
     "condition_category": "unclear",
-    "bonus_rate": 0.05,
+    "bonus_rate": 0.1,
     "difficulty_level": 80,
     "requires_existing_relationship": false,
     "requires_recurring_action": false,
@@ -1443,7 +1456,7 @@
     "achievability_probability": 0.2
   },
   {
-    "condition_id": "0013175_10-047-1387-0001_006",
+    "condition_id": "0013175_10-047-1387-0001_007",
     "product_id": "0013175_10-047-1387-0001",
     "condition_text": "고향사랑특별금리는 상품 가입고객 모두에게 적용",
     "condition_category": "unclear",
@@ -1935,6 +1948,84 @@
     "is_unclear": false,
     "is_uncertain_parse": false,
     "achievability_probability": 0.25
+  },
+  {
+    "condition_id": "0017801_1001303001009_001",
+    "product_id": "0017801_1001303001009",
+    "condition_text": "3일 저금 성공 시 : 연 2.0%",
+    "condition_category": "unclear",
+    "bonus_rate": 2.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0017801_1001303001009_002",
+    "product_id": "0017801_1001303001009",
+    "condition_text": "7일 저금 성공 시 : 연 3.0%",
+    "condition_category": "unclear",
+    "bonus_rate": 3.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0017801_1001303001009_003",
+    "product_id": "0017801_1001303001009",
+    "condition_text": "14일 저금 성공 시 : 연 5.0%",
+    "condition_category": "unclear",
+    "bonus_rate": 5.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0017801_1001303001009_004",
+    "product_id": "0017801_1001303001009",
+    "condition_text": "21일 저금 성공 시 : 연 7.0%",
+    "condition_category": "unclear",
+    "bonus_rate": 7.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0017801_1001303001009_005",
+    "product_id": "0017801_1001303001009",
+    "condition_text": "31일 저금 성공 시 : 연 9.0%",
+    "condition_category": "unclear",
+    "bonus_rate": 9.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
+    "condition_id": "0010002_00320342_000",
+    "product_id": "0010002_00320342",
+    "condition_text": "SC제일은행 최초 거래 신규고객 보너스 이율: 0.2%",
+    "condition_category": "first_customer",
+    "bonus_rate": 0.2,
+    "difficulty_level": 65,
+    "requires_existing_relationship": true,
+    "requires_recurring_action": false,
+    "is_unclear": false,
+    "is_uncertain_parse": false,
+    "achievability_probability": 0.35
   },
   {
     "condition_id": "0010002_00320342_002",
@@ -2810,6 +2901,19 @@
   {
     "condition_id": "0013175_10-003-1387-0001_005",
     "product_id": "0013175_10-003-1387-0001",
+    "condition_text": "NH채움카드 또는 [zgm고향으로카드] 이용실적 우대 : 0.1%p",
+    "condition_category": "card_spending",
+    "bonus_rate": 0.1,
+    "difficulty_level": 75,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": true,
+    "is_unclear": false,
+    "is_uncertain_parse": false,
+    "achievability_probability": 0.25
+  },
+  {
+    "condition_id": "0013175_10-003-1387-0001_006",
+    "product_id": "0013175_10-003-1387-0001",
     "condition_text": "고향사랑 특별금리 : 0.05%p (금리시장상황에 따라 변동 가능)",
     "condition_category": "unclear",
     "bonus_rate": 0.05,
@@ -2821,7 +2925,7 @@
     "achievability_probability": 0.2
   },
   {
-    "condition_id": "0013175_10-003-1387-0001_006",
+    "condition_id": "0013175_10-003-1387-0001_007",
     "product_id": "0013175_10-003-1387-0001",
     "condition_text": "고향사랑 특별금리는 상품 가입고객 모두에게 적용",
     "condition_category": "unclear",
