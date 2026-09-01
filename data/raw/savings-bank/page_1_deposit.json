@@ -579,11 +579,11 @@
         "spcl_cnd": "* 가입시점 우대금리 조건 충족시 최대 0.1%p 가산 적용(계약기간 24개월 이내)\n- 계좌별 가입금액 10억원 이상 : 0.1%p(최초 계약기간 한정)\n- 우수고객 : 0.1%p(거래기간 3년 이상, 직전 2년 평잔 10억원 이상인 고객. 단, 대출관련 예금 등 제외)",
         "join_deny": "1",
         "join_member": "제한없음",
-        "etc_note": "* 중도해지금리\n1개월 미만 : 0.20%,\n3개월 미만 : 1.70%,\n6개월 미만 : 1.95%, \n12개월 미만 : 2.04%,\n12개월 이상\n- 연단위 기간 : 해당 기간별 가입시점 고시금리 적용\n- 연단위 기간 초과분 : 초과기간에 해당하는 가입시점의 중도해지금리 적용 \n\n* 우수고객 중도해지금리 : 실예치기간 기본금리 적용",
+        "etc_note": "* 중도해지금리\n1개월 미만 : 0.20%,\n3개월 미만 : 1.70%,\n6개월 미만 : 2.12%, \n12개월 미만 : 2.15%,\n12개월 이상\n- 연단위 기간 : 해당 기간별 가입시점 고시금리 적용\n- 연단위 기간 초과분 : 초과기간에 해당하는 가입시점의 중도해지금리 적용 \n\n* 우수고객 중도해지금리 : 실예치기간 기본금리 적용",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260901",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609010815"
       },
       {
         "dcls_month": "202608",
@@ -1516,9 +1516,9 @@
         "join_member": "만 19세 이상의 개인",
         "etc_note": "만기후 1개월까지는 계약당시 금리와 만기시점 해당금리를 비교하여 낮은 금리 적용\n만기후 1개월 초과 이후로는 보통예금 금리 적용",
         "max_limit": 100000000,
-        "dcls_strt_day": "20260826",
+        "dcls_strt_day": "20260831",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608260903"
+        "fin_co_subm_day": "202608310852"
       },
       {
         "dcls_month": "202608",
@@ -1652,9 +1652,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260901",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608200822"
+        "fin_co_subm_day": "202609010827"
       },
       {
         "dcls_month": "202608",
@@ -3766,8 +3766,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.8
+        "intr_rate": 3.9,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202608",
@@ -3816,8 +3816,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "6",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.8
+        "intr_rate": 3.9,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202608",
@@ -7256,8 +7256,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202608",
@@ -7306,8 +7306,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202608",
@@ -8086,8 +8086,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.97,
-        "intr_rate2": 3.97
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202608",
