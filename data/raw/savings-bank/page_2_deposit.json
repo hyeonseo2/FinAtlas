@@ -902,11 +902,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한없음",
-        "etc_note": "보호금융상품 1인당 최고 1억원",
+        "etc_note": "보호금융상품 1인당 최고 1억원,",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260902",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609021837"
       },
       {
         "dcls_month": "202608",
@@ -5306,8 +5306,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.45,
-        "intr_rate2": 3.45
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202608",
@@ -5366,8 +5366,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.45,
-        "intr_rate2": 3.45
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202608",
