@@ -3302,19 +3302,6 @@
     "achievability_probability": 0.25
   },
   {
-    "condition_id": "0010366_024311001_005",
-    "product_id": "0010366_024311001",
-    "condition_text": "사원카드) : 0.1%",
-    "condition_category": "card_spending",
-    "bonus_rate": 0.1,
-    "difficulty_level": 75,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": true,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.25
-  },
-  {
     "condition_id": "0010370_310000_002",
     "product_id": "0010370_310000",
     "condition_text": "12개월 약정시",
