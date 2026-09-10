@@ -389,14 +389,14 @@
         "fin_prdt_nm": "정기예금",
         "join_way": "영업점",
         "mtrt_int": "*만기후 1개월 이내(2019.07.01이후 예금가입자) : 만기시점 동일상품 동일계약기간의 신규약정금리 *만기후 1개월 초과 :보통예금이율",
-        "spcl_cnd": "영업점 내방 12개월 신규 또는 재예치 시 + 0.1%",
+        "spcl_cnd": "영업점 내방 12개월 재예치 또는 추가하는 경우 + 0.05%",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "최소금액:10만원이상",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609100806"
       },
       {
         "dcls_month": "202608",
@@ -411,9 +411,9 @@
         "join_member": "제한없음",
         "etc_note": "최소금액:10만원이상",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609100806"
       },
       {
         "dcls_month": "202608",
@@ -428,9 +428,9 @@
         "join_member": "제한없음",
         "etc_note": "최소금액:10만원이상",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609100806"
       },
       {
         "dcls_month": "202608",
@@ -440,14 +440,14 @@
         "fin_prdt_nm": "회전정기예금",
         "join_way": "영업점",
         "mtrt_int": "*만기후 1개월 이내 : 만기시점 동일상품 동일계약기간의 신규약정금리 *만기후 1개월 초과 :보통예금이율",
-        "spcl_cnd": "영업점 내방 12개월 신규 또는 재예치 시 + 0.1%",
+        "spcl_cnd": "영업점 내방 12개월 재예치 또는 추가하는 경우 + 0.05%",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "* 최소금액:10만원이상\n*계약기간 : 36개월 (회전주기 12개월) \n* 회전주기(매 1년)마다 약정이율 변동",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609100806"
       },
       {
         "dcls_month": "202608",
@@ -462,9 +462,9 @@
         "join_member": "제한없음",
         "etc_note": "* 최소금액:10만원이상\n*계약기간 : 36개월 (회전주기 12개월) \n* 회전주기(매 1년)마다 약정이율 변동",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609100806"
       },
       {
         "dcls_month": "202608",
@@ -479,9 +479,9 @@
         "join_member": "제한없음",
         "etc_note": "* 최소금액:10만원이상\n*계약기간 : 36개월 (회전주기 6개월) \n* 회전주기(6개월)마다 약정이율 변동",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609100806"
       },
       {
         "dcls_month": "202608",
@@ -496,9 +496,9 @@
         "join_member": "제한없음",
         "etc_note": "* 최소금액:10만원이상\n*계약기간 : 36개월 (회전주기 6개월) \n* 회전주기(6개월)마다 약정이율 변동",
         "max_limit": null,
-        "dcls_strt_day": "20260820",
+        "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608201500"
+        "fin_co_subm_day": "202609100806"
       },
       {
         "dcls_month": "202608",
@@ -2857,7 +2857,7 @@
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
         "intr_rate": 3.8,
-        "intr_rate2": 3.9
+        "intr_rate2": 3.85
       },
       {
         "dcls_month": "202608",
@@ -2917,7 +2917,7 @@
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
         "intr_rate": 3.8,
-        "intr_rate2": 3.9
+        "intr_rate2": 3.85
       },
       {
         "dcls_month": "202608",
@@ -3187,7 +3187,7 @@
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
         "intr_rate": 3.9,
-        "intr_rate2": 4
+        "intr_rate2": 3.95
       },
       {
         "dcls_month": "202608",
@@ -3197,7 +3197,7 @@
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
         "intr_rate": 3.9,
-        "intr_rate2": 4
+        "intr_rate2": 3.95
       },
       {
         "dcls_month": "202608",
