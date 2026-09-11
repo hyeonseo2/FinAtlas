@@ -389,14 +389,14 @@
         "fin_prdt_nm": "정기예금",
         "join_way": "영업점",
         "mtrt_int": "*만기후 1개월 이내(2019.07.01이후 예금가입자) : 만기시점 동일상품 동일계약기간의 신규약정금리 *만기후 1개월 초과 :보통예금이율",
-        "spcl_cnd": "영업점 내방 12개월 재예치 또는 추가하는 경우 + 0.05%",
+        "spcl_cnd": "영업점 내방 12개월 재예치 하는 경우 + 0.05%",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "최소금액:10만원이상",
         "max_limit": null,
         "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609100806"
+        "fin_co_subm_day": "202609101046"
       },
       {
         "dcls_month": "202608",
@@ -413,7 +413,7 @@
         "max_limit": null,
         "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609100806"
+        "fin_co_subm_day": "202609101046"
       },
       {
         "dcls_month": "202608",
@@ -430,7 +430,7 @@
         "max_limit": null,
         "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609100806"
+        "fin_co_subm_day": "202609101046"
       },
       {
         "dcls_month": "202608",
@@ -440,14 +440,14 @@
         "fin_prdt_nm": "회전정기예금",
         "join_way": "영업점",
         "mtrt_int": "*만기후 1개월 이내 : 만기시점 동일상품 동일계약기간의 신규약정금리 *만기후 1개월 초과 :보통예금이율",
-        "spcl_cnd": "영업점 내방 12개월 재예치 또는 추가하는 경우 + 0.05%",
+        "spcl_cnd": "영업점 내방 12개월 재예치 하는 경우 + 0.05%",
         "join_deny": "1",
         "join_member": "제한없음",
         "etc_note": "* 최소금액:10만원이상\n*계약기간 : 36개월 (회전주기 12개월) \n* 회전주기(매 1년)마다 약정이율 변동",
         "max_limit": null,
         "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609100806"
+        "fin_co_subm_day": "202609101046"
       },
       {
         "dcls_month": "202608",
@@ -464,7 +464,7 @@
         "max_limit": null,
         "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609100806"
+        "fin_co_subm_day": "202609101046"
       },
       {
         "dcls_month": "202608",
@@ -481,7 +481,7 @@
         "max_limit": null,
         "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609100806"
+        "fin_co_subm_day": "202609101046"
       },
       {
         "dcls_month": "202608",
@@ -498,7 +498,7 @@
         "max_limit": null,
         "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609100806"
+        "fin_co_subm_day": "202609101046"
       },
       {
         "dcls_month": "202608",
@@ -1499,9 +1499,9 @@
         "join_member": "만 19세 이상의 개인",
         "etc_note": "만기후 1개월까지는 계약당시 금리와 만기시점 해당금리를 비교하여 낮은 금리 적용\n만기후 1개월 초과 이후로는 보통예금 금리 적용",
         "max_limit": 100000000,
-        "dcls_strt_day": "20260908",
+        "dcls_strt_day": "20260910",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609080841"
+        "fin_co_subm_day": "202609100838"
       },
       {
         "dcls_month": "202608",
@@ -7136,8 +7136,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202608",
@@ -7186,8 +7186,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202608",
