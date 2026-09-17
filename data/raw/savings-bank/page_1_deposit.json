@@ -1176,9 +1176,9 @@
         "join_member": "제한없음",
         "etc_note": "* 하루만 맡겨도 기본금리 적용, 만기시에는 추가금리가 더해지는 정기예금\n*중도해지이율 : 기본금리\n*만기해지이율 : 기본금리+추가금리",
         "max_limit": null,
-        "dcls_strt_day": "20260828",
+        "dcls_strt_day": "20260916",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608280833"
+        "fin_co_subm_day": "202609160847"
       },
       {
         "dcls_month": "202608",
@@ -1193,9 +1193,9 @@
         "join_member": "제한없음",
         "etc_note": "* 하루만 맡겨도 기본금리 적용, 만기시에는 추가금리가 더해지는 정기예금\n*중도해지이율 : 기본금리\n*만기해지이율 : 기본금리+추가금리",
         "max_limit": null,
-        "dcls_strt_day": "20260828",
+        "dcls_strt_day": "20260916",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202608280833"
+        "fin_co_subm_day": "202609160847"
       },
       {
         "dcls_month": "202608",
@@ -5966,8 +5966,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 2.3,
-        "intr_rate2": 3.8
+        "intr_rate": 2.45,
+        "intr_rate2": 3.95
       },
       {
         "dcls_month": "202608",
@@ -5976,8 +5976,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 2.4,
-        "intr_rate2": 3.9
+        "intr_rate": 2.55,
+        "intr_rate2": 4.05
       },
       {
         "dcls_month": "202608",
@@ -6006,8 +6006,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 2.3,
-        "intr_rate2": 3.8
+        "intr_rate": 2.45,
+        "intr_rate2": 3.95
       },
       {
         "dcls_month": "202608",
@@ -6016,8 +6016,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 2.4,
-        "intr_rate2": 3.9
+        "intr_rate": 2.55,
+        "intr_rate2": 4.05
       },
       {
         "dcls_month": "202608",
