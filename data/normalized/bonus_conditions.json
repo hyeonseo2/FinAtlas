@@ -1874,7 +1874,7 @@
   {
     "condition_id": "0017801_1001303001004_000",
     "product_id": "0017801_1001303001004",
-    "condition_text": "적금 가입 시 설정되는 월 단위 자동이체를 모두 성공하는 경우 : 연 0.50% 제공",
+    "condition_text": "전체 계약월수 중 1/2 이상에 해당하는 개월 수 동안 자동이체를 성공한 경우 : 연 0.50% 제공",
     "condition_category": "auto_transfer",
     "bonus_rate": 0.5,
     "difficulty_level": 75,
@@ -1887,7 +1887,7 @@
   {
     "condition_id": "0017801_1001303001005_000",
     "product_id": "0017801_1001303001005",
-    "condition_text": "적금 가입 시 설정되는 월 단위 자동이체를 모두 성공하는 경우 : 연 2.50% 제공",
+    "condition_text": "전체 계약월수 중 1/2 이상에 해당하는 개월 수 동안 자동이체를 성공한 경우 : 연 2.50% 제공",
     "condition_category": "auto_transfer",
     "bonus_rate": 2.5,
     "difficulty_level": 75,

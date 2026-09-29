@@ -598,9 +598,9 @@
         "join_member": "개인",
         "etc_note": "가입기간 1개월 이상 6개월 이하(일 단위)\n\n초입금 및 매일 1천원이상  5만원이내(천원 단위)",
         "max_limit": 1550000,
-        "dcls_strt_day": "20260928",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609281309"
+        "fin_co_subm_day": "202609290953"
       },
       {
         "dcls_month": "202609",
@@ -615,9 +615,9 @@
         "join_member": "만19세~만34세 개인 및 개인사업자",
         "etc_note": "초입금 및 매회 1만원 이상, 월 50만원 이내 자유적립\n\n급여이체 실적과 개인사업자 계좌 실적 우대금리는 중복 적용 불가\n\n * 급여입금실적 인정기준\n  - 가입기간 12개월 이하 : 3개월 이상 급여이체\n  - 가입기간 24개월 이하 : 12개월 이상 급여이체",
         "max_limit": 500000,
-        "dcls_strt_day": "20260928",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609281309"
+        "fin_co_subm_day": "202609290953"
       },
       {
         "dcls_month": "202609",
@@ -632,9 +632,9 @@
         "join_member": "개인",
         "etc_note": "초입금5만원 이상 및 매회 1만원 이상, 매월50만원이내\n(단, 만기일 전 3개월 이내에는 이전 적립금 합계액을 초과하여 입금불가)\n\n※자세한 사항은 상품설명서 참조",
         "max_limit": 500000,
-        "dcls_strt_day": "20260928",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609281309"
+        "fin_co_subm_day": "202609290953"
       },
       {
         "dcls_month": "202609",
@@ -649,9 +649,9 @@
         "join_member": "개인",
         "etc_note": "1.초입금1만원 이상 및 매회 1천원 이상, 매월50만원이내\n\n2. 고향사랑기부금 우대금리는 농협은행/농축협 영업점 또는 고향사랑e음 홈페이지를 통한 고향사랑기부금 납부실적이 확인되는 경우 제공\n\n3. 연간 판매액의 0.1% 공익기금 적립\n\n※자세한 사항은 상품설명서 참조",
         "max_limit": 500000,
-        "dcls_strt_day": "20260928",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609281309"
+        "fin_co_subm_day": "202609290953"
       },
       {
         "dcls_month": "202609",
@@ -666,9 +666,9 @@
         "join_member": "만18세이상 개인",
         "etc_note": "초입금 및 매회 입금 1만원 이상 원 단위,  1인당 분기별 3백만원 이내 적립 가능\n(단,계약기간 3/4 경과 후 적립할 수 있는 금액은 이전 적립누계액의 1/2이내)",
         "max_limit": 3000000,
-        "dcls_strt_day": "20260928",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609281309"
+        "fin_co_subm_day": "202609290953"
       },
       {
         "dcls_month": "202609",
@@ -717,9 +717,9 @@
         "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
         "etc_note": "가입금액: 1만원 이상 30만원 이하\n가입기간: 6개월, 1년, 2년, 3년 \n(1인 최대 15계좌)",
         "max_limit": 300000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609210909"
+        "fin_co_subm_day": "202609290954"
       },
       {
         "dcls_month": "202609",
@@ -734,9 +734,9 @@
         "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
         "etc_note": "가입금액: 0원\n가입기간: 31일\n(1인 최대 1계좌)\n적립방법 : 연결계좌를 통한 직접 입금만 가능하며, 입금은 신규일부터 만기일 전일까지 1일 1회 가능\n납입금액 : 1일(1회) 최소 100원, 최대 5만원",
         "max_limit": null,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609210909"
+        "fin_co_subm_day": "202609290954"
       },
       {
         "dcls_month": "202609",
@@ -751,9 +751,9 @@
         "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
         "etc_note": "가입금액: 1만원 이상 1천만원 이하\n가입기간: 6개월 , 1년\n(1인 최대1계좌)",
         "max_limit": 10000000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609210909"
+        "fin_co_subm_day": "202609290954"
       },
       {
         "dcls_month": "202609",
@@ -768,9 +768,9 @@
         "join_member": "만 17세 미만의 실명의 개인",
         "etc_note": "가입금액: 0원 / 최대 납입금액 : 월 30만원 \n가입기간 : 1년,2년,3년,4년,5년\n ㅇ 4년 금리: 최저 연 3.3% ~ 최고 연 7.3%\n ㅇ 5년 금리: 최저 연 3.5% ~ 최고 연 7.5%",
         "max_limit": 300000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609210909"
+        "fin_co_subm_day": "202609290954"
       },
       {
         "dcls_month": "202609",
@@ -785,9 +785,9 @@
         "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
         "etc_note": "가입금액: 1천원 이상 300만원 이하\n가입기간: 6개월 ~ 36개월\n(1인 최대 3계좌)",
         "max_limit": 3000000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609210909"
+        "fin_co_subm_day": "202609290954"
       },
       {
         "dcls_month": "202609",
@@ -955,9 +955,9 @@
         "join_member": "· 토스뱅크 통장 또는 토스뱅크 서브 통장을 보유한 실명의 개인",
         "etc_note": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원\n· 우대금리는 만기 해지하는 경우에만 제공됨",
         "max_limit": 300000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202609211143"
+        "fin_co_subm_day": "202609291028"
       },
       {
         "dcls_month": "202609",
@@ -967,14 +967,14 @@
         "fin_prdt_nm": "토스뱅크 자유 적금",
         "join_way": "스마트폰",
         "mtrt_int": "· 만기 후 1개월 이내 : 만기시점 기본금리 X 50% \n· 만기 후 1개월 초과 3개월 이내 : 만기시점 기본금리 X 20% \n· 만기 후 3개월 초과 : 연 0.10%",
-        "spcl_cnd": "· 적금 가입 시 설정되는 월 단위 자동이체를 모두 성공하는 경우 : 연 0.50% 제공",
+        "spcl_cnd": "· 전체 계약월수 중 1/2 이상에 해당하는 개월 수 동안 자동이체를 성공한 경우 : 연 0.50% 제공",
         "join_deny": "1",
         "join_member": "· 토스뱅크 통장 또는 토스뱅크 서브 통장을 보유한 실명의 개인",
         "etc_note": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원 이상 300만원 이하\n· 우대금리는 만기 해지하는 경우에만 제공됨",
         "max_limit": 3000000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202609211143"
+        "fin_co_subm_day": "202609291028"
       },
       {
         "dcls_month": "202609",
@@ -984,14 +984,14 @@
         "fin_prdt_nm": "토스뱅크 아이 적금",
         "join_way": "스마트폰",
         "mtrt_int": "· 만기 후 1개월 이내 : 만기시점 기본금리 X 50% \n· 만기 후 1개월 초과 3개월 이내 : 만기시점 기본금리 X 20% \n· 만기 후 3개월 초과 : 연 0.10%",
-        "spcl_cnd": "· 적금 가입 시 설정되는 월 단위 자동이체를 모두 성공하는 경우 : 연 2.50% 제공",
+        "spcl_cnd": "· 전체 계약월수 중 1/2 이상에 해당하는 개월 수 동안 자동이체를 성공한 경우 : 연 2.50% 제공",
         "join_deny": "3",
         "join_member": "· 토스뱅크 아이 통장을 보유한 15세 이하 실명의 개인",
         "etc_note": "· 1인 1계좌 \n· 가입금액 : 0원\n· 우대금리는 만기 해지하는 경우에만 제공됨",
         "max_limit": 200000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202609211143"
+        "fin_co_subm_day": "202609291028"
       },
       {
         "dcls_month": "202609",
@@ -1006,9 +1006,9 @@
         "join_member": "· 토스뱅크 통장 또는 토스뱅크 아이 통장을 보유한 7세 이상 실명의 개인",
         "etc_note": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원\n· 우대금리는 만기 해지하는 경우에만 제공됨",
         "max_limit": 5000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20260929",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202609211143"
+        "fin_co_subm_day": "202609291028"
       }
     ],
     "optionList": [
@@ -2461,8 +2461,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.24,
-        "intr_rate2": 4.04
+        "intr_rate": 3.25,
+        "intr_rate2": 4.05
       },
       {
         "dcls_month": "202609",
@@ -2629,8 +2629,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "1",
-        "intr_rate": 2.8,
-        "intr_rate2": 2.8
+        "intr_rate": 2.9,
+        "intr_rate2": 2.9
       },
       {
         "dcls_month": "202609",
@@ -2641,8 +2641,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.7,
-        "intr_rate2": 3.7
+        "intr_rate": 3.8,
+        "intr_rate2": 3.8
       },
       {
         "dcls_month": "202609",
@@ -2653,8 +2653,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202609",
@@ -2665,8 +2665,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "3",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.1,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202609",
@@ -2677,8 +2677,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 3,
-        "intr_rate2": 3
+        "intr_rate": 3.2,
+        "intr_rate2": 3.2
       },
       {
         "dcls_month": "202609",
@@ -2689,8 +2689,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 3.5,
-        "intr_rate2": 3.5
+        "intr_rate": 3.6,
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202609",
@@ -2773,8 +2773,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.6,
-        "intr_rate2": 4.2
+        "intr_rate": 3.7,
+        "intr_rate2": 4.3
       },
       {
         "dcls_month": "202609",
@@ -2785,8 +2785,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3.4,
-        "intr_rate2": 4
+        "intr_rate": 3.5,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202609",
@@ -2797,8 +2797,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 3.4,
-        "intr_rate2": 4
+        "intr_rate": 3.5,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202609",
@@ -2809,8 +2809,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.8
+        "intr_rate": 3.3,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202609",
