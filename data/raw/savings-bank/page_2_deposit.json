@@ -428,9 +428,9 @@
         "join_member": "인터넷뱅킹 및 스마트폰 뱅킹 신청자",
         "etc_note": "해당없음",
         "max_limit": null,
-        "dcls_strt_day": "20260923",
+        "dcls_strt_day": "20261001",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609230906"
+        "fin_co_subm_day": "202610010921"
       },
       {
         "dcls_month": "202609",
@@ -3266,8 +3266,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4.02,
-        "intr_rate2": 4.02
+        "intr_rate": 3.91,
+        "intr_rate2": 3.91
       },
       {
         "dcls_month": "202609",
@@ -3326,8 +3326,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4.02,
-        "intr_rate2": 4.02
+        "intr_rate": 3.91,
+        "intr_rate2": 3.91
       },
       {
         "dcls_month": "202609",
