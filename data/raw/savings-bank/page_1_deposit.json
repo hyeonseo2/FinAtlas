@@ -1,7 +1,7 @@
 {
   "result": {
     "prdt_div": "D",
-    "total_count": 393,
+    "total_count": 394,
     "max_page_no": 4,
     "now_page_no": 1,
     "err_cd": "000",
@@ -921,9 +921,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20261006",
+        "dcls_strt_day": "20261008",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610060846"
+        "fin_co_subm_day": "202610080818"
       },
       {
         "dcls_month": "202609",
@@ -938,9 +938,26 @@
         "join_member": "제한없음",
         "etc_note": "인터넷, 스마트폰 전용",
         "max_limit": null,
-        "dcls_strt_day": "20261006",
+        "dcls_strt_day": "20261008",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610060846"
+        "fin_co_subm_day": "202610080818"
+      },
+      {
+        "dcls_month": "202609",
+        "fin_co_no": "0010366",
+        "fin_prdt_cd": "024242002",
+        "kor_co_nm": "조은저축은행",
+        "fin_prdt_nm": "(특판한도)SB톡톡 정기예금",
+        "join_way": "스마트폰",
+        "mtrt_int": "- 1개월이내 해지: 만기시 e-정기예금 동일 계약기간의 신규약정금리\n'- 1개월초과 이후 해지: 보통예금 이율",
+        "spcl_cnd": "없음",
+        "join_deny": "1",
+        "join_member": "SB 톡톡",
+        "etc_note": "한도 30억 / 1일 소진 시 마감(금리변경시 까지)",
+        "max_limit": null,
+        "dcls_strt_day": "20261008",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202610080818"
       },
       {
         "dcls_month": "202609",
@@ -1176,9 +1193,9 @@
         "join_member": "제한없음",
         "etc_note": "* 하루만 맡겨도 기본금리 적용, 만기시에는 추가금리가 더해지는 정기예금\n*중도해지이율 : 기본금리\n*만기해지이율 : 기본금리+추가금리",
         "max_limit": null,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20261008",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609211300"
+        "fin_co_subm_day": "202610080842"
       },
       {
         "dcls_month": "202609",
@@ -1193,9 +1210,9 @@
         "join_member": "제한없음",
         "etc_note": "* 하루만 맡겨도 기본금리 적용, 만기시에는 추가금리가 더해지는 정기예금\n*중도해지이율 : 기본금리\n*만기해지이율 : 기본금리+추가금리",
         "max_limit": null,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20261008",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609211300"
+        "fin_co_subm_day": "202610080842"
       },
       {
         "dcls_month": "202609",
@@ -1635,9 +1652,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20261006",
+        "dcls_strt_day": "20261008",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610060823"
+        "fin_co_subm_day": "202610080824"
       },
       {
         "dcls_month": "202609",
@@ -1685,23 +1702,6 @@
         "join_deny": "1",
         "join_member": "-만19세이상의 개인",
         "etc_note": "-통장을 발급하지 않는 온라인 전용상품으로 영업점 해지시 우대금리 적용불가",
-        "max_limit": null,
-        "dcls_strt_day": "20260921",
-        "dcls_end_day": null,
-        "fin_co_subm_day": "202609211300"
-      },
-      {
-        "dcls_month": "202609",
-        "fin_co_no": "0010419",
-        "fin_prdt_cd": "240017",
-        "kor_co_nm": "인성저축은행",
-        "fin_prdt_nm": "회전정기예금",
-        "join_way": "영업점",
-        "mtrt_int": "-1개월이내 : 약정이율\n-1개월초과 : 보통예금이율",
-        "spcl_cnd": "없음",
-        "join_deny": "1",
-        "join_member": "-제한없음",
-        "etc_note": "- 상품최초 가입일자부터 1년이 경과하여 해지하는 경우에는 금번 금리변경＊전 일자까지는 약정이율이 적용되고, 금번 금리변경일 이후 1년 경과 전 중도해지 시 위 기간별 중도해지이율이 적용됩니다.\n* 본건 회전식정기예금 금리는 최초가입 일부터 1년 단위로 변경 적용되며, 적용되는 약정이율은 \n금리변경일의 당행 회전식 정기예금 금리가 적용됩니다.",
         "max_limit": null,
         "dcls_strt_day": "20260921",
         "dcls_end_day": null,
@@ -4936,8 +4936,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 4.1,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202609",
@@ -4996,8 +4996,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4,
-        "intr_rate2": 4
+        "intr_rate": 4.1,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202609",
@@ -5138,6 +5138,26 @@
         "save_trm": "36",
         "intr_rate": 2,
         "intr_rate2": 2
+      },
+      {
+        "dcls_month": "202609",
+        "fin_co_no": "0010366",
+        "fin_prdt_cd": "024242002",
+        "intr_rate_type": "S",
+        "intr_rate_type_nm": "단리",
+        "save_trm": "12",
+        "intr_rate": 4.1,
+        "intr_rate2": 4.1
+      },
+      {
+        "dcls_month": "202609",
+        "fin_co_no": "0010366",
+        "fin_prdt_cd": "024242002",
+        "intr_rate_type": "M",
+        "intr_rate_type_nm": "복리",
+        "save_trm": "12",
+        "intr_rate": 4.1,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202609",
@@ -5966,8 +5986,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 2.45,
-        "intr_rate2": 3.95
+        "intr_rate": 2.5,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202609",
@@ -5976,8 +5996,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 2.55,
-        "intr_rate2": 4.05
+        "intr_rate": 2.6,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202609",
@@ -6006,8 +6026,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 2.45,
-        "intr_rate2": 3.95
+        "intr_rate": 2.5,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202609",
@@ -6016,8 +6036,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 2.55,
-        "intr_rate2": 4.05
+        "intr_rate": 2.6,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202609",
@@ -7916,8 +7936,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202609",
@@ -7966,8 +7986,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.86,
-        "intr_rate2": 3.86
+        "intr_rate": 3.7,
+        "intr_rate2": 3.7
       },
       {
         "dcls_month": "202609",
@@ -8318,26 +8338,6 @@
         "save_trm": "36",
         "intr_rate": 3.4,
         "intr_rate2": 3.4
-      },
-      {
-        "dcls_month": "202609",
-        "fin_co_no": "0010419",
-        "fin_prdt_cd": "240017",
-        "intr_rate_type": "S",
-        "intr_rate_type_nm": "단리",
-        "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
-      },
-      {
-        "dcls_month": "202609",
-        "fin_co_no": "0010419",
-        "fin_prdt_cd": "240017",
-        "intr_rate_type": "M",
-        "intr_rate_type_nm": "복리",
-        "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
       }
     ]
   }
