@@ -141,7 +141,7 @@
         "max_limit": 50000000,
         "dcls_strt_day": "20260921",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610130959"
+        "fin_co_subm_day": "202610140844"
       },
       {
         "dcls_month": "202609",
@@ -158,7 +158,7 @@
         "max_limit": null,
         "dcls_strt_day": "20260921",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610130958"
+        "fin_co_subm_day": "202610140845"
       },
       {
         "dcls_month": "202609",
@@ -175,7 +175,7 @@
         "max_limit": 100000000,
         "dcls_strt_day": "20260921",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610130958"
+        "fin_co_subm_day": "202610140845"
       },
       {
         "dcls_month": "202609",
@@ -309,9 +309,9 @@
         "join_member": "거래대상자는 제한을 두지 아니한다. 다만, 국가 및 지방자치단체는 이 예금을 거래할 수 없다.",
         "etc_note": "1. 이 예금의 계약기간은 3개월 이상 2년 이내 월단위로 한다.\n2. 가입금액은 1인당 최소 100만원 이상 5억원 이하이다.",
         "max_limit": 500000000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20261014",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202609211035"
+        "fin_co_subm_day": "202610140942"
       },
       {
         "dcls_month": "202609",
@@ -326,9 +326,9 @@
         "join_member": "개인",
         "etc_note": "1. 이 예금의 계약기간은 3개월, 6개월, 9개월, 12개월로 한다.\n2. 가입좌수 제한없으며, 가입금액은 1인당 최소 100만원 이상 10억원 이하이다.",
         "max_limit": 1000000000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20261014",
         "dcls_end_day": "20261231",
-        "fin_co_subm_day": "202609211035"
+        "fin_co_subm_day": "202610140942"
       },
       {
         "dcls_month": "202609",
@@ -343,9 +343,9 @@
         "join_member": "개인",
         "etc_note": "1. 이 예금의 계약기간은 3개월, 6개월, 12개월, 24개월로 한다.\n2. 가입좌수 제한없으며, 가입금액은 1인당 최소 100만원 이상 10억원 이하이다.",
         "max_limit": 1000000000,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20261014",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202609211035"
+        "fin_co_subm_day": "202610140942"
       },
       {
         "dcls_month": "202609",
@@ -377,9 +377,9 @@
         "join_member": "실명의 개인\n(개인사업자 제외)",
         "etc_note": "계좌 수 제한 없으며, 최소 1백만원 이상 납입한도 제한 없음",
         "max_limit": null,
-        "dcls_strt_day": "20261013",
+        "dcls_strt_day": "20261014",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610131102"
+        "fin_co_subm_day": "202610140858"
       },
       {
         "dcls_month": "202609",
@@ -394,9 +394,9 @@
         "join_member": "실명의 개인\n(개인사업자 제외)",
         "etc_note": "계좌 수 제한 없으며, 최소 1백만원 이상 통합한도 3억원 이내 가입 가능",
         "max_limit": 300000000,
-        "dcls_strt_day": "20261013",
+        "dcls_strt_day": "20261014",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610131101"
+        "fin_co_subm_day": "202610140900"
       },
       {
         "dcls_month": "202609",
@@ -989,8 +989,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.35,
-        "intr_rate2": 3.55
+        "intr_rate": 3.34,
+        "intr_rate2": 3.54
       },
       {
         "dcls_month": "202609",
@@ -999,8 +999,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "24",
-        "intr_rate": 3.2,
-        "intr_rate2": 3.4
+        "intr_rate": 3.19,
+        "intr_rate2": 3.39
       },
       {
         "dcls_month": "202609",
@@ -1049,8 +1049,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.25,
-        "intr_rate2": 3.45
+        "intr_rate": 3.24,
+        "intr_rate2": 3.44
       },
       {
         "dcls_month": "202609",
@@ -1059,8 +1059,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.3
+        "intr_rate": 3.09,
+        "intr_rate2": 3.29
       },
       {
         "dcls_month": "202609",
@@ -1079,8 +1079,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.25,
-        "intr_rate2": 3.75
+        "intr_rate": 3.24,
+        "intr_rate2": 3.74
       },
       {
         "dcls_month": "202609",
@@ -1409,8 +1409,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 2.25,
-        "intr_rate2": 3.4
+        "intr_rate": 2.5,
+        "intr_rate2": 3.65
       },
       {
         "dcls_month": "202609",
@@ -1419,8 +1419,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 2.25,
-        "intr_rate2": 3.5
+        "intr_rate": 2.5,
+        "intr_rate2": 3.75
       },
       {
         "dcls_month": "202609",
@@ -1429,8 +1429,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 2.3,
-        "intr_rate2": 3.85
+        "intr_rate": 2.55,
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202609",
@@ -1439,8 +1439,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 2.85,
-        "intr_rate2": 3.25
+        "intr_rate": 3.1,
+        "intr_rate2": 3.5
       },
       {
         "dcls_month": "202609",
@@ -1449,8 +1449,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "6",
-        "intr_rate": 3,
-        "intr_rate2": 3.4
+        "intr_rate": 3.25,
+        "intr_rate2": 3.65
       },
       {
         "dcls_month": "202609",
@@ -1459,8 +1459,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.35,
-        "intr_rate2": 3.75
+        "intr_rate": 3.6,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202609",
@@ -1519,8 +1519,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.55,
-        "intr_rate2": 3.55
+        "intr_rate": 3.54,
+        "intr_rate2": 3.54
       },
       {
         "dcls_month": "202609",
@@ -1529,8 +1529,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "24",
-        "intr_rate": 3.47,
-        "intr_rate2": 3.47
+        "intr_rate": 3.43,
+        "intr_rate2": 3.43
       },
       {
         "dcls_month": "202609",
@@ -1539,8 +1539,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "36",
-        "intr_rate": 3.45,
-        "intr_rate2": 3.45
+        "intr_rate": 3.39,
+        "intr_rate2": 3.39
       },
       {
         "dcls_month": "202609",
@@ -1559,8 +1559,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "3",
-        "intr_rate": 3.07,
-        "intr_rate2": 3.07
+        "intr_rate": 3.06,
+        "intr_rate2": 3.06
       },
       {
         "dcls_month": "202609",
