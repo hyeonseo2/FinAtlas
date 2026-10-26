@@ -3835,6 +3835,19 @@
     "achievability_probability": 0.9
   },
   {
+    "condition_id": "0011551_310023_003",
+    "product_id": "0011551_310023",
+    "condition_text": "최대 3명까지 인정)",
+    "condition_category": "unclear",
+    "bonus_rate": 0.0,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
     "condition_id": "0012711_31535_000",
     "product_id": "0012711_31535",
     "condition_text": "마케팅 상품서비스 안내(문자 포함 채널 1개 이상) 동의시 0.1%",
@@ -4602,32 +4615,6 @@
     "achievability_probability": 0.35
   },
   {
-    "condition_id": "0010350_240023_000",
-    "product_id": "0010350_240023",
-    "condition_text": "영업점 내방 12개월 재예치 하는 경우 + 0.05%",
-    "condition_category": "first_customer",
-    "bonus_rate": 0.05,
-    "difficulty_level": 65,
-    "requires_existing_relationship": true,
-    "requires_recurring_action": false,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.35
-  },
-  {
-    "condition_id": "0010350_240031_000",
-    "product_id": "0010350_240031",
-    "condition_text": "영업점 내방 12개월 재예치 하는 경우 + 0.05%",
-    "condition_category": "first_customer",
-    "bonus_rate": 0.05,
-    "difficulty_level": 65,
-    "requires_existing_relationship": true,
-    "requires_recurring_action": false,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.35
-  },
-  {
     "condition_id": "0010354_MK240001_001",
     "product_id": "0010354_MK240001",
     "condition_text": "창구에서 1년이상 재예치 하는 경우 + 0.1%p",
@@ -5042,19 +5029,6 @@
     "is_unclear": true,
     "is_uncertain_parse": true,
     "achievability_probability": 0.2
-  },
-  {
-    "condition_id": "0011767_240050_001",
-    "product_id": "0011767_240050",
-    "condition_text": "자동만기연장 우대상품 기가입고객에 한해 자동재예치 시 적용.",
-    "condition_category": "first_customer",
-    "bonus_rate": 0.0,
-    "difficulty_level": 65,
-    "requires_existing_relationship": true,
-    "requires_recurring_action": false,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.35
   },
   {
     "condition_id": "0013002_BNK1001_002",

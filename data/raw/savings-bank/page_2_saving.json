@@ -1,7 +1,7 @@
 {
   "result": {
     "prdt_div": "S",
-    "total_count": 276,
+    "total_count": 277,
     "max_page_no": 3,
     "now_page_no": 2,
     "err_cd": "000",
@@ -1703,9 +1703,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       }
     ],
     "optionList": [

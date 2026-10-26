@@ -1,7 +1,7 @@
 {
   "result": {
     "prdt_div": "S",
-    "total_count": 276,
+    "total_count": 277,
     "max_page_no": 3,
     "now_page_no": 1,
     "err_cd": "000",
@@ -88,9 +88,9 @@
         "join_member": "제한없음",
         "etc_note": "-월 불입금 1만원 이상\n-6개월 이상 ~ 60개월 까지 (월 단위 가능)\n-만기시 이자지급",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261026",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610160859"
+        "fin_co_subm_day": "202610260831"
       },
       {
         "dcls_month": "202610",
@@ -105,9 +105,9 @@
         "join_member": "제한없음",
         "etc_note": "-월 불입금 1만원 이상\n-12개월 이상 ~ 36개월 까지 (월 단위 가능)\n-만기시 이자지급\n-월중 입금액은 계약금액의 10%를 초과할 수 없으며, 만기일로부터 1개월 이내는 납입불가",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261026",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610160859"
+        "fin_co_subm_day": "202610260831"
       },
       {
         "dcls_month": "202610",
@@ -613,11 +613,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한 없음",
-        "etc_note": "1. 최소납입금액 10,000원 이상\n\n* 2025년 9월 13일 부터 적용되는 이율",
+        "etc_note": "1. 최소납입금액 10,000원 이상\n\n* 2026년 10월 23일 부터 적용되는 이율",
         "max_limit": null,
         "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610230723"
+        "fin_co_subm_day": "202610230850"
       },
       {
         "dcls_month": "202610",
@@ -630,11 +630,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한 없음",
-        "etc_note": "1. 최소납입금액 10,000원 이상\n\n* 2025년 9월 13일 부터 적용되는 이율",
+        "etc_note": "1. 최소납입금액 10,000원 이상\n\n* 2026년 10월 23일 부터 적용되는 이율",
         "max_limit": null,
         "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610230723"
+        "fin_co_subm_day": "202610230850"
       },
       {
         "dcls_month": "202610",
@@ -647,11 +647,11 @@
         "spcl_cnd": "없음",
         "join_deny": "1",
         "join_member": "제한 없음",
-        "etc_note": "1. 최소납입금액 10,000원 이상\n\n* 2025년 9월 13일 부터 적용되는 이율",
+        "etc_note": "1. 최소납입금액 10,000원 이상\n\n* 2026년 10월 23일 부터 적용되는 이율",
         "max_limit": null,
         "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610230723"
+        "fin_co_subm_day": "202610230850"
       },
       {
         "dcls_month": "202610",

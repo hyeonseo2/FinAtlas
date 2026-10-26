@@ -1125,9 +1125,9 @@
         "join_member": "제한없음.",
         "etc_note": "중도해지 이율\n(실 예치 기간 기준)\n*1개월 미만: 0.5%\n*1개월~3개월 미만: 2.00%\n*3개월~6개월 미만: 2.05%\n*6개월~11개월 미만: 2.10%\n*11개월 이상: 2.15%",
         "max_limit": null,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20261026",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609211300"
+        "fin_co_subm_day": "202610260820"
       },
       {
         "dcls_month": "202610",
@@ -1142,9 +1142,9 @@
         "join_member": "개인(만19세이상)",
         "etc_note": "중도해지 이율\n(실 예치 기간 기준)\n*1개월 미만: 0.5%\n*1개월~3개월 미만: 2.00%\n*3개월~6개월 미만: 2.05%\n*6개월~11개월 미만: 2.10%\n*11개월 이상: 2.15%",
         "max_limit": null,
-        "dcls_strt_day": "20260921",
+        "dcls_strt_day": "20261026",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202609211300"
+        "fin_co_subm_day": "202610260820"
       },
       {
         "dcls_month": "202610",
@@ -1346,9 +1346,9 @@
         "join_member": "제한없음",
         "etc_note": "최소금액 10만원이상",
         "max_limit": 10000000000,
-        "dcls_strt_day": "20261022",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610220854"
+        "fin_co_subm_day": "202610230851"
       },
       {
         "dcls_month": "202610",
@@ -1533,9 +1533,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -1550,9 +1550,9 @@
         "join_member": "제한없음",
         "etc_note": "인터넷뱅킹, SB톡톡플러스 로그인 시",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -1567,9 +1567,9 @@
         "join_member": "만19세 이상 내국인(법인불가)",
         "etc_note": "SB톡톡플러스 비로그인서비스로 신규가입 시",
         "max_limit": 100000000,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -1584,9 +1584,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -1601,9 +1601,9 @@
         "join_member": "제한없음",
         "etc_note": "인터넷뱅킹, SB톡톡플러스 로그인 시",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -1618,9 +1618,9 @@
         "join_member": "만19세 이상 내국인(법인불가)",
         "etc_note": "SB톡톡플러스 비로그인서비스로 신규가입 시",
         "max_limit": 100000000,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -1635,9 +1635,9 @@
         "join_member": "제한없음",
         "etc_note": "없음",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -1652,9 +1652,9 @@
         "join_member": "제한없음",
         "etc_note": "인터넷뱅킹, SB톡톡플러스 로그인 시",
         "max_limit": null,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -1669,9 +1669,9 @@
         "join_member": "만19세 이상 내국인(법인불가)",
         "etc_note": "SB톡톡플러스 비로그인서비스로 신규가입 시",
         "max_limit": 100000000,
-        "dcls_strt_day": "20261016",
+        "dcls_strt_day": "20261023",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610161042"
+        "fin_co_subm_day": "202610231118"
       },
       {
         "dcls_month": "202610",
@@ -6166,8 +6166,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202610",
@@ -6206,8 +6206,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202610",
@@ -6246,8 +6246,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202610",
@@ -6286,8 +6286,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.8,
-        "intr_rate2": 3.8
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202610",
@@ -7146,8 +7146,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4.1,
-        "intr_rate2": 4.1
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202610",
@@ -7206,8 +7206,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4.1,
-        "intr_rate2": 4.1
+        "intr_rate": 3.9,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202610",
