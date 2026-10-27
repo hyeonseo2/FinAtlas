@@ -972,9 +972,9 @@
         "join_member": "· 토스뱅크 통장 또는 토스뱅크 서브 통장을 보유한 실명의 개인",
         "etc_note": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원\n· 우대금리는 만기 해지하는 경우에만 제공됨",
         "max_limit": 300000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261027",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610201123"
+        "fin_co_subm_day": "202610271443"
       },
       {
         "dcls_month": "202610",
@@ -989,9 +989,9 @@
         "join_member": "· 토스뱅크 통장 또는 토스뱅크 서브 통장을 보유한 실명의 개인",
         "etc_note": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원 이상 300만원 이하\n· 우대금리는 만기 해지하는 경우에만 제공됨",
         "max_limit": 3000000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261027",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610201123"
+        "fin_co_subm_day": "202610271443"
       },
       {
         "dcls_month": "202610",
@@ -1006,9 +1006,9 @@
         "join_member": "· 토스뱅크 아이 통장을 보유한 15세 이하 실명의 개인",
         "etc_note": "· 1인 1계좌 \n· 가입금액 : 0원\n· 우대금리는 만기 해지하는 경우에만 제공됨",
         "max_limit": 200000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261027",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610201123"
+        "fin_co_subm_day": "202610271443"
       },
       {
         "dcls_month": "202610",
@@ -1023,9 +1023,9 @@
         "join_member": "· 토스뱅크 통장 또는 토스뱅크 아이 통장을 보유한 7세 이상 실명의 개인",
         "etc_note": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원\n· 우대금리는 만기 해지하는 경우에만 제공됨",
         "max_limit": 5000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261027",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610201123"
+        "fin_co_subm_day": "202610271443"
       }
     ],
     "optionList": [
@@ -3126,8 +3126,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "3",
-        "intr_rate": 1.3,
-        "intr_rate2": 1.8
+        "intr_rate": 2.6,
+        "intr_rate2": 3.1
       },
       {
         "dcls_month": "202610",
@@ -3138,8 +3138,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 1.8,
-        "intr_rate2": 2.3
+        "intr_rate": 2.9,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202610",
@@ -3150,8 +3150,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 2.5,
-        "intr_rate2": 3
+        "intr_rate": 3.25,
+        "intr_rate2": 3.75
       },
       {
         "dcls_month": "202610",
