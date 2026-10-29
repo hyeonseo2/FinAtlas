@@ -598,9 +598,9 @@
         "join_member": "개인",
         "etc_note": "가입기간 1개월 이상 6개월 이하(일 단위)\n\n초입금 및 매일 1천원이상  5만원이내(천원 단위)",
         "max_limit": 1550000,
-        "dcls_strt_day": "20261022",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610221020"
+        "fin_co_subm_day": "202610291343"
       },
       {
         "dcls_month": "202610",
@@ -615,9 +615,9 @@
         "join_member": "만19세~만34세 개인 및 개인사업자",
         "etc_note": "초입금 및 매회 1만원 이상, 월 50만원 이내 자유적립\n\n급여이체 실적과 개인사업자 계좌 실적 우대금리는 중복 적용 불가\n\n * 급여입금실적 인정기준\n  - 가입기간 12개월 이하 : 3개월 이상 급여이체\n  - 가입기간 24개월 이하 : 12개월 이상 급여이체",
         "max_limit": 500000,
-        "dcls_strt_day": "20261026",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610261019"
+        "fin_co_subm_day": "202610291343"
       },
       {
         "dcls_month": "202610",
@@ -632,9 +632,9 @@
         "join_member": "개인",
         "etc_note": "초입금5만원 이상 및 매회 1만원 이상, 매월50만원이내\n(단, 만기일 전 3개월 이내에는 이전 적립금 합계액을 초과하여 입금불가)\n\n※자세한 사항은 상품설명서 참조",
         "max_limit": 500000,
-        "dcls_strt_day": "20261026",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610261019"
+        "fin_co_subm_day": "202610291343"
       },
       {
         "dcls_month": "202610",
@@ -649,9 +649,9 @@
         "join_member": "개인",
         "etc_note": "1.초입금1만원 이상 및 매회 1천원 이상, 매월50만원이내\n\n2. 고향사랑기부금 우대금리는 농협은행/농축협 영업점 또는 고향사랑e음 홈페이지를 통한 고향사랑기부금 납부실적이 확인되는 경우 제공\n\n3. 연간 판매액의 0.1% 공익기금 적립\n\n※자세한 사항은 상품설명서 참조",
         "max_limit": 500000,
-        "dcls_strt_day": "20261026",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610261019"
+        "fin_co_subm_day": "202610291343"
       },
       {
         "dcls_month": "202610",
@@ -666,9 +666,9 @@
         "join_member": "만18세이상 개인",
         "etc_note": "초입금 및 매회 입금 1만원 이상 원 단위,  1인당 분기별 3백만원 이내 적립 가능\n(단,계약기간 3/4 경과 후 적립할 수 있는 금액은 이전 적립누계액의 1/2이내)",
         "max_limit": 3000000,
-        "dcls_strt_day": "20261022",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610221020"
+        "fin_co_subm_day": "202610291343"
       },
       {
         "dcls_month": "202610",
@@ -797,14 +797,14 @@
         "fin_prdt_nm": "Sh해양플라스틱Zero!적금\n(정액적립식)",
         "join_way": "영업점,인터넷,스마트폰",
         "mtrt_int": "* 만기후 \n-1년 이내:만기일 당시 계약기간에 해당하는  정기적금 기본금리의 1/2\n-1개월 초과 ~ 3개월 이내:만기일 당시 계약기간에 해당하는 정기적금 기본금리의 1/4\n-3개월 초과:만기일 당시 보통예금 기본금리",
-        "spcl_cnd": "* 최대우대금리:0.5%\n1. 해양플라스틱감축서약 : 0.1% (신규시) \n2. 봉사활동 또는 상품홍보 : 0.2% (만기시) \n3. 입출금통장 최초신규 : 0.2% (만기시)\n4. 자동이체 출금실적 : 0.2% (만기시)\n - 수협신용카드 / 당행 펀드 / 수협체크카드",
+        "spcl_cnd": "* 최대우대금리:0.6%\n1. 해양플라스틱감축서약 : 0.1% (신규시) \n2. 해양환경 퀴즈 미션 : 0.2% (만기시) \n3. 입출금통장 최초신규 : 0.3% (만기시)\n4. 자동이체 출금실적 : 0.3% (만기시)\n - 수협신용카드 / 당행 펀드 / 수협체크카드",
         "join_deny": "1",
         "join_member": "실명의 개인",
         "etc_note": "- 1인 1계좌 \n- 월 가입한도 : 100만원",
         "max_limit": 1000000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610200934"
+        "fin_co_subm_day": "202610291031"
       },
       {
         "dcls_month": "202610",
@@ -819,9 +819,9 @@
         "join_member": "실명의 개인",
         "etc_note": "- 1인 1계좌 \n- 월 가입한도 : 100만원",
         "max_limit": 1000000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610200934"
+        "fin_co_subm_day": "202610291031"
       },
       {
         "dcls_month": "202610",
@@ -836,9 +836,9 @@
         "join_member": "실명의 개인 및 개인사업자",
         "etc_note": "- 1인 1계좌\n- 월 가입한도 : 100만원",
         "max_limit": 1000000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610200934"
+        "fin_co_subm_day": "202610291031"
       },
       {
         "dcls_month": "202610",
@@ -848,14 +848,14 @@
         "fin_prdt_nm": "Sh해양플라스틱Zero!적금\n(자유적립식)",
         "join_way": "영업점,인터넷,스마트폰",
         "mtrt_int": "* 만기후 \n-1년 이내:만기일 당시 계약기간에 해당하는  상호부금 기본금리의 1/2\n-1개월 초과 ~ 3개월 이내:만기일 당시 계약기간에 해당하는 상호부금 기본금리의 1/4\n-3개월 초과:만기일 당시 보통예금 기본금리",
-        "spcl_cnd": "* 최대우대금리:0.5%\n1. 해양플라스틱감축서약 : 0.1% (신규시) \n2. 봉사활동 또는 상품홍보 : 0.2% (만기시) \n3. 입출금통장 최초신규 : 0.2% (만기시)\n4. 자동이체 출금실적 : 0.2% (만기시)\n - 수협신용카드 / 당행 펀드 / 수협체크카드",
+        "spcl_cnd": "* 최대우대금리:0.6%\n1. 해양플라스틱감축서약 : 0.1% (신규시) \n2. 해양환경 퀴즈미션 : 0.2% (만기시) \n3. 입출금통장 최초신규 : 0.3% (만기시)\n4. 자동이체 출금실적 : 0.3% (만기시)\n - 수협신용카드 / 당행 펀드 / 수협체크카드",
         "join_deny": "1",
         "join_member": "실명의 개인",
         "etc_note": "- 1인 1계좌 \n- 월 가입한도 : 20만원",
         "max_limit": 200000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610200934"
+        "fin_co_subm_day": "202610291031"
       },
       {
         "dcls_month": "202610",
@@ -870,9 +870,9 @@
         "join_member": "실명의개인",
         "etc_note": "- 1인 1계좌 \n- 월 가입한도 : 100만원",
         "max_limit": 1000000,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": "99991231",
-        "fin_co_subm_day": "202610200934"
+        "fin_co_subm_day": "202610291031"
       },
       {
         "dcls_month": "202610",
@@ -887,9 +887,9 @@
         "join_member": "만 14세 이상의 실명의 내국인",
         "etc_note": "1. 가입방법 : 스마트폰\n2. 가입금액 : 1천원 이상(원단위)\n3. 가입기간 : 6개월 이상 ~ 36개월 이하(월, 일단위 지정 가능)\n4. 월 적립한도 : 1천원 이상 월 300만원 이하 원단위(단, 자동연장된 원리금은 월 적립한도에 포함되지 않음)",
         "max_limit": null,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610201113"
+        "fin_co_subm_day": "202610290901"
       },
       {
         "dcls_month": "202610",
@@ -904,9 +904,9 @@
         "join_member": "만 14세 이상의 실명의 내국인",
         "etc_note": "1. 가입방법 : 스마트폰\n2. 가입금액 : 1천원, 2천원, 3천원, 5천원, 1만원\n3. 가입기간 : 6개월\n4. 26주적금서비스(자동이체)를 통해서 납입이 가능하며, 그 외의 입금은 모두 제한됨\n(단, 26주적금 서비스를 통한 납입 실패 시 빈자리 채우기로 납입 가능)",
         "max_limit": null,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610201113"
+        "fin_co_subm_day": "202610290901"
       },
       {
         "dcls_month": "202610",
@@ -921,9 +921,9 @@
         "join_member": "만 14세 이상의 실명의 내국인",
         "etc_note": "1. 가입방법 : 스마트폰\n2. 납입금액 : 1회 100원 이상 3만원 이하(원단위)\n3. 가입기간 : 31일\n4. 직접 납입을 통해서 1일 1회만 입금 가능하며, 그 외의 입금은 모두 제한됨",
         "max_limit": null,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610201113"
+        "fin_co_subm_day": "202610290901"
       },
       {
         "dcls_month": "202610",
@@ -938,9 +938,9 @@
         "join_member": "우리아이통장을 보유한 만 0세 이상 만 17세 미만의 실명의 내국인",
         "etc_note": "1. 가입방법: 스마트폰 \n2. 가입기간 : 12개월 \n3. 월 적립한도: 1천원 이상 월 20만원 이하 원단위(단, 자동연장된 원리금은 월 적립한도에 포함되지 않음)\n4. 우리아이서비스를 통해 법정대리인으로 확인된 부 또는 모가 본인을 대리하여 가입 가능",
         "max_limit": null,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610201113"
+        "fin_co_subm_day": "202610290901"
       },
       {
         "dcls_month": "202610",
@@ -955,9 +955,9 @@
         "join_member": "만 14세 이상의 실명의 내국인",
         "etc_note": "1. 가입방법 : 스마트폰\n2. 가입금액 : 1천원 이상(원단위)\n3. 가입기간 : 3개월 이상 ~ 12개월 이하(월, 일단위 지정 가능)\n4. 월 적립한도 : 1천원 이상 월 100만원 이하 원단위",
         "max_limit": null,
-        "dcls_strt_day": "20261020",
+        "dcls_strt_day": "20261029",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610201113"
+        "fin_co_subm_day": "202610290901"
       },
       {
         "dcls_month": "202610",
@@ -2478,8 +2478,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.26,
-        "intr_rate2": 4.06
+        "intr_rate": 3.28,
+        "intr_rate2": 4.08
       },
       {
         "dcls_month": "202610",
@@ -2839,7 +2839,7 @@
         "rsrv_type_nm": "정액적립식",
         "save_trm": "12",
         "intr_rate": 3.5,
-        "intr_rate2": 4
+        "intr_rate2": 4.1
       },
       {
         "dcls_month": "202610",
@@ -2851,7 +2851,7 @@
         "rsrv_type_nm": "정액적립식",
         "save_trm": "24",
         "intr_rate": 3,
-        "intr_rate2": 3.5
+        "intr_rate2": 3.6
       },
       {
         "dcls_month": "202610",
@@ -2863,7 +2863,7 @@
         "rsrv_type_nm": "정액적립식",
         "save_trm": "36",
         "intr_rate": 3.3,
-        "intr_rate2": 3.8
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202610",
@@ -2935,7 +2935,7 @@
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
         "intr_rate": 2.85,
-        "intr_rate2": 3.35
+        "intr_rate2": 3.45
       },
       {
         "dcls_month": "202610",
@@ -2947,7 +2947,7 @@
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
         "intr_rate": 2.85,
-        "intr_rate2": 3.35
+        "intr_rate2": 3.45
       },
       {
         "dcls_month": "202610",
@@ -2959,7 +2959,7 @@
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
         "intr_rate": 3.65,
-        "intr_rate2": 4.15
+        "intr_rate2": 4.25
       },
       {
         "dcls_month": "202610",
@@ -2994,8 +2994,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "6",
-        "intr_rate": 3.6,
-        "intr_rate2": 3.8
+        "intr_rate": 3.7,
+        "intr_rate2": 3.9
       },
       {
         "dcls_month": "202610",
@@ -3006,8 +3006,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "12",
-        "intr_rate": 3.75,
-        "intr_rate2": 3.95
+        "intr_rate": 3.85,
+        "intr_rate2": 4.05
       },
       {
         "dcls_month": "202610",
@@ -3018,8 +3018,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "24",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.3
+        "intr_rate": 3.2,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202610",
@@ -3030,8 +3030,8 @@
         "rsrv_type": "F",
         "rsrv_type_nm": "자유적립식",
         "save_trm": "36",
-        "intr_rate": 3.1,
-        "intr_rate2": 3.3
+        "intr_rate": 3.2,
+        "intr_rate2": 3.4
       },
       {
         "dcls_month": "202610",
