@@ -3289,6 +3289,19 @@
     "achievability_probability": 0.2
   },
   {
+    "condition_id": "0010370_310030_000",
+    "product_id": "0010370_310030",
+    "condition_text": "가입대상에 해당하는 경우 : 연 1.5%",
+    "condition_category": "unclear",
+    "bonus_rate": 1.5,
+    "difficulty_level": 80,
+    "requires_existing_relationship": false,
+    "requires_recurring_action": false,
+    "is_unclear": true,
+    "is_uncertain_parse": true,
+    "achievability_probability": 0.2
+  },
+  {
     "condition_id": "0010370_310035_003",
     "product_id": "0010370_310035",
     "condition_text": "최대 5명까지 적용)",
