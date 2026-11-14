@@ -4563,19 +4563,6 @@
     "achievability_probability": 0.2
   },
   {
-    "condition_id": "0010345_HK00007_000",
-    "product_id": "0010345_HK00007",
-    "condition_text": "모바일 가입 : 연 0.10%",
-    "condition_category": "app_signup",
-    "bonus_rate": 0.1,
-    "difficulty_level": 9,
-    "requires_existing_relationship": false,
-    "requires_recurring_action": false,
-    "is_unclear": false,
-    "is_uncertain_parse": false,
-    "achievability_probability": 0.9
-  },
-  {
     "condition_id": "0010345_HK00012_001",
     "product_id": "0010345_HK00012",
     "condition_text": "당행 정기예금 첫거래 고객 우대 : 0.3%",
