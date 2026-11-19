@@ -343,9 +343,9 @@
         "join_member": "제한없음",
         "etc_note": "-",
         "max_limit": null,
-        "dcls_strt_day": "20261116",
+        "dcls_strt_day": "20261118",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202611160826"
+        "fin_co_subm_day": "202611180836"
       },
       {
         "dcls_month": "202610",
@@ -360,9 +360,9 @@
         "join_member": "제한없음",
         "etc_note": "-",
         "max_limit": null,
-        "dcls_strt_day": "20261116",
+        "dcls_strt_day": "20261118",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202611160826"
+        "fin_co_subm_day": "202611180836"
       },
       {
         "dcls_month": "202610",
@@ -377,9 +377,9 @@
         "join_member": "제한없음",
         "etc_note": "-",
         "max_limit": null,
-        "dcls_strt_day": "20261116",
+        "dcls_strt_day": "20261118",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202611160826"
+        "fin_co_subm_day": "202611180836"
       },
       {
         "dcls_month": "202610",
@@ -394,9 +394,9 @@
         "join_member": "제한없음",
         "etc_note": "-",
         "max_limit": null,
-        "dcls_strt_day": "20261116",
+        "dcls_strt_day": "20261118",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202611160826"
+        "fin_co_subm_day": "202611180836"
       },
       {
         "dcls_month": "202610",
@@ -411,9 +411,9 @@
         "join_member": "개인(만19세이상)",
         "etc_note": "-",
         "max_limit": null,
-        "dcls_strt_day": "20261116",
+        "dcls_strt_day": "20261118",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202611160826"
+        "fin_co_subm_day": "202611180836"
       },
       {
         "dcls_month": "202610",
@@ -1125,9 +1125,9 @@
         "join_member": "제한없음.",
         "etc_note": "중도해지 이율\n(실 예치 기간 기준)\n*1개월 미만: 0.5%\n*1개월~3개월 미만: 2.00%\n*3개월~6개월 미만: 2.05%\n*6개월~11개월 미만: 2.10%\n*11개월 이상: 2.15%",
         "max_limit": null,
-        "dcls_strt_day": "20261026",
+        "dcls_strt_day": "20261118",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610260820"
+        "fin_co_subm_day": "202611180833"
       },
       {
         "dcls_month": "202610",
@@ -1142,9 +1142,9 @@
         "join_member": "개인(만19세이상)",
         "etc_note": "중도해지 이율\n(실 예치 기간 기준)\n*1개월 미만: 0.5%\n*1개월~3개월 미만: 2.00%\n*3개월~6개월 미만: 2.05%\n*6개월~11개월 미만: 2.10%\n*11개월 이상: 2.15%",
         "max_limit": null,
-        "dcls_strt_day": "20261026",
+        "dcls_strt_day": "20261118",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202610260820"
+        "fin_co_subm_day": "202611180833"
       },
       {
         "dcls_month": "202610",
@@ -6166,8 +6166,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202610",
@@ -6206,8 +6206,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202610",
@@ -6246,8 +6246,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202610",
@@ -6286,8 +6286,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 3.9,
-        "intr_rate2": 3.9
+        "intr_rate": 4,
+        "intr_rate2": 4
       },
       {
         "dcls_month": "202610",
