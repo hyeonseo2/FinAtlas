@@ -392,7 +392,7 @@
   {
     "condition_id": "0010020_220002701_008",
     "product_id": "0010020_220002701",
-    "condition_text": "② 퍼스트 고객 1.5%",
+    "condition_text": "② 퍼스트 고객 1.5% 우대",
     "condition_category": "unclear",
     "bonus_rate": 1.5,
     "difficulty_level": 80,
@@ -405,7 +405,7 @@
   {
     "condition_id": "0010020_220002701_009",
     "product_id": "0010020_220002701",
-    "condition_text": "③ 제주은행 계좌 이용 자동이체 등록 고객 1.0%",
+    "condition_text": "③ 제주은행 계좌 이용 자동이체 등록 고객 1.0% 우대",
     "condition_category": "auto_transfer",
     "bonus_rate": 1.0,
     "difficulty_level": 75,
