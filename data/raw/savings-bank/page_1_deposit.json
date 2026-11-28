@@ -1482,9 +1482,9 @@
         "join_member": "만 19세 이상의 개인",
         "etc_note": "만기후 1개월까지는 계약당시 금리와 만기시점 해당금리를 비교하여 낮은 금리 적용\n만기후 1개월 초과 이후로는 보통예금 금리 적용",
         "max_limit": 100000000,
-        "dcls_strt_day": "20261124",
+        "dcls_strt_day": "20261126",
         "dcls_end_day": null,
-        "fin_co_subm_day": "202611240830"
+        "fin_co_subm_day": "202611260834"
       },
       {
         "dcls_month": "202611",
@@ -7136,8 +7136,8 @@
         "intr_rate_type": "S",
         "intr_rate_type_nm": "단리",
         "save_trm": "12",
-        "intr_rate": 4.11,
-        "intr_rate2": 4.11
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202611",
@@ -7186,8 +7186,8 @@
         "intr_rate_type": "M",
         "intr_rate_type_nm": "복리",
         "save_trm": "12",
-        "intr_rate": 4.11,
-        "intr_rate2": 4.11
+        "intr_rate": 4.2,
+        "intr_rate2": 4.2
       },
       {
         "dcls_month": "202611",
